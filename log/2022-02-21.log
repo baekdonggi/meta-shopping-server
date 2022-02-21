@@ -1,0 +1,5 @@
+2022-02-21 15:41:11.191[error] This message is error
+2022-02-21 15:41:11.197[warn] This message is warn
+2022-02-21 15:41:11.199[info] This message is info
+2022-02-21 15:41:11.200[verbose] This message is verbose
+2022-02-21 15:41:11.201[debug] This message is debug
