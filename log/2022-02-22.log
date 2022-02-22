@@ -12,3 +12,5 @@
 2022-02-22 13:43:15.942[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
 2022-02-22 14:24:13.372[info] DB connection success
 2022-02-22 14:24:13.441[info] Sequelize sync success
+2022-02-22 14:26:01.915[info] DB connection success
+2022-02-22 14:26:02.052[info] Sequelize sync success
