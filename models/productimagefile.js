@@ -1,9 +1,9 @@
 // const Sequelize = require('sequelize');
 
-// module.exports = class Cart extends Sequelize.Model {
+// module.exports = class ProductImageFile extends Sequelize.Model {
 //   static init(sequelize) {
 //     return super.init({
-//       cartNumber: {
+//       fileNumber: {
 //         type: Sequelize.INTEGER,
 //         primaryKey,
 //         allowNull: false,
@@ -13,13 +13,32 @@
 //         foreignKey,
 //         allowNull: false,
 //       },
-//       cartValue: {
-//         type: Sequelize.STRING(30),
-//         foreignKey,
+//       orginFileName: {
+//         type: Sequelize.STRING(300),
 //         allowNull: false,
 //       },
-//       productCount: {
+//       storedFileName: {
+//         type: Sequelize.STRING(300),
+//         allowNull: false,
+//       },
+//       storedThumbNail: {
+//         type: Sequelize.STRING(300),
+//         allowNull: false,
+//       },
+//       delegateThumbNail: {
+//         type: Sequelize.STRING(1),
+//         allowNull: false,
+//       },
+//       fileSize: {
 //         type: Sequelize.INTEGER,
+//         allowNull: false,
+//       },
+//       createDate: {
+//         type: Sequelize.DATE,
+//         allowNull: false,
+//       },
+//       deleteCheck: {
+//         type: Sequelize.STRING(1),
 //         allowNull: false,
 //       },
 //     }, {

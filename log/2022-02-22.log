@@ -1,0 +1,14 @@
+2022-02-22 13:25:22.822[info] DB connection success
+2022-02-22 13:25:22.927[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 13:26:34.913[info] DB connection success
+2022-02-22 13:26:34.977[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 13:33:01.965[info] DB connection success
+2022-02-22 13:33:02.010[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 13:35:13.018[info] DB connection success
+2022-02-22 13:35:13.072[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 13:41:36.809[info] DB connection success
+2022-02-22 13:41:36.857[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 13:43:15.856[info] DB connection success
+2022-02-22 13:43:15.942[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-22 14:24:13.372[info] DB connection success
+2022-02-22 14:24:13.441[info] Sequelize sync success

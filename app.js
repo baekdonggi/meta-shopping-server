@@ -4,9 +4,9 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 // const logger = require('morgan'); 구코드 삭제
 const bodyParser = require('body-parser');
-
+const cors = require('cors');
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/user');
 const corsConfig = require('./config/corsConfig.json');
 
 const models = require('./models/index');

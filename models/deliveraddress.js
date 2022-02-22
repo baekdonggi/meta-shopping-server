@@ -1,21 +1,29 @@
 const Sequelize = require('sequelize');
 
-module.exports = class ProductCategory extends Sequelize.Model {
+module.exports = class DeliverAddress extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      categoryCode: {
-        type: Sequelize.STRING(30),
-        primaryKey,
+      userSequence: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
         allowNull: false,
       },
-      categoryName: {
+      userId: {
+        type: Sequelize.STRING(30),
+        allowNull: false,
+        unique: true,
+      },
+      userAddress1: {
+        type: Sequelize.STRING(20),
+        allowNull: false,
+      },
+      userAddress2: {
         type: Sequelize.STRING(50),
-        foreignKey,
         allowNull: false,
       },
-      categoryRefCode: {
-        type: Sequelize.STRING(30),
-        allowNull: true,
+      userAddress3: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
       },
     }, {
       sequelize,
@@ -28,6 +36,6 @@ module.exports = class ProductCategory extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.User.belongsTo(db.Department, { foreignKey: { name: 'departmentId', onDelete: 'SET NULL', as: 'Department' } });
+    db.DeliverAddress.belongsTo(db.User, { foreignKey: { name: 'userId', onDelete: 'SET NULL', as: 'user' } });
   }
 };

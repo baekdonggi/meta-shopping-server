@@ -1,44 +1,40 @@
 const Sequelize = require('sequelize');
 
-module.exports = class ProductImageFile extends Sequelize.Model {
+module.exports = class UserOrder extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      fileNumber: {
+      orderNumber: {
         type: Sequelize.INTEGER,
-        primaryKey,
+        primaryKey: true,
         allowNull: false,
       },
-      productNumber: {
-        type: Sequelize.INTEGER,
-        foreignKey,
+      userId: {
+        type: Sequelize.STRING(30),
+        // unique: true,
         allowNull: false,
       },
-      orginFileName: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      storedFileName: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      storedThumbNail: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      delegateThumbNail: {
-        type: Sequelize.STRING(1),
-        allowNull: false,
-      },
-      fileSize: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      createDate: {
+      orderDate: {
         type: Sequelize.DATE,
         allowNull: false,
       },
-      deleteCheck: {
-        type: Sequelize.STRING(1),
+      address1: {
+        type: Sequelize.STRING(20),
+        allowNull: false,
+      },
+      address2: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
+      },
+      address3: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
+      },
+      receiverName: {
+        type: Sequelize.STRING(20),
+        allowNull: false,
+      },
+      receiverPhone: {
+        type: Sequelize.STRING(20),
         allowNull: false,
       },
     }, {
@@ -52,6 +48,6 @@ module.exports = class ProductImageFile extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.User.belongsTo(db.Department, { foreignKey: { name: 'departmentId', onDelete: 'SET NULL', as: 'Department' } });
+    db.UserOrder.belongsTo(db.User, { foreignKey: { name: 'userId', onDelete: 'SET NULL', as: 'user' } });
   }
 };

@@ -1,29 +1,28 @@
 const Sequelize = require('sequelize');
 
-module.exports = class NonuserOrderRefund extends Sequelize.Model {
+module.exports = class UserOrderRefund extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
       refundNumber: {
         type: Sequelize.INTEGER,
-        primaryKey,
+        primaryKey: true,
         allowNull: false,
       },
       orderDetailNumber: {
         type: Sequelize.INTEGER,
-        foreignKey,
         allowNull: false,
       },
       refundReason: {
         type: Sequelize.STRING(300),
         allowNull: false,
       },
-      refundImg: {
+      refundImage: {
         type: Sequelize.STRING(300),
         allowNull: false,
       },
-      productPrice: {
-        type: Sequelize.INTEGER,
-        allowNull: true,
+      userEmail: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
       },
     }, {
       sequelize,
@@ -36,6 +35,6 @@ module.exports = class NonuserOrderRefund extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.User.belongsTo(db.Department, { foreignKey: { name: 'departmentId', onDelete: 'SET NULL', as: 'Department' } });
+    db.UserOrderRefund.belongsTo(db.UserOrderDetail, { foreignKey: { name: 'orderDetailNumber', onDelete: 'SET NULL', as: 'userorderdetail' } });
   }
 };

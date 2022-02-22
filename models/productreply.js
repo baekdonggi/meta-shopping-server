@@ -1,9 +1,9 @@
 // const Sequelize = require('sequelize');
 
-// module.exports = class Cart extends Sequelize.Model {
+// module.exports = class ProductReply extends Sequelize.Model {
 //   static init(sequelize) {
 //     return super.init({
-//       cartNumber: {
+//       replyNumber: {
 //         type: Sequelize.INTEGER,
 //         primaryKey,
 //         allowNull: false,
@@ -13,12 +13,27 @@
 //         foreignKey,
 //         allowNull: false,
 //       },
-//       cartValue: {
-//         type: Sequelize.STRING(30),
-//         foreignKey,
+//       content: {
+//         type: Sequelize.TEXT,
 //         allowNull: false,
 //       },
-//       productCount: {
+//       writerNickname: {
+//         type: Sequelize.STRING(50),
+//         allowNull: false,
+//       },
+//       reportingDate: {
+//         type: Sequelize.DATE,
+//         allowNull: false,
+//       },
+//       replyOriginNumber: {
+//         type: Sequelize.INTEGER,
+//         allowNull: false,
+//       },
+//       replyOrder: {
+//         type: Sequelize.INTEGER,
+//         allowNull: false,
+//       },
+//       replyDepth: {
 //         type: Sequelize.INTEGER,
 //         allowNull: false,
 //       },

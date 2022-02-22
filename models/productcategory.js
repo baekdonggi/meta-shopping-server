@@ -1,26 +1,21 @@
 // const Sequelize = require('sequelize');
 
-// module.exports = class Cart extends Sequelize.Model {
+// module.exports = class ProductCategory extends Sequelize.Model {
 //   static init(sequelize) {
 //     return super.init({
-//       cartNumber: {
-//         type: Sequelize.INTEGER,
+//       categoryCode: {
+//         type: Sequelize.STRING(30),
 //         primaryKey,
 //         allowNull: false,
 //       },
-//       productNumber: {
-//         type: Sequelize.INTEGER,
+//       categoryName: {
+//         type: Sequelize.STRING(50),
 //         foreignKey,
 //         allowNull: false,
 //       },
-//       cartValue: {
+//       categoryRefCode: {
 //         type: Sequelize.STRING(30),
-//         foreignKey,
-//         allowNull: false,
-//       },
-//       productCount: {
-//         type: Sequelize.INTEGER,
-//         allowNull: false,
+//         allowNull: true,
 //       },
 //     }, {
 //       sequelize,

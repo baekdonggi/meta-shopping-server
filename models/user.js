@@ -1,34 +1,55 @@
 const Sequelize = require('sequelize');
 
-module.exports = class Department extends Sequelize.Model {
+module.exports = class User extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      user_sequence: {
-        type: Sequelize.INTEGER(10),
+      userId: {
+        type: Sequelize.STRING(30),
+        allowNull: false,
+        primaryKey: true,
+        unique: true,
       },
-      user_id: {
+      userPassword: {
         type: Sequelize.STRING(20),
+        allowNull: false,
       },
-      user_password: {
-        type: Sequelize.STRING(20),
-      },
-      user_name: {
+      userName: {
         type: Sequelize.STRING(50),
+        allowNull: false,
       },
-      user_gender: {
+      userPhoner: {
+        type: Sequelize.STRING(20),
+        allowNull: false,
+      },
+      userEmail: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
+        unique: true,
+      },
+      userNickname: {
+        type: Sequelize.STRING(20),
+        allowNull: false,
+        unique: true,
+      },
+      userProfile: {
+        type: Sequelize.STRING(100),
+        allowNull: false,
+      },
+      emailCheck: {
+        type: Sequelize.STRING(1),
+        allowNull: false,
+      },
+      userGender: {
         type: Sequelize.INTEGER,
+        allowNull: false,
       },
-      user_email: {
+      userRole: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      userGrade: {
         type: Sequelize.STRING(50),
-      },
-      user_address: {
-        type: Sequelize.STRING(50),
-      },
-      user_phonenumber: {
-        type: Sequelize.INTEGER(50),
-      },
-      user_role: {
-        type: Sequelize.INTEGER(50),
+        allowNull: false,
       },
     }, {
       sequelize,
@@ -38,5 +59,10 @@ module.exports = class Department extends Sequelize.Model {
       timestamps: true, // createAt, updatedAt
       paranoid: true, // deletedAt
     });
+  }
+
+  static associate(db) {
+    db.User.hasMany(db.DeliverAddress, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'deliveraddress' });
+    db.User.hasMany(db.UserOrder, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'userorder' });
   }
 };

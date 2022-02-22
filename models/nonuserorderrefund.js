@@ -1,26 +1,29 @@
 // const Sequelize = require('sequelize');
 
-// module.exports = class Cart extends Sequelize.Model {
+// module.exports = class NonuserOrderRefund extends Sequelize.Model {
 //   static init(sequelize) {
 //     return super.init({
-//       cartNumber: {
+//       refundNumber: {
 //         type: Sequelize.INTEGER,
 //         primaryKey,
 //         allowNull: false,
 //       },
-//       productNumber: {
+//       orderDetailNumber: {
 //         type: Sequelize.INTEGER,
 //         foreignKey,
 //         allowNull: false,
 //       },
-//       cartValue: {
-//         type: Sequelize.STRING(30),
-//         foreignKey,
+//       refundReason: {
+//         type: Sequelize.STRING(300),
 //         allowNull: false,
 //       },
-//       productCount: {
-//         type: Sequelize.INTEGER,
+//       refundImg: {
+//         type: Sequelize.STRING(300),
 //         allowNull: false,
+//       },
+//       productPrice: {
+//         type: Sequelize.INTEGER,
+//         allowNull: true,
 //       },
 //     }, {
 //       sequelize,
