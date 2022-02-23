@@ -9,7 +9,7 @@ const dao = {
         .then((inserted) => {
         // password는 제외하고 리턴
           const insertedResult = { ...inserted };
-          delete insertedResult.dataValues.password;
+          delete insertedResult.dataValues.userPassword;
           resolve(inserted);
         })
         .catch((err) => {

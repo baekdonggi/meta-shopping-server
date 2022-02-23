@@ -1,0 +1,184 @@
+2022-02-23 10:44:57.049[info] DB connection success
+2022-02-23 10:44:57.133[info] Sequelize sync success
+2022-02-23 10:47:57.081[info] (user.list.params) {}
+2022-02-23 10:53:42.566[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"1","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 10:56:47.559[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 10:59:45.355[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:02:26.703[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:03:27.366[info] (user.list.params) {}
+2022-02-23 11:05:00.179[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:07:14.804[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1"}
+2022-02-23 11:07:14.807[error] Error: Not allowed null (Id, Password, Name, Phone, Email, Nickname, Profile, EmailCheck, Gender, Role, Grade)
+2022-02-23 11:07:26.570[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:11:08.236[info] (user.reg.params) {"userId":"1","userPassword":"1","userName":"1","userPhone":"1","userEmail":"1","userNickname":"1","userProfile":"1","emailCheck":"1","userGender":"1","userRole":"1","userGrade":"1"}
+2022-02-23 11:11:14.389[info] (user.reg.params) {"userId":"1"}
+2022-02-23 11:11:14.391[error] Error: Not allowed null (Id, Password, Name, Phone, Email, Nickname, Profile, EmailCheck, Gender, Role, Grade)
+2022-02-23 11:13:17.932[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:13:40.791[info] (user.reg.params) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:14:20.259[info] DB connection success
+2022-02-23 11:14:20.310[info] Sequelize sync success
+2022-02-23 11:14:24.388[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:14:24.390[error] (userService.makePasswordHash) TypeError: hashUtil.makePasswordHash is not a function
+2022-02-23 11:19:18.547[info] DB connection success
+2022-02-23 11:19:18.605[info] Sequelize sync success
+2022-02-23 11:19:22.751[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:19:22.756[error] (userService.makePasswordHash) Error: Not allowed null (password).
+2022-02-23 11:25:46.788[info] DB connection success
+2022-02-23 11:25:46.836[info] Sequelize sync success
+2022-02-23 11:25:49.203[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 11:25:49.210[error] (userService.makePasswordHash) Error: Not allowed null (password). undefined
+2022-02-23 12:53:07.801[info] DB connection success
+2022-02-23 12:53:07.867[info] Sequelize sync success
+2022-02-23 12:53:10.489[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 12:53:10.493[error] (userService.makePasswordHash) Error: Not allowed null (password). undefined
+2022-02-23 12:55:52.684[info] DB connection success
+2022-02-23 12:55:52.746[info] Sequelize sync success
+2022-02-23 12:55:54.129[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 12:55:54.132[info] (makePasswordHash) undefined
+2022-02-23 12:55:54.135[error] (userService.makePasswordHash) Error: Not allowed null (password). undefined
+2022-02-23 12:57:37.341[info] DB connection success
+2022-02-23 12:57:37.449[info] Sequelize sync success
+2022-02-23 12:57:42.995[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 12:57:42.998[info] (makePasswordHash) undefined
+2022-02-23 12:57:43.002[error] (userService.makePasswordHash) Error: Not allowed null (password). undefined
+2022-02-23 12:58:30.722[info] DB connection success
+2022-02-23 12:58:30.796[info] Sequelize sync success
+2022-02-23 12:58:32.712[info] (user.reg.params1) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 12:58:32.715[info] (makePasswordHash) 1
+2022-02-23 12:58:32.726[info] (makePasswordHash) "1"
+2022-02-23 12:58:32.727[debug] (userService.makePasswordHash) "1"
+2022-02-23 12:58:32.755[debug] (userService.reg) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T03:58:32.730Z","createdAt":"2022-02-23T03:58:32.730Z","deletedAt":null}
+2022-02-23 12:58:32.758[info] (user.reg.result2) {"userId":"yechan","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T03:58:32.730Z","createdAt":"2022-02-23T03:58:32.730Z","deletedAt":null}
+2022-02-23 13:52:56.339[info] DB connection success
+2022-02-23 13:52:56.397[info] Sequelize sync success
+2022-02-23 13:53:07.169[info] (user.reg.params1) {"userId":"yechan2","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 13:53:07.173[info] (makePasswordHash) 1
+2022-02-23 13:53:07.178[info] (./lib/hashUtil/makePasswordHash<slat>) 1
+2022-02-23 13:53:07.181[info] (makePasswordHash) "1"
+2022-02-23 13:53:07.183[debug] (userService.makePasswordHash) "1"
+2022-02-23 13:53:07.307[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_user_email_key" 고유 제약 조건을 위반함
+2022-02-23 13:53:12.870[info] (user.reg.params1) {"userId":"yechan2","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 13:53:12.872[info] (makePasswordHash) 1
+2022-02-23 13:53:12.874[info] (./lib/hashUtil/makePasswordHash<slat>) 1
+2022-02-23 13:53:12.876[info] (makePasswordHash) "1"
+2022-02-23 13:53:12.879[debug] (userService.makePasswordHash) "1"
+2022-02-23 13:53:12.886[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_user_nickname_key" 고유 제약 조건을 위반함
+2022-02-23 13:53:17.858[info] (user.reg.params1) {"userId":"yechan2","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 13:53:17.860[info] (makePasswordHash) 1
+2022-02-23 13:53:17.861[info] (./lib/hashUtil/makePasswordHash<slat>) 1
+2022-02-23 13:53:17.863[info] (makePasswordHash) "1"
+2022-02-23 13:53:17.865[debug] (userService.makePasswordHash) "1"
+2022-02-23 13:53:17.872[debug] (userService.reg) {"userId":"yechan2","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:53:17.866Z","createdAt":"2022-02-23T04:53:17.866Z","deletedAt":null}
+2022-02-23 13:53:17.874[info] (user.reg.result2) {"userId":"yechan2","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:53:17.866Z","createdAt":"2022-02-23T04:53:17.866Z","deletedAt":null}
+2022-02-23 13:53:54.475[info] DB connection success
+2022-02-23 13:53:54.534[info] Sequelize sync success
+2022-02-23 13:54:04.209[info] (user.reg.params1) {"userId":"yechan3","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 13:54:04.212[info] (makePasswordHash) 1
+2022-02-23 13:54:04.214[info] (./lib/hashUtil/makePasswordHash<slat>) 80f6HHbZvZZNjOUegcey9OcVnfUkf3ZrECgb5pGHRj3T0bnIDJ7kqIBp6SqU7VvyIfQ/Hnz25knVTE02pTC4bQ==
+2022-02-23 13:54:04.222[info] (makePasswordHash) "1"
+2022-02-23 13:54:04.224[debug] (userService.makePasswordHash) "1"
+2022-02-23 13:54:04.237[debug] (userService.reg) {"userId":"yechan3","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:54:04.227Z","createdAt":"2022-02-23T04:54:04.227Z","deletedAt":null}
+2022-02-23 13:54:04.240[info] (user.reg.result2) {"userId":"yechan3","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:54:04.227Z","createdAt":"2022-02-23T04:54:04.227Z","deletedAt":null}
+2022-02-23 13:57:10.277[info] DB connection success
+2022-02-23 13:57:10.333[info] Sequelize sync success
+2022-02-23 13:57:22.415[info] (user.reg.params1) {"userId":"yechan4","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 13:57:22.420[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) xk5rJ3GBS039RhQw0OScO82tdRc+ZoPkHA2D430gB94C9lvGFewPCbDOnjqxzK9qOH9JWxp9jvrdOyqZeAyPdw==.43ec0820182c00ab5d7e490cfc30f7ef9771376b748fab61987e9bb9e301ce4ea9e751b56a2babc8f48aa1b61d0682063c1c58c64992b49d816f178cd578f051
+2022-02-23 13:57:22.422[info] (makePasswordHash) "1"
+2022-02-23 13:57:22.423[debug] (userService.makePasswordHash) "1"
+2022-02-23 13:57:22.520[debug] (userService.reg) {"userId":"yechan4","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:57:22.427Z","createdAt":"2022-02-23T04:57:22.427Z","deletedAt":null}
+2022-02-23 13:57:22.522[info] (user.reg.result2) {"userId":"yechan4","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T04:57:22.427Z","createdAt":"2022-02-23T04:57:22.427Z","deletedAt":null}
+2022-02-23 14:07:03.683[info] DB connection success
+2022-02-23 14:07:03.735[info] Sequelize sync success
+2022-02-23 14:07:12.923[info] (user.reg.params1) {"userId":"yechan5","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan5@email.com","userNickname":"예찬5","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:07:12.928[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) EPYHuKzRHO5GaLKmXPZM14jLLVAwZo6Csio/ez+oFdjD3ez74152TRgisEiSlS8tQ8Weu3rPi0he8MokPn0yJg==.1531976ca95ded9958ccc9433617e3cd42509ce940acac44fe19f5e93bb4bc80e1fb36c6b97715c58442c4307d650f4e79b1211c4e02b529c247fcac3b4d9592
+2022-02-23 14:07:12.930[debug] (userService.makePasswordHash) "1"
+2022-02-23 14:07:12.945[debug] (userService.reg) {"userId":"yechan5","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan5@email.com","userNickname":"예찬5","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:07:12.934Z","createdAt":"2022-02-23T05:07:12.934Z","deletedAt":null}
+2022-02-23 14:07:12.948[info] (user.reg.result2) {"userId":"yechan5","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan5@email.com","userNickname":"예찬5","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:07:12.934Z","createdAt":"2022-02-23T05:07:12.934Z","deletedAt":null}
+2022-02-23 14:08:56.362[info] DB connection success
+2022-02-23 14:08:56.415[info] Sequelize sync success
+2022-02-23 14:09:02.014[info] (user.reg.params1) {"userId":"yechan6","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan6@email.com","userNickname":"예찬6","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:09:02.022[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) MEHkBv5StoIurqCxFeLNbYZf7Nuaf2tsqosRcPLCjvySh3LBw011NgnuD85pPJ1yXwagbbBVlV2qUzV/1gZsIw==.cb78fc1b4612413f0a98a954e2c2df882a11f68a41d3cd51a347738d267402f7da1b8fb0281a61f7c23455ce8e47bc699a7e3b6ae2254affb1a51f7eef52eba6
+2022-02-23 14:09:02.024[debug] (./service/userService.makePasswordHash) "MEHkBv5StoIurqCxFeLNbYZf7Nuaf2tsqosRcPLCjvySh3LBw011NgnuD85pPJ1yXwagbbBVlV2qUzV/1gZsIw==.cb78fc1b4612413f0a98a954e2c2df882a11f68a41d3cd51a347738d267402f7da1b8fb0281a61f7c23455ce8e47bc699a7e3b6ae2254affb1a51f7eef52eba6"
+2022-02-23 14:09:02.046[debug] (userService.reg) {"userId":"yechan6","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan6@email.com","userNickname":"예찬6","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:09:02.030Z","createdAt":"2022-02-23T05:09:02.030Z","deletedAt":null}
+2022-02-23 14:09:02.048[info] (user.reg.result2) {"userId":"yechan6","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan6@email.com","userNickname":"예찬6","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:09:02.030Z","createdAt":"2022-02-23T05:09:02.030Z","deletedAt":null}
+2022-02-23 14:16:42.230[info] DB connection success
+2022-02-23 14:16:42.282[info] Sequelize sync success
+2022-02-23 14:16:47.964[info] (user.reg.params1) {"userId":"yechan7","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan7@email.com","userNickname":"예찬7","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:16:47.972[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) sRUyCuRtzMIr/vBq6qaKH0zx/1x7Yw2x9qZitEie/GIK9CzhHI/2pmRmguhufmHL7iHXuxG7qJbWQ7q+W8uc/Q==.b63658535ef360f59244024c67a3503391365ce04825d1cd676b8bed3e53e84a5d147e4f4288fd0cf02c78ba5739729c95b73fe045ee911b04aee2c223d157da
+2022-02-23 14:16:47.974[debug] (./service/userService.makePasswordHash) "sRUyCuRtzMIr/vBq6qaKH0zx/1x7Yw2x9qZitEie/GIK9CzhHI/2pmRmguhufmHL7iHXuxG7qJbWQ7q+W8uc/Q==.b63658535ef360f59244024c67a3503391365ce04825d1cd676b8bed3e53e84a5d147e4f4288fd0cf02c78ba5739729c95b73fe045ee911b04aee2c223d157da"
+2022-02-23 14:16:48.003[error] (userService.reg) SequelizeDatabaseError: character varying(20) 자료형에 너무 긴 자료를 담으려고 합니다.
+2022-02-23 14:21:33.450[info] DB connection success
+2022-02-23 14:21:33.525[info] Sequelize sync success
+2022-02-23 14:21:40.739[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:21:40.749[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) TbIlx8riPjU9HC76JPoxalTm7224aDR326O5tsHDuDZfSLIDB5vWVAxyEuhmhF0m35oXD7Hcon7vxz0fXbMLjg==.0448ec6ff7b783eaeab009a59f74828c72a7150cd8cbebfbb98aa7fef2378824857459b1f8e4a5a4ba8900d6c843fbcbdc660efce87a8e11d89a8728445cb91d
+2022-02-23 14:21:40.752[debug] (./service/userService.makePasswordHash) "TbIlx8riPjU9HC76JPoxalTm7224aDR326O5tsHDuDZfSLIDB5vWVAxyEuhmhF0m35oXD7Hcon7vxz0fXbMLjg==.0448ec6ff7b783eaeab009a59f74828c72a7150cd8cbebfbb98aa7fef2378824857459b1f8e4a5a4ba8900d6c843fbcbdc660efce87a8e11d89a8728445cb91d"
+2022-02-23 14:21:40.770[error] (userService.reg) SequelizeDatabaseError: character varying(200) 자료형에 너무 긴 자료를 담으려고 합니다.
+2022-02-23 14:22:08.396[info] DB connection success
+2022-02-23 14:22:08.477[info] Sequelize sync success
+2022-02-23 14:22:11.146[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:22:11.153[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) aEkKK6cM8jNAFn+tEc+NfFJyW+s+fO21Ed6xrxDVj8Gq7Ble0rA7CZyTR8zLD7PLIUPY2Q4ldQT0kW+BrMuDDg==.3fe18a2a78bc796263be08051a8a4e2898656fcdcd19b79e7c3275ef4f010fda0ce33ab27da7c13589f412744bff800f3358d63aabf99adfbc06392475add452
+2022-02-23 14:22:11.155[debug] (./service/userService.makePasswordHash) "aEkKK6cM8jNAFn+tEc+NfFJyW+s+fO21Ed6xrxDVj8Gq7Ble0rA7CZyTR8zLD7PLIUPY2Q4ldQT0kW+BrMuDDg==.3fe18a2a78bc796263be08051a8a4e2898656fcdcd19b79e7c3275ef4f010fda0ce33ab27da7c13589f412744bff800f3358d63aabf99adfbc06392475add452"
+2022-02-23 14:22:11.173[debug] (userService.reg) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:11.159Z","createdAt":"2022-02-23T05:22:11.159Z","deletedAt":null}
+2022-02-23 14:22:11.175[info] (user.reg.result2) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:11.159Z","createdAt":"2022-02-23T05:22:11.159Z","deletedAt":null}
+2022-02-23 14:22:32.907[info] DB connection success
+2022-02-23 14:22:32.987[info] Sequelize sync success
+2022-02-23 14:22:34.529[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:22:34.534[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) Gcd0aoHV2OF4dYjwkbIzDu/aneHqCi0Uyg5XHWjOzBJ4hGd0eUhwozIJhxWW6d3roqRegKX4M9lbmooc4DRkDw==.af436acdb1bc5485b238b7f5aabda2a40b7636b0359bd8394621901070c73818064fe5b2bf79abbf677088079ce66b7acff6b8201d3d1db9b19b775b3a38bf34
+2022-02-23 14:22:34.536[debug] (./service/userService.makePasswordHash) "Gcd0aoHV2OF4dYjwkbIzDu/aneHqCi0Uyg5XHWjOzBJ4hGd0eUhwozIJhxWW6d3roqRegKX4M9lbmooc4DRkDw==.af436acdb1bc5485b238b7f5aabda2a40b7636b0359bd8394621901070c73818064fe5b2bf79abbf677088079ce66b7acff6b8201d3d1db9b19b775b3a38bf34"
+2022-02-23 14:22:34.552[debug] (userService.reg) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:34.540Z","createdAt":"2022-02-23T05:22:34.540Z","deletedAt":null}
+2022-02-23 14:22:34.555[info] (user.reg.result2) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:34.540Z","createdAt":"2022-02-23T05:22:34.540Z","deletedAt":null}
+2022-02-23 14:22:49.781[info] DB connection success
+2022-02-23 14:22:49.893[info] Sequelize sync success
+2022-02-23 14:22:51.746[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:22:51.754[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) 3zLrKv7qZfJifWYJhWAxP7tmEEjNdvzj/S77zCSMJbJRER+nDDAQKdQiMGfAXTzFwVAWmDEXoR7fYiZhDgJ2Fg==.661afce6c11ce2331967647df01e07912b6bb49d1bfa89929fc7d83d334899bdb944c10431ce6faa8beb10cf192e2b2c58938b38ded7020df9d81691432cbfbf
+2022-02-23 14:22:51.756[debug] (./service/userService.makePasswordHash) "3zLrKv7qZfJifWYJhWAxP7tmEEjNdvzj/S77zCSMJbJRER+nDDAQKdQiMGfAXTzFwVAWmDEXoR7fYiZhDgJ2Fg==.661afce6c11ce2331967647df01e07912b6bb49d1bfa89929fc7d83d334899bdb944c10431ce6faa8beb10cf192e2b2c58938b38ded7020df9d81691432cbfbf"
+2022-02-23 14:22:51.773[debug] (userService.reg) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:51.761Z","createdAt":"2022-02-23T05:22:51.761Z","deletedAt":null}
+2022-02-23 14:22:51.775[info] (user.reg.result2) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:22:51.761Z","createdAt":"2022-02-23T05:22:51.761Z","deletedAt":null}
+2022-02-23 14:23:08.355[info] DB connection success
+2022-02-23 14:23:08.470[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:23:08.482[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) rxrr0u9zReJMjz1flDR0QYAQ3peulDpRysm30StxQnkWqKiCZOi11Ww21e9w+eCy/TPzUFLD5eck/wCVU2qFbQ==.199207adaf9f6afbd44254f38da968846171b1d233f27c33b79a5a512ebb26f8adb187ebd9f458e4a5c9a27d1e7094882fc2b795a7cc024d19570e0791bd2686
+2022-02-23 14:23:08.484[debug] (./service/userService.makePasswordHash) "rxrr0u9zReJMjz1flDR0QYAQ3peulDpRysm30StxQnkWqKiCZOi11Ww21e9w+eCy/TPzUFLD5eck/wCVU2qFbQ==.199207adaf9f6afbd44254f38da968846171b1d233f27c33b79a5a512ebb26f8adb187ebd9f458e4a5c9a27d1e7094882fc2b795a7cc024d19570e0791bd2686"
+2022-02-23 14:23:08.499[info] Sequelize sync success
+2022-02-23 14:23:08.503[error] (userService.reg) SequelizeDatabaseError: character varying(210) 자료형에 너무 긴 자료를 담으려고 합니다.
+2022-02-23 14:23:25.759[info] DB connection success
+2022-02-23 14:23:25.846[info] Sequelize sync success
+2022-02-23 14:23:28.424[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:23:28.432[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) IB8EFeRwbkaAo+S5wc68u7wBzSQEczsgUxpdM4SkMH5J5OKHcBppMHSElwEXhZFpV2AOnrOOFAo9PZfLmqg5jg==.7ad1b8f61303a3e4949117b3ccf9ac6aeca2969c0d0bb108ecf39e888d2a3fbef4df44cb89960854c5e5c00408590baaa936e649c26a06f648cb6013d149ce9c
+2022-02-23 14:23:28.434[debug] (./service/userService.makePasswordHash) "IB8EFeRwbkaAo+S5wc68u7wBzSQEczsgUxpdM4SkMH5J5OKHcBppMHSElwEXhZFpV2AOnrOOFAo9PZfLmqg5jg==.7ad1b8f61303a3e4949117b3ccf9ac6aeca2969c0d0bb108ecf39e888d2a3fbef4df44cb89960854c5e5c00408590baaa936e649c26a06f648cb6013d149ce9c"
+2022-02-23 14:23:28.448[debug] (userService.reg) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:23:28.438Z","createdAt":"2022-02-23T05:23:28.438Z","deletedAt":null}
+2022-02-23 14:23:28.450[info] (user.reg.result2) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:23:28.438Z","createdAt":"2022-02-23T05:23:28.438Z","deletedAt":null}
+2022-02-23 14:24:45.574[info] DB connection success
+2022-02-23 14:24:45.650[info] Sequelize sync success
+2022-02-23 14:24:47.252[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:24:47.260[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) lY498dLg9krw9YW6eUsWtYj1UfqL6s57JUOPFd2qtxgVVk0IdZwUsJOnrWTPl6OOkQ5fZKlaKR4hGGIxMnqrbQ==.bf64e8a9a7ff96f41e725234e773125d3d098fe7e451967026f0623e116010a6c76153b947ee36a0939d944cca35f0aae1715861e40c5bdbd6539d78e5ebad43
+2022-02-23 14:24:47.262[debug] (./service/userService.makePasswordHash) "lY498dLg9krw9YW6eUsWtYj1UfqL6s57JUOPFd2qtxgVVk0IdZwUsJOnrWTPl6OOkQ5fZKlaKR4hGGIxMnqrbQ==.bf64e8a9a7ff96f41e725234e773125d3d098fe7e451967026f0623e116010a6c76153b947ee36a0939d944cca35f0aae1715861e40c5bdbd6539d78e5ebad43"
+2022-02-23 14:24:47.274[error] (userService.reg) SequelizeDatabaseError: character varying(216) 자료형에 너무 긴 자료를 담으려고 합니다.
+2022-02-23 14:25:01.523[info] DB connection success
+2022-02-23 14:25:01.606[info] Sequelize sync success
+2022-02-23 14:25:02.660[info] (user.reg.params1) {"userId":"yechan1","userPassword":"1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:25:02.670[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) bDvLR1GaRIQkz03Pawkvr0Wh9IwTSGwgxfIA1A5+UOW5fg8nji0CYGUFVbH2vIk0BmIG7pccModEeexuX5ofUg==.3cf5a748adee2a4d5bcbed53996c78f7353832b3ec78a45f0905f26c3274aab60f9e241a469900da507fbc97d3700ab4a2cbdd319ea922a7d4df1099209754f2
+2022-02-23 14:25:02.671[debug] (./service/userService.makePasswordHash) "bDvLR1GaRIQkz03Pawkvr0Wh9IwTSGwgxfIA1A5+UOW5fg8nji0CYGUFVbH2vIk0BmIG7pccModEeexuX5ofUg==.3cf5a748adee2a4d5bcbed53996c78f7353832b3ec78a45f0905f26c3274aab60f9e241a469900da507fbc97d3700ab4a2cbdd319ea922a7d4df1099209754f2"
+2022-02-23 14:25:02.697[debug] (userService.reg) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:25:02.675Z","createdAt":"2022-02-23T05:25:02.675Z","deletedAt":null}
+2022-02-23 14:25:02.699[info] (user.reg.result2) {"userId":"yechan1","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan1@email.com","userNickname":"예찬1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:25:02.675Z","createdAt":"2022-02-23T05:25:02.675Z","deletedAt":null}
+2022-02-23 14:25:28.122[info] (user.reg.params1) {"userId":"yechan2","userPassword":"1123123123","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 14:25:28.137[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) qFaShfcN6yt3ex0BErlREKyepFlD/OBG963Sixx+tzfFtLhqIYY/wPN3tvyoJIoDGX7dJleAC6nTr931r+urng==.76c4facb559e94d6a9c043c2fe73cd035345d1b9c828fb4199266510a5120d41bf6e4644dcc8dc6e53d38b991178010a28e3dc70480814a1c124c59b3162f5ed
+2022-02-23 14:25:28.139[debug] (./service/userService.makePasswordHash) "qFaShfcN6yt3ex0BErlREKyepFlD/OBG963Sixx+tzfFtLhqIYY/wPN3tvyoJIoDGX7dJleAC6nTr931r+urng==.76c4facb559e94d6a9c043c2fe73cd035345d1b9c828fb4199266510a5120d41bf6e4644dcc8dc6e53d38b991178010a28e3dc70480814a1c124c59b3162f5ed"
+2022-02-23 14:25:28.239[debug] (userService.reg) {"userId":"yechan2","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:25:28.141Z","createdAt":"2022-02-23T05:25:28.141Z","deletedAt":null}
+2022-02-23 14:25:28.242[info] (user.reg.result2) {"userId":"yechan2","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan2@email.com","userNickname":"예찬2","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T05:25:28.141Z","createdAt":"2022-02-23T05:25:28.141Z","deletedAt":null}
+2022-02-23 15:09:34.084[info] DB connection success
+2022-02-23 15:09:34.149[info] Sequelize sync success
+2022-02-23 15:09:42.719[info] (user.reg.params1) {"userId":"yechan3","userPassword":"1123123123","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 15:09:42.726[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) ToVqgcbmJjj4jMsC6bCz9/7b3CwQwizOMCWhclaRphvtCYMJITWaHFg6wn7vS0qPfAK1r+qDTZMDGWohzF/VRA==.863e663491014aff8d5be5a01d3e97777615ca883649b3ddbb12d924e06f0b00039bc6bd55e7d0e78f620753b30ce7c0dd878bbcbc3cdb36272e4fe21e91202d
+2022-02-23 15:09:42.728[debug] (./service/userService.makePasswordHash) "ToVqgcbmJjj4jMsC6bCz9/7b3CwQwizOMCWhclaRphvtCYMJITWaHFg6wn7vS0qPfAK1r+qDTZMDGWohzF/VRA==.863e663491014aff8d5be5a01d3e97777615ca883649b3ddbb12d924e06f0b00039bc6bd55e7d0e78f620753b30ce7c0dd878bbcbc3cdb36272e4fe21e91202d"
+2022-02-23 15:09:42.731[debug] (userService.사용자등록처리) {"userId":"yechan3","userPassword":"ToVqgcbmJjj4jMsC6bCz9/7b3CwQwizOMCWhclaRphvtCYMJITWaHFg6wn7vS0qPfAK1r+qDTZMDGWohzF/VRA==.863e663491014aff8d5be5a01d3e97777615ca883649b3ddbb12d924e06f0b00039bc6bd55e7d0e78f620753b30ce7c0dd878bbcbc3cdb36272e4fe21e91202d","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 15:09:42.747[debug] (userService.reg) {"userId":"yechan3","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T06:09:42.735Z","createdAt":"2022-02-23T06:09:42.735Z","deletedAt":null}
+2022-02-23 15:09:42.749[info] (user.reg.result2) {"userId":"yechan3","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan3@email.com","userNickname":"예찬3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T06:09:42.735Z","createdAt":"2022-02-23T06:09:42.735Z","deletedAt":null}
+2022-02-23 15:10:29.784[info] DB connection success
+2022-02-23 15:10:29.853[info] Sequelize sync success
+2022-02-23 15:10:34.775[info] (user.reg.params1) {"userId":"yechan4","userPassword":"1123123123","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 15:10:34.783[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) cZCmalJ4kMTA3R8LO4gNYnvQojYpQYL+WIFtgFIJ80jFGAK5UqWM7GLT6MVaT9zNF5v71UVADFfEdCdXjAWOBQ==.459366a840e8c00eaa53b4a6a4d7e2f7cd7a3cdb0da7cef97afb49e07b00d5e160306aea00b5a4f08e27a7c23675115b4096326374fc32812be63b4fd0e1d7f3
+2022-02-23 15:10:34.785[debug] (./service/userService.makePasswordHash) "cZCmalJ4kMTA3R8LO4gNYnvQojYpQYL+WIFtgFIJ80jFGAK5UqWM7GLT6MVaT9zNF5v71UVADFfEdCdXjAWOBQ==.459366a840e8c00eaa53b4a6a4d7e2f7cd7a3cdb0da7cef97afb49e07b00d5e160306aea00b5a4f08e27a7c23675115b4096326374fc32812be63b4fd0e1d7f3"
+2022-02-23 15:10:34.787[debug] (userService.사용자등록처리1) {"userId":"yechan4","userPassword":"1123123123","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 15:10:34.788[debug] (userService.사용자등록처리2) {"userId":"yechan4","userPassword":"cZCmalJ4kMTA3R8LO4gNYnvQojYpQYL+WIFtgFIJ80jFGAK5UqWM7GLT6MVaT9zNF5v71UVADFfEdCdXjAWOBQ==.459366a840e8c00eaa53b4a6a4d7e2f7cd7a3cdb0da7cef97afb49e07b00d5e160306aea00b5a4f08e27a7c23675115b4096326374fc32812be63b4fd0e1d7f3","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-23 15:10:34.803[debug] (userService.reg) {"userId":"yechan4","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T06:10:34.793Z","createdAt":"2022-02-23T06:10:34.793Z","deletedAt":null}
+2022-02-23 15:10:34.805[info] (user.reg.result2) {"userId":"yechan4","userName":"김예찬","userPhone":"01022223333","userEmail":"yechan4@email.com","userNickname":"예찬4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","updatedAt":"2022-02-23T06:10:34.793Z","createdAt":"2022-02-23T06:10:34.793Z","deletedAt":null}

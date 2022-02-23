@@ -8,7 +8,7 @@ const userService = require('../service/userService');
 
 // 조회
 router.route('/')
-  .get(async (req, res, next) => {
+  .get(async (req, res) => {
     try {
       const params = {
         userId: req.query.userId,
@@ -32,12 +32,12 @@ router.route('/')
 
       res.status(200).json(result);
     } catch (err) {
-      res.status(500).json(err);
+      res.status(500).json({ err0: err.toString() });
       // console.error(err);
       // next(err);
     }
   })
-  .post(async (req, res, next) => {
+  .post(async (req, res) => {
     try {
       const params = {
         userId: req.body.userId,
@@ -58,7 +58,7 @@ router.route('/')
       // const params = { name: 1 }
       // const { name } = params
       // console.log(name) // 1
-      logger.info(`(user.reg.params) ${JSON.stringify(params)}`);
+      logger.info(`(user.reg.params1) ${JSON.stringify(params)}`);
 
       // 입력값 null 체크
       if (!params.userId || !params.userPassword || !params.userName || !params.userPhone
@@ -67,17 +67,17 @@ router.route('/')
         const err = new Error('Not allowed null (Id, Password, Name, Phone, Email, Nickname, Profile, EmailCheck, Gender, Role, Grade)');
         logger.error(err.toString());
 
-        res.status(500).json({ err: err.toString() });
+        res.status(500).json({ err1: err.toString() });
       }
 
       // 비즈니스 로직 호출
       const result = await userService.reg(params);
-      logger.info(`(user.reg.result) ${JSON.stringify(result)}`);
+      logger.info(`(user.reg.result2) ${JSON.stringify(result)}`);
 
       // 최종 응답
       res.status(200).json(result);
     } catch (err) {
-      res.status(500).json({ err: err.toString() });
+      res.status(500).json({ err2: err.toString() });
     }
   });
 
