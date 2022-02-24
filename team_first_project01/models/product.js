@@ -5,7 +5,7 @@ module.exports = class Product extends Sequelize.Model {
     return super.init({
       productNumber: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
+        unique: true,
         allowNull: false,
       },
       categoryCode: {

@@ -1,11 +1,11 @@
 const { Op } = require('sequelize');
-const { Cart } = require('../models/index');
+const { Product, ProductImageFile } = require('../models/index');
 
 const dao = {
   // 등록
   insert(params) {
     return new Promise((resolve, reject) => {
-      Cart.create(params).then((inserted) => {
+      ProductImageFile.create(params).then((inserted) => {
         resolve(inserted);
       }).catch((err) => {
         reject(err);
@@ -16,19 +16,26 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.cartNumber) {
+    if (params.fileNumber) {
       setQuery.where = {
         ...setQuery.where,
-        cartNumber: { [Op.like]: `%${params.cartNumber}%` }, // like검색
+        fileNumber: { [Op.like]: `%${params.fileNumber}%` }, // like검색
       };
     }
 
     // order by 정렬 조건
-    setQuery.order = [['cartNumber', 'DESC']];
+    setQuery.order = [['id', 'DESC']];
 
     return new Promise((resolve, reject) => {
-      Cart.findAndCountAll({
+      ProductImageFile.findAndCountAll({
         ...setQuery,
+        attributes: { exclude: ['password'] }, // password 필드 제외
+        include: [
+          {
+            model: Product,
+            as: 'Product',
+          },
+        ],
       }).then((selectedList) => {
         resolve(selectedList);
       }).catch((err) => {
@@ -39,8 +46,8 @@ const dao = {
   // 상세정보 조회
   selectInfo(params) {
     return new Promise((resolve, reject) => {
-      Cart.findByPk(
-        params.cartNumber,
+      ProductImageFile.findByPk(
+        params.id,
       ).then((selectedInfo) => {
         resolve(selectedInfo);
       }).catch((err) => {
@@ -51,10 +58,10 @@ const dao = {
   // 수정
   update(params) {
     return new Promise((resolve, reject) => {
-      Cart.update(
+      ProductImageFile.update(
         params,
         {
-          where: { cartNumber: params.cartNumber },
+          where: { id: params.id },
         },
       ).then(([updated]) => {
         resolve({ updatedCount: updated });
@@ -66,8 +73,8 @@ const dao = {
   // 삭제
   delete(params) {
     return new Promise((resolve, reject) => {
-      Cart.destroy({
-        where: { cartNumber: params.cartNumber },
+      ProductImageFile.destroy({
+        where: { id: params.id },
       }).then((deleted) => {
         resolve({ deletedCount: deleted });
       }).catch((err) => {

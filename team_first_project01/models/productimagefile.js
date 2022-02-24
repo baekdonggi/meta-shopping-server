@@ -5,7 +5,7 @@ module.exports = class ProductImageFile extends Sequelize.Model {
     return super.init({
       fileNumber: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
+        unique: true,
         allowNull: false,
       },
       productNumber: {

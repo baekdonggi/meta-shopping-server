@@ -58,10 +58,10 @@ router.get('/', async (req, res) => {
 });
 
 // 상세정보 조회
-router.get('/:productNumber', async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const params = {
-      productNumber: req.params.productNumber,
+      id: req.params.id,
     };
     logger.info(`(product.info.params) ${JSON.stringify(params)}`);
 
@@ -76,7 +76,7 @@ router.get('/:productNumber', async (req, res) => {
 });
 
 // 수정
-router.put('/:productNumber', async (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
     const params = {
       productNumber: req.body.productNumber,

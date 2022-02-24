@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
 
     // 입력값 null 체크
     if (!params.cartNumber) {
-      const err = new Error('Not allowed null (name)');
+      const err = new Error('Not allowed null (cartNumber)');
       logger.error(err.toString());
 
       res.status(500).json({ err: err.toString() });
@@ -53,13 +53,10 @@ router.get('/', async (req, res) => {
 });
 
 // 상세정보 조회
-router.get('/:cartNumber', async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const params = {
-      cartNumber: req.body.cartNumber,
-      productNumber: req.body.productNumber,
-      cartValue: req.body.cartValue,
-      productCount: req.body.productCount,
+      id: req.params.id,
     };
     logger.info(`(cart.info.params) ${JSON.stringify(params)}`);
 
@@ -74,7 +71,7 @@ router.get('/:cartNumber', async (req, res) => {
 });
 
 // 수정
-router.put('/:cartNumber', async (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
     const params = {
       cartNumber: req.body.cartNumber,
@@ -95,7 +92,7 @@ router.put('/:cartNumber', async (req, res) => {
 });
 
 // 삭제
-router.delete('/:cartNumber', async (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
     const params = {
       cartNumber: req.body.cartNumber,

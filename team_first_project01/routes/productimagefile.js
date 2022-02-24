@@ -21,8 +21,8 @@ router.post('/', async (req, res) => {
     logger.info(`(productimagefile.reg.params) ${JSON.stringify(params)}`);
 
     // 입력값 null 체크
-    if (!params.productNumber) {
-      const err = new Error('Not allowed null (productNumber)');
+    if (!params.fileNumber) {
+      const err = new Error('Not allowed null (fileNumber)');
       logger.error(err.toString());
 
       res.status(500).json({ err: err.toString() });
@@ -57,6 +57,24 @@ router.get('/', async (req, res) => {
 
     const result = await productimagefileService.list(params);
     logger.info(`(productimagefile.list.result) ${JSON.stringify(result)}`);
+
+    // 최종 응답
+    res.status(200).json(result);
+  } catch (err) {
+    res.status(500).json({ err: err.toString() });
+  }
+});
+
+// 상세정보 조회
+router.get('/:id', async (req, res) => {
+  try {
+    const params = {
+      id: req.params.id,
+    };
+    logger.info(`(productimagefile.info.params) ${JSON.stringify(params)}`);
+
+    const result = await productimagefileService.info(params);
+    logger.info(`(productimagefile.info.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);

@@ -1,11 +1,11 @@
 const { Op } = require('sequelize');
-const { Product } = require('../models/index');
+const { ProductReply, Product } = require('../models/index');
 
 const dao = {
   // 등록
   insert(params) {
     return new Promise((resolve, reject) => {
-      Product.create(params).then((inserted) => {
+      ProductReply.create(params).then((inserted) => {
         resolve(inserted);
       }).catch((err) => {
         reject(err);
@@ -16,10 +16,10 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.productName) {
+    if (params.replyNumber) {
       setQuery.where = {
         ...setQuery.where,
-        name: { [Op.like]: `%${params.productName}%` }, // like검색
+        replyNumber: { [Op.like]: `%${params.replyNumber}%` }, // like검색
       };
     }
 
@@ -27,8 +27,15 @@ const dao = {
     setQuery.order = [['id', 'DESC']];
 
     return new Promise((resolve, reject) => {
-      Product.findAndCountAll({
+      ProductReply.findAndCountAll({
         ...setQuery,
+        attributes: { exclude: ['password'] }, // password 필드 제외
+        include: [
+          {
+            model: Product,
+            as: 'Product',
+          },
+        ],
       }).then((selectedList) => {
         resolve(selectedList);
       }).catch((err) => {
@@ -39,8 +46,8 @@ const dao = {
   // 상세정보 조회
   selectInfo(params) {
     return new Promise((resolve, reject) => {
-      Product.findByPk(
-        params.productNumber,
+      ProductReply.findByPk(
+        params.id,
       ).then((selectedInfo) => {
         resolve(selectedInfo);
       }).catch((err) => {
@@ -51,10 +58,10 @@ const dao = {
   // 수정
   update(params) {
     return new Promise((resolve, reject) => {
-      Product.update(
+      ProductReply.update(
         params,
         {
-          where: { productNumber: params.productNumber },
+          where: { id: params.id },
         },
       ).then(([updated]) => {
         resolve({ updatedCount: updated });
@@ -66,8 +73,8 @@ const dao = {
   // 삭제
   delete(params) {
     return new Promise((resolve, reject) => {
-      Product.destroy({
-        where: { productNumber: params.productNumber },
+      ProductReply.destroy({
+        where: { id: params.id },
       }).then((deleted) => {
         resolve({ deletedCount: deleted });
       }).catch((err) => {

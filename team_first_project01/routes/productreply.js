@@ -57,17 +57,10 @@ router.get('/', async (req, res) => {
 });
 
 // 상세정보 조회
-router.get('/:replyNumber', async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const params = {
-      replyNumber: req.body.replyNumber,
-      productNumber: req.body.productNumber,
-      content: req.body.content,
-      writerNickname: req.body.writerNickname,
-      reportingDate: req.body.reportingDate,
-      replyOriginNumber: req.body.replyOriginNumber,
-      replyOrder: req.body.replyOrder,
-      replyDepth: req.body.replyDepth,
+      id: req.params.id,
     };
     logger.info(`(productreply.info.params) ${JSON.stringify(params)}`);
 
@@ -82,7 +75,7 @@ router.get('/:replyNumber', async (req, res) => {
 });
 
 // 수정
-router.put('/:replyNumber', async (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
     const params = {
       replyNumber: req.body.replyNumber,
@@ -107,7 +100,7 @@ router.put('/:replyNumber', async (req, res) => {
 });
 
 // 삭제
-router.delete('/:replyNumber', async (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
     const params = {
       replyNumber: req.body.replyNumber,
