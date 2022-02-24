@@ -1,0 +1,43 @@
+2022-02-21 15:41:11.191[error] This message is error
+2022-02-21 15:41:11.197[warn] This message is warn
+2022-02-21 15:41:11.199[info] This message is info
+2022-02-21 15:41:11.200[verbose] This message is verbose
+2022-02-21 15:41:11.201[debug] This message is debug
+2022-02-21 20:30:18.581[info] DB connection success
+2022-02-21 20:30:18.651[info] Sequelize sync success
+2022-02-21 20:33:10.399[info] DB connection success
+2022-02-21 20:33:10.420[info] Sequelize sync success
+2022-02-21 20:33:25.304[info] DB connection success
+2022-02-21 20:33:25.325[info] Sequelize sync success
+2022-02-21 20:33:58.255[info] DB connection success
+2022-02-21 20:33:58.287[info] Sequelize sync success
+2022-02-21 20:39:58.888[info] DB connection success
+2022-02-21 20:39:58.914[info] Sequelize sync success
+2022-02-21 20:42:44.976[info] DB connection success
+2022-02-21 20:42:44.994[info] Sequelize sync success
+2022-02-21 20:43:35.314[info] DB connection success
+2022-02-21 20:43:35.345[info] Sequelize sync success
+2022-02-21 20:43:40.619[info] DB connection success
+2022-02-21 20:43:40.640[info] Sequelize sync success
+2022-02-21 20:43:44.070[info] DB connection success
+2022-02-21 20:43:44.098[info] Sequelize sync success
+2022-02-21 20:44:35.873[info] DB connection success
+2022-02-21 20:44:35.902[info] Sequelize sync success
+2022-02-21 20:45:19.501[info] DB connection success
+2022-02-21 20:45:19.522[info] Sequelize sync success
+2022-02-21 20:45:26.819[info] DB connection success
+2022-02-21 20:45:26.841[info] Sequelize sync success
+2022-02-21 20:45:48.970[info] DB connection success
+2022-02-21 20:45:49.012[info] Sequelize sync success
+2022-02-21 20:46:47.106[info] DB connection success
+2022-02-21 20:46:47.127[info] Sequelize sync success
+2022-02-21 20:47:06.643[info] DB connection success
+2022-02-21 20:47:06.669[info] Sequelize sync success
+2022-02-21 20:48:21.384[info] DB connection success
+2022-02-21 20:48:21.419[info] Sequelize sync success
+2022-02-21 20:48:25.209[info] DB connection success
+2022-02-21 20:48:25.231[info] Sequelize sync success
+2022-02-21 20:49:01.123[info] DB connection success
+2022-02-21 20:49:01.152[info] Sequelize sync success
+2022-02-21 20:49:09.803[info] DB connection success
+2022-02-21 20:49:09.833[info] Sequelize sync success
