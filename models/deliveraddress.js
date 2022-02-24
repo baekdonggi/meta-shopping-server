@@ -21,7 +21,7 @@ module.exports = class DeliverAddress extends Sequelize.Model {
         type: Sequelize.STRING(50),
         allowNull: false,
       },
-      userAddress3: {
+      userAddress34: {
         type: Sequelize.STRING(50),
         allowNull: false,
       },
