@@ -5,7 +5,7 @@ module.exports = class ProductCategory extends Sequelize.Model {
     return super.init({
       categoryCode: {
         type: Sequelize.STRING(30),
-        primaryKey: true,
+        unique: true,
         allowNull: false,
       },
       categoryName: {
