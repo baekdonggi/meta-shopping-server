@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { User, UserOrder } = require('../models/index');
+const { User } = require('../models/index');
 const logger = require('../lib/logger');
 
 const dao = {

@@ -1,5 +1,4 @@
 const logger = require('../lib/logger');
-const hashUtil = require('../lib/hashUtil');
 const userorderDao = require('../dao/userorderDao');
 
 const service = {
@@ -92,55 +91,6 @@ const service = {
 
     return new Promise((resolve) => {
       resolve(result);
-    });
-  },
-  // login 프로세스
-  async login(params) {
-    // 1. 사용자 조회
-    let user = null;
-    try {
-      user = await userorderDao.selectUser(params);
-      logger.debug(`(userorderService.login) ${JSON.stringify(user)}`);
-
-      // 해당 사용자가 없는 경우 튕겨냄
-      if (!user) {
-        const err = new Error('Incorect userid or password');
-        logger.error(err.toString());
-
-        return new Promise((resolve, reject) => {
-          reject(err);
-        });
-      }
-    } catch (err) {
-      logger.error(`(userorderService.login) ${err.toString()}`);
-      return new Promise((resolve, reject) => {
-        reject(err);
-      });
-    }
-
-    // 2. 비밀번호 비교
-    try {
-      const checkPassword = await hashUtil.checkPasswordHash(params.password, user.password);
-      logger.debug(`(userorderService.checkPassword) ${checkPassword}`);
-
-      // 비밀번호 틀린 경우 튕겨냄
-      if (!checkPassword) {
-        const err = new Error('Incorect userid or password');
-        logger.error(err.toString());
-
-        return new Promise((resolve, reject) => {
-          reject(err);
-        });
-      }
-    } catch (err) {
-      logger.error(`(userorderService.checkPassword) ${err.toString()}`);
-      return new Promise((resolve, reject) => {
-        reject(err);
-      });
-    }
-
-    return new Promise((resolve) => {
-      resolve(user);
     });
   },
 };

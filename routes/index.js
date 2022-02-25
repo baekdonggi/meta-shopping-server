@@ -1,6 +1,8 @@
 const express = require('express');
 const logger = require('../lib/logger');
+const authRouter = require('./auth');
 const userRouter = require('./user');
+const userorderRouter = require('./userorder');
 
 const router = express.Router();
 
@@ -22,6 +24,8 @@ router.get('/log-test', (req, res, next) => {
 });
 
 // user
+router.use('/auth', authRouter);
 router.use('/user', userRouter);
+router.use('/userorder', userorderRouter);
 
 module.exports = router;

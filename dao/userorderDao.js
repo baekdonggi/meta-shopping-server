@@ -9,9 +9,6 @@ const dao = {
     return new Promise((resolve, reject) => {
       UserOrder.create(params)
         .then((inserted) => {
-        // password는 제외하고 리턴
-          const insertedResult = { ...inserted };
-          delete insertedResult.dataValues.userPassword;
           resolve(inserted);
         })
         .catch((err) => {
@@ -45,12 +42,7 @@ const dao = {
   // 상세정보 조회
   selectInfo(params) {
     return new Promise((resolve, reject) => {
-      UserOrder.findByPk(
-        params.id,
-        {
-          attributes: { exclude: ['password'] }, // password 필드 제외
-        },
-      ).then((selectedInfo) => {
+      UserOrder.findByPk(params.id).then((selectedInfo) => {
         // logger.info(`(상세정보조회params) ${JSON.stringify(params)}`);
         // logger.info(`(상세정보조회selectedInfo) ${JSON.stringify(selectedInfo)}`);
         resolve(selectedInfo);
