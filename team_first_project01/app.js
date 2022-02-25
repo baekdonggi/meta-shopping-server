@@ -7,7 +7,7 @@ const cors = require('cors');
 const corsConfig = require('./config/corsConfig.json');
 const models = require('./models/index');
 // 업로드 라우터
-const fileUploadRouter = require('./routes/upload');
+const fileUploadRouter = require('./routes/productimagefile');
 const logger = require('./lib/logger');
 
 const indexRouter = require('./routes/index');
@@ -41,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // 업로드 라우터
-app.use('/upload', fileUploadRouter);
+app.use('/productimagefile', fileUploadRouter);
 app.use('/', indexRouter);
 // app.use('/users', usersRouter); // 구코드 삭제
 app.use(express.static(`${__dirname}/public`));

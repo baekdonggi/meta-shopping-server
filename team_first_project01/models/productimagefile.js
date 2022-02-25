@@ -3,43 +3,40 @@ const Sequelize = require('sequelize');
 module.exports = class ProductImageFile extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      fileNumber: {
-        type: Sequelize.INTEGER,
+      filedname: {
+        type: Sequelize.STRING(300),
         unique: true,
-        allowNull: false,
+        // allowNull: false,
       },
-      productNumber: {
+      originalname: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      encoding: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      mimetype: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      destination: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      filename: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      path: {
+        type: Sequelize.STRING(300),
+        // allowNull: false,
+      },
+      size: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
-      orginFileName: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      storedFileName: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      storedThumbNail: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      delegateThumbNail: {
-        type: Sequelize.STRING(1),
-        allowNull: false,
-      },
-      fileSize: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      createDate: {
-        type: Sequelize.DATE,
-        allowNull: false,
-      },
-      deleteCheck: {
-        type: Sequelize.STRING(1),
-        allowNull: false,
-      },
+
     }, {
       sequelize,
       // tableName: 'tableName', // table명을 수동으로 생성 함
@@ -50,7 +47,6 @@ module.exports = class ProductImageFile extends Sequelize.Model {
     });
   }
 
-  static associate(db) {
-    db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
-  }
+  // static associate(db) {
+  //   db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
 };

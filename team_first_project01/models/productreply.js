@@ -6,35 +6,35 @@ module.exports = class ProductReply extends Sequelize.Model {
       replyNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        allowNull: false,
+        // allowNull: false,
       },
       productNumber: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       content: {
         type: Sequelize.TEXT,
-        allowNull: false,
+        // allowNull: false,
       },
       writerNickname: {
         type: Sequelize.STRING(50),
-        allowNull: false,
+        // allowNull: false,
       },
       reportingDate: {
         type: Sequelize.DATE,
-        allowNull: false,
+        // allowNull: false,
       },
       replyOriginNumber: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       replyOrder: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       replyDepth: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,
