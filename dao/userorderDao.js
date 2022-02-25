@@ -1,7 +1,7 @@
 const { Op } = require('sequelize');
 const logger = require('../lib/logger');
 
-const { User, UserOrder } = require('../models/index');
+const { UserOrder } = require('../models/index');
 
 const dao = {
   // 등록
@@ -23,25 +23,18 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.userName) {
-      setQuery.where = {
-        ...setQuery.where,
-        userName: { [Op.like]: `%${params.userName}%` }, // like 검색
-      };
-    }
-    if (params.userId) {
+    /* if (params.userId) {
       setQuery.where = {
         ...setQuery.where,
         userId: params.userId, // '='검색
       };
-    }
+    } */
     // order by 정렬 조건
     setQuery.order = [['id', 'DESC']];
 
     return new Promise((resolve, reject) => {
       UserOrder.findAndCountAll({
         ...setQuery,
-        attributes: { exclude: ['password'] }, // password 필드 제외
       }).then((selectedList) => {
         resolve(selectedList);
       }).catch((err) => {

@@ -1,0 +1,156 @@
+2022-02-24 19:54:48.777[info] DB connection success
+2022-02-24 19:54:48.822[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 19:55:00.461[info] DB connection success
+2022-02-24 19:55:00.525[info] Sequelize sync success
+2022-02-24 19:55:15.067[info] DB connection success
+2022-02-24 19:55:15.130[info] Sequelize sync success
+2022-02-24 19:55:41.568[info] DB connection success
+2022-02-24 19:55:41.605[info] Sequelize sync success
+2022-02-24 19:56:09.604[info] DB connection success
+2022-02-24 19:56:09.676[info] Sequelize sync success
+2022-02-24 19:58:20.347[info] DB connection success
+2022-02-24 19:58:20.411[info] Sequelize sync success
+2022-02-24 19:59:11.192[info] DB connection success
+2022-02-24 19:59:11.231[info] Sequelize sync success
+2022-02-24 19:59:35.165[info] DB connection success
+2022-02-24 19:59:35.227[info] Sequelize sync success
+2022-02-24 20:01:48.138[info] DB connection success
+2022-02-24 20:01:48.185[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:04:41.661[info] DB connection success
+2022-02-24 20:04:41.710[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:04:45.201[info] DB connection success
+2022-02-24 20:04:45.237[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:08:40.316[info] DB connection success
+2022-02-24 20:08:40.360[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:20:23.156[info] DB connection success
+2022-02-24 20:20:23.193[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:20:26.154[info] DB connection success
+2022-02-24 20:20:26.191[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:20:34.246[info] DB connection success
+2022-02-24 20:20:34.283[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:21:16.282[info] DB connection success
+2022-02-24 20:21:16.321[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:21:18.322[info] DB connection success
+2022-02-24 20:21:18.359[error] Sequelize sync error "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-02-24 20:21:47.933[info] DB connection success
+2022-02-24 20:21:48.005[info] Sequelize sync success
+2022-02-24 20:22:02.944[info] DB connection success
+2022-02-24 20:22:03.012[info] Sequelize sync success
+2022-02-24 20:22:51.186[info] DB connection success
+2022-02-24 20:22:51.230[info] Sequelize sync success
+2022-02-24 20:23:01.579[info] DB connection success
+2022-02-24 20:23:01.618[info] Sequelize sync success
+2022-02-24 20:23:07.017[info] DB connection success
+2022-02-24 20:23:07.057[info] Sequelize sync success
+2022-02-24 20:23:29.105[info] DB connection success
+2022-02-24 20:23:29.142[info] Sequelize sync success
+2022-02-24 20:23:32.027[info] DB connection success
+2022-02-24 20:23:32.076[info] Sequelize sync success
+2022-02-24 20:23:33.503[info] DB connection success
+2022-02-24 20:23:33.540[info] Sequelize sync success
+2022-02-24 20:23:42.936[info] DB connection success
+2022-02-24 20:23:42.980[info] Sequelize sync success
+2022-02-24 20:23:47.392[info] DB connection success
+2022-02-24 20:23:47.432[info] Sequelize sync success
+2022-02-24 20:23:49.404[info] DB connection success
+2022-02-24 20:23:49.445[info] Sequelize sync success
+2022-02-24 20:23:51.675[info] DB connection success
+2022-02-24 20:23:51.714[info] Sequelize sync success
+2022-02-24 20:25:18.627[info] DB connection success
+2022-02-24 20:25:18.667[info] Sequelize sync success
+2022-02-24 20:25:55.327[info] DB connection success
+2022-02-24 20:25:55.372[info] Sequelize sync success
+2022-02-24 20:27:00.650[info] DB connection success
+2022-02-24 20:27:00.686[info] Sequelize sync success
+2022-02-24 20:27:10.413[info] DB connection success
+2022-02-24 20:27:10.443[info] Sequelize sync success
+2022-02-24 20:27:31.666[info] (user.list.params) {}
+2022-02-24 20:27:31.668[error] (userService.list) ReferenceError: DeliverAddress is not defined
+2022-02-24 20:28:00.156[info] DB connection success
+2022-02-24 20:28:00.197[info] Sequelize sync success
+2022-02-24 20:28:01.967[info] (user.list.params) {}
+2022-02-24 20:28:20.295[info] (user.list.params) {}
+2022-02-24 20:30:42.347[info] DB connection success
+2022-02-24 20:30:42.381[info] Sequelize sync success
+2022-02-24 20:30:46.568[info] DB connection success
+2022-02-24 20:30:46.611[info] Sequelize sync success
+2022-02-24 20:30:51.836[info] DB connection success
+2022-02-24 20:30:51.874[info] Sequelize sync success
+2022-02-24 20:31:22.419[info] DB connection success
+2022-02-24 20:31:22.455[info] Sequelize sync success
+2022-02-24 20:31:27.277[info] DB connection success
+2022-02-24 20:31:27.310[info] Sequelize sync success
+2022-02-24 20:31:40.511[info] DB connection success
+2022-02-24 20:31:40.545[info] Sequelize sync success
+2022-02-24 20:32:07.113[info] DB connection success
+2022-02-24 20:32:07.147[info] Sequelize sync success
+2022-02-24 20:32:09.806[info] (user.list.params) {}
+2022-02-24 20:36:31.582[info] DB connection success
+2022-02-24 20:36:31.628[info] Sequelize sync success
+2022-02-24 20:36:33.352[info] (user.list.params) {}
+2022-02-24 20:36:33.366[debug] (userService.list) {"count":0,"rows":[]}
+2022-02-24 20:36:33.368[info] (user.list.result) {"count":0,"rows":[]}
+2022-02-24 20:41:43.114[info] DB connection success
+2022-02-24 20:41:43.149[info] Sequelize sync success
+2022-02-24 20:41:44.443[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-24 20:41:44.450[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8
+2022-02-24 20:41:44.452[debug] (userService.makePasswordHash) "R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8"
+2022-02-24 20:41:44.471[debug] (userService.reg) {"id":1,"userId":"유저아이디3","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-24T11:41:44.456Z","createdAt":"2022-02-24T11:41:44.456Z","deletedAt":null}
+2022-02-24 20:41:44.473[info] (user.reg.result2) {"id":1,"userId":"유저아이디3","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-24T11:41:44.456Z","createdAt":"2022-02-24T11:41:44.456Z","deletedAt":null}
+2022-02-24 20:41:51.210[info] (user.list.params) {}
+2022-02-24 20:41:51.222[debug] (userService.list) {"count":1,"rows":[{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:41:51.224[info] (user.list.result) {"count":1,"rows":[{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:42:29.526[info] DB connection success
+2022-02-24 20:42:29.573[info] Sequelize sync success
+2022-02-24 20:42:30.601[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:42:30.608[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) Iw/Lgtn1j7nK5CXr/gp2gXr4L936rG4GbAS64XAyKuGyhY9fuCSbVX4/OKpNxT5ffQNsq+KZiuv4i/qnHvmRDg==.0e6af276b5f43dc363da00bb4c9bbec8504145581dfe5197ab3baceec6e93e86898bcfb6382c6eade24dcf805836e45331ab35b3abfedae05a9c9fca0cd1a2b6
+2022-02-24 20:42:30.611[debug] (userService.makePasswordHash) "Iw/Lgtn1j7nK5CXr/gp2gXr4L936rG4GbAS64XAyKuGyhY9fuCSbVX4/OKpNxT5ffQNsq+KZiuv4i/qnHvmRDg==.0e6af276b5f43dc363da00bb4c9bbec8504145581dfe5197ab3baceec6e93e86898bcfb6382c6eade24dcf805836e45331ab35b3abfedae05a9c9fca0cd1a2b6"
+2022-02-24 20:42:30.625[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_user_id_key" 고유 제약 조건을 위반함
+2022-02-24 20:44:25.728[info] DB connection success
+2022-02-24 20:44:25.769[info] Sequelize sync success
+2022-02-24 20:44:29.477[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:44:29.495[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:47:35.970[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:47:35.975[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:47:44.915[info] (user.list.params) {}
+2022-02-24 20:47:45.025[debug] (userService.list) {"count":1,"rows":[{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:47:45.029[info] (user.list.result) {"count":1,"rows":[{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:48:03.316[info] (user.reg.params1) {"userId":"유저아이디4","userPassword":"1123123123","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버"}
+2022-02-24 20:48:03.323[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a
+2022-02-24 20:48:03.325[debug] (userService.makePasswordHash) "jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a"
+2022-02-24 20:48:03.399[debug] (userService.reg) {"id":3,"userId":"유저아이디4","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-24T11:48:03.327Z","createdAt":"2022-02-24T11:48:03.327Z","deletedAt":null}
+2022-02-24 20:48:03.400[info] (user.reg.result2) {"id":3,"userId":"유저아이디4","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-24T11:48:03.327Z","createdAt":"2022-02-24T11:48:03.327Z","deletedAt":null}
+2022-02-24 20:48:10.041[info] (user.list.params) {"id":"1"}
+2022-02-24 20:48:10.053[debug] (userService.list) {"count":2,"rows":[{"id":3,"userId":"유저아이디4","userPassword":"jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:48:03.327Z","updatedAt":"2022-02-24T11:48:03.327Z","deletedAt":null},{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:48:10.060[info] (user.list.result) {"count":2,"rows":[{"id":3,"userId":"유저아이디4","userPassword":"jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:48:03.327Z","updatedAt":"2022-02-24T11:48:03.327Z","deletedAt":null},{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:48:17.897[info] (user.list.params) {}
+2022-02-24 20:48:17.903[debug] (userService.list) {"count":2,"rows":[{"id":3,"userId":"유저아이디4","userPassword":"jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:48:03.327Z","updatedAt":"2022-02-24T11:48:03.327Z","deletedAt":null},{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:48:17.909[info] (user.list.result) {"count":2,"rows":[{"id":3,"userId":"유저아이디4","userPassword":"jPkB86e49eCe8exg/9Ng4TK4hrGYbdTiu28PC1IgBJ4z0ks2XUurNNEKkXDb+59b/QQPgUJI/gTHLgru7FphFQ==.595ab38529305d5e4e24691250f46522fbcd7650d03c25cc8261365b45cd268b7a8c216b0b30abd2211c1f94a56a87965bc81b1a6125c8c65487d1d72981652a","userName":"유저이름4","userPhone":"유저전화4","userEmail":"이메일4","userNickname":"이름4","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:48:03.327Z","updatedAt":"2022-02-24T11:48:03.327Z","deletedAt":null},{"id":1,"userId":"유저아이디3","userPassword":"R3RX8kf6rV+Rl5g74l2HAVkq4XvkbMQd3eevmeiVtHKUC/wQEYbUB05GV/MdMSBZ2v8wgkaSvJK+pziX9gB1Mw==.3542c4ebac0dce3718b2c6dcff9c5903716785a9d7cb7bd72c2fba2f6bef1a373a7443658dbbc5fd5454f9450ed98d951653ce4b8774082f166ece0600b3bbe8","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-24T11:41:44.456Z","updatedAt":"2022-02-24T11:41:44.456Z","deletedAt":null}]}
+2022-02-24 20:48:24.160[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:48:24.162[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:48:27.690[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:48:27.695[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:53:02.899[info] DB connection success
+2022-02-24 20:53:02.940[info] Sequelize sync success
+2022-02-24 20:53:12.016[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:53:12.026[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:54:29.259[info] DB connection success
+2022-02-24 20:54:29.312[info] Sequelize sync success
+2022-02-24 20:54:34.278[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:54:34.282[info] (userService.edit) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:54:34.291[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:55:05.368[info] DB connection success
+2022-02-24 20:55:05.407[info] Sequelize sync success
+2022-02-24 20:55:06.077[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:55:06.082[info] (userService.edit) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:55:06.093[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:55:28.888[info] DB connection success
+2022-02-24 20:55:28.922[info] Sequelize sync success
+2022-02-24 20:55:30.091[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:55:30.095[info] (userService.edit아이디가없다?) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:55:30.105[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value
+2022-02-24 20:56:07.013[info] DB connection success
+2022-02-24 20:56:07.067[info] Sequelize sync success
+2022-02-24 20:56:07.842[info] (user.reg.params1) {"userId":"유저아이디3","userPassword":"1123123123","userName":"유저이름3","userPhone":"유저전화3","userEmail":"이메일3","userNickname":"이름3","userProfile":"프로필이미지","emailCheck":"y","userGender":"1","userRole":"1","userGrade":"실버","userAddress1":"우편번호","userAddress2":"주소","userAddress3":"상세주소"}
+2022-02-24 20:56:07.845[info] (userService.edit아이디가없다?) undefined
+2022-02-24 20:56:07.854[error] (userService.edit) Error: WHERE parameter "id" has invalid "undefined" value

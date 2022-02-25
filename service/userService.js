@@ -11,9 +11,9 @@ const service = {
     let hashPassword = null;
     try {
       hashPassword = await hashUtil.makePasswordHash(params.userPassword);
-      logger.debug(`(./service/userService.makePasswordHash) ${JSON.stringify(hashPassword)}`);
+      logger.debug(`(userService.makePasswordHash) ${JSON.stringify(hashPassword)}`);
     } catch (err) {
-      logger.error(`(./service/userService.makePasswordHash) ${err.toString()}`);
+      logger.error(`(userService.makePasswordHash) ${err.toString()}`);
       return new Promise((resolve, reject) => {
         reject(err);
       });
@@ -39,6 +39,128 @@ const service = {
       resolve(inserted);
     });
   },
+  // selectList
+  async list(params) {
+    let result = null;
+
+    try {
+      result = await userDao.selectList(params);
+      logger.debug(`(userService.list) ${JSON.stringify(result)}`);
+    } catch (err) {
+      logger.error(`(userService.list) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(result);
+    });
+  },
+  // selectInfo
+  async info(params) {
+    let result = null;
+
+    try {
+      result = await userDao.selectInfo(params);
+      logger.debug(`(userService.info) ${JSON.stringify(result)}`);
+    } catch (err) {
+      logger.error(`(userService.info) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(result);
+    });
+  },
+  // update
+  async edit(params) {
+    let result = null;
+
+    try {
+      result = await userDao.update(params);
+      logger.debug(`(userService.edit) ${JSON.stringify(result)}`);
+    } catch (err) {
+      logger.error(`(userService.edit) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(result);
+    });
+  },
+  // delelte
+  async del(params) {
+    let result = null;
+
+    try {
+      result = await userDao.delete(params);
+      logger.debug(`(userService.delete) ${JSON.stringify(result)}`);
+    } catch (err) {
+      logger.error(`(userService.delete) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(result);
+    });
+  },
+  // login 프로세스
+  async login(params) {
+    // 1. 사용자 조회
+    let user = null;
+    try {
+      user = await userDao.selectUser(params);
+      logger.debug(`(userService.login) ${JSON.stringify(user)}`);
+
+      // 해당 사용자가 없는 경우 튕겨냄
+      if (!user) {
+        const err = new Error('Incorect userid or password');
+        logger.error(err.toString());
+
+        return new Promise((resolve, reject) => {
+          reject(err);
+        });
+      }
+    } catch (err) {
+      logger.error(`(userService.login) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    // 2. 비밀번호 비교
+    try {
+      const checkPassword = await hashUtil.checkPasswordHash(params.password, user.password);
+      logger.debug(`(userService.checkPassword) ${checkPassword}`);
+
+      // 비밀번호 틀린 경우 튕겨냄
+      if (!checkPassword) {
+        const err = new Error('Incorect userid or password');
+        logger.error(err.toString());
+
+        return new Promise((resolve, reject) => {
+          reject(err);
+        });
+      }
+    } catch (err) {
+      logger.error(`(userService.checkPassword) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(user);
+    });
+  },
+
 };
 
 module.exports = service;

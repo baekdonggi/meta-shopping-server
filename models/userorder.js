@@ -5,37 +5,37 @@ module.exports = class UserOrder extends Sequelize.Model {
     return super.init({
       orderNumber: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
-        allowNull: false,
+        unique: true,
+        // allowNull: false,
       },
       userId: {
         type: Sequelize.STRING(30),
         // unique: true,
-        allowNull: false,
+        // allowNull: false,
       },
       orderDate: {
         type: Sequelize.DATE,
-        allowNull: false,
+        // allowNull: false,
       },
       address1: {
         type: Sequelize.STRING(20),
-        allowNull: false,
+        // allowNull: false,
       },
       address2: {
         type: Sequelize.STRING(50),
-        allowNull: false,
+        // allowNull: false,
       },
       address3: {
         type: Sequelize.STRING(50),
-        allowNull: false,
+        // allowNull: false,
       },
       receiverName: {
         type: Sequelize.STRING(20),
-        allowNull: false,
+        // allowNull: false,
       },
       receiverPhone: {
         type: Sequelize.STRING(20),
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,
@@ -48,6 +48,7 @@ module.exports = class UserOrder extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.UserOrder.belongsTo(db.User, { foreignKey: { name: 'userId', onDelete: 'SET NULL', as: 'user' } });
+    db.UserOrder.belongsTo(db.User, { foreignKey: 'userId', targetKey: 'userId' });
+    // db.UserOrder.belongsTo(db.User, { foreignKey: { name: 'userId', onDelete: 'SET NULL', as: 'user' } });
   }
 };

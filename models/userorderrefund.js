@@ -5,24 +5,24 @@ module.exports = class UserOrderRefund extends Sequelize.Model {
     return super.init({
       refundNumber: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
-        allowNull: false,
+        unique: true,
+        // allowNull: false,
       },
       orderDetailNumber: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       refundReason: {
         type: Sequelize.STRING(300),
-        allowNull: false,
+        // allowNull: false,
       },
       refundImage: {
         type: Sequelize.STRING(300),
-        allowNull: false,
+        // allowNull: false,
       },
       userEmail: {
         type: Sequelize.STRING(50),
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,

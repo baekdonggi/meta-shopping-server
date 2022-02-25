@@ -5,50 +5,47 @@ module.exports = class User extends Sequelize.Model {
     return super.init({
       userId: {
         type: Sequelize.STRING(30),
-        allowNull: false,
-        primaryKey: true,
         unique: true,
       },
       userPassword: {
         type: Sequelize.STRING(217),
-        allowNull: false,
       },
       userName: {
         type: Sequelize.STRING(50),
-        allowNull: false,
       },
       userPhone: {
         type: Sequelize.STRING(20),
-        allowNull: false,
       },
       userEmail: {
         type: Sequelize.STRING(50),
-        allowNull: false,
       },
       userNickname: {
         type: Sequelize.STRING(20),
-        allowNull: false,
         unique: true,
       },
       userProfile: {
         type: Sequelize.STRING(100),
-        allowNull: false,
       },
       emailCheck: {
         type: Sequelize.STRING(1),
-        allowNull: false,
       },
       userGender: {
         type: Sequelize.INTEGER,
-        allowNull: false,
       },
       userRole: {
         type: Sequelize.INTEGER,
-        allowNull: false,
       },
       userGrade: {
         type: Sequelize.STRING(10),
-        allowNull: false,
+      },
+      userAddress1: {
+        type: Sequelize.STRING(20),
+      },
+      userAddress2: {
+        type: Sequelize.STRING(50),
+      },
+      userAddress3: {
+        type: Sequelize.STRING(50),
       },
     }, {
       sequelize,
@@ -61,7 +58,7 @@ module.exports = class User extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.User.hasMany(db.DeliverAddress, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'deliveraddress' });
-    db.User.hasMany(db.UserOrder, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'userorder' });
+    db.User.hasMany(db.UserOrder, { foreignKey: 'userId', sourceKey: 'userId' });
+    // db.User.hasMany(db.UserOrder, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'userorder' });
   }
 };
