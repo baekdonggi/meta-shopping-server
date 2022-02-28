@@ -42,8 +42,8 @@ router.use('/productcategory', productcategoryRouter);
 router.use('/productimagefile', productimagefileRouter);
 router.use('/cart', cartRouter);
 router.use('/productreply', productreplyRouter);
-router.use('/auth', authRouter);
-router.use('/user', userRouter);
-router.use('/userorder', userorderRouter);
+router.use('/auths', authRouter);
+router.use('/users', userRouter);
+router.use('/userorders', userorderRouter);
 
 module.exports = router;
