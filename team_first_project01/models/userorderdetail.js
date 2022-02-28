@@ -6,31 +6,31 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
       orderDetailNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        allowNull: false,
+        // allowNull: false,
       },
       orderNumber: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       productNumber: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       productCount: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       productPrice: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       orderDetailStatus: {
         type: Sequelize.STRING(10),
-        allowNull: false,
+        // allowNull: false,
       },
       returnCheck: {
         type: Sequelize.STRING(1),
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,
@@ -43,9 +43,8 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
   }
 
   static associate(db) {
-  //   db.userOrderDetail.belongsTo(db.userOrder, { foreignKey: { name: 'orderNumber', onDelete: 'SET NULL', as: 'userorder' } });
-  //   db.userOrderDetail.belongsTo(db.userOrder, { foreignKey: { name: 'productNumber', onDelete: 'SET NULL', as: 'userorder' } });
-  //   db.userOrderDetail.hasMany(db.userOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
-    db.UserOrderDetail.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+    db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: { name: 'orderNumber', onDelete: 'SET NULL', as: 'userorder' } });
+    db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: { name: 'productNumber', onDelete: 'SET NULL', as: 'userorder' } });
+    db.UserOrderDetail.hasMany(db.UserOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
   }
 };

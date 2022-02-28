@@ -6,6 +6,9 @@ const productcategoryRouter = require('./productcategory');
 const productimagefileRouter = require('./productimagefile');
 const cartRouter = require('./cart');
 const productreplyRouter = require('./productreply');
+const authRouter = require('./auth'); // 로그인
+const userRouter = require('./user');
+const userorderRouter = require('./userorder');
 
 const router = express.Router();
 
@@ -39,5 +42,8 @@ router.use('/productcategory', productcategoryRouter);
 router.use('/productimagefile', productimagefileRouter);
 router.use('/cart', cartRouter);
 router.use('/productreply', productreplyRouter);
+router.use('/auth', authRouter);
+router.use('/user', userRouter);
+router.use('/userorder', userorderRouter);
 
 module.exports = router;
