@@ -31,7 +31,7 @@ Product.associate(db);
 ProductCategory.associate(db);
 Cart.associate(db);
 ProductReply.associate(db);
-ProductImageFile.associate(db);
+// ProductImageFile.associate(db);
 UserOrderDetail.associate(db);
 
 module.exports = db;

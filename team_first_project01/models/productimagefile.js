@@ -3,42 +3,30 @@ const Sequelize = require('sequelize');
 module.exports = class ProductImageFile extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      fileNumber: {
-        type: Sequelize.INTEGER,
+      originalname: {
+        type: Sequelize.STRING(300),
         unique: true,
         allowNull: false,
       },
-      productNumber: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      orginFileName: {
+      mimetype: {
         type: Sequelize.STRING(300),
         allowNull: false,
       },
-      storedFileName: {
+      path: {
         type: Sequelize.STRING(300),
         allowNull: false,
       },
-      storedThumbNail: {
-        type: Sequelize.STRING(300),
-        allowNull: false,
-      },
-      delegateThumbNail: {
-        type: Sequelize.STRING(1),
-        allowNull: false,
-      },
-      fileSize: {
-        type: Sequelize.INTEGER,
+      size: {
+        type: Sequelize.INTEGER(300),
         allowNull: false,
       },
       createDate: {
         type: Sequelize.DATE,
-        allowNull: false,
+        allowNull: true,
       },
       deleteCheck: {
-        type: Sequelize.STRING(1),
-        allowNull: false,
+        type: Sequelize.STRING(100),
+        allowNull: true,
       },
     }, {
       sequelize,
@@ -50,7 +38,7 @@ module.exports = class ProductImageFile extends Sequelize.Model {
     });
   }
 
-  static associate(db) {
-    db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
-  }
+  // static associate(db) {
+  //   db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+  // }
 };

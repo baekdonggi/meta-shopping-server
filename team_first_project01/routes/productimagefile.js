@@ -1,28 +1,42 @@
 const express = require('express');
+const path = require('path');
+const multer = require('multer');
 
+const storage = multer.diskStorage({
+  destination(req, file, callback) {
+    callback(null, 'upload/');
+  },
+  filename(req, file, callback) {
+    const extension = path.extname(file.originalname);
+    const basename = path.basename(file.originalname, extension);
+    callback(null, `${basename}-${Date.now()}${extension}`);
+  },
+});
+
+// 1. 미들웨어 등록
+const upload = multer({
+  storage,
+});
 const router = express.Router();
 const logger = require('../lib/logger');
 const productimagefileService = require('../service/productimagefileService');
 
 // 등록
-router.post('/', async (req, res) => {
+router.post('/', upload.single('imgFile'), async (req, res) => {
   try {
     const params = {
-      fileNumber: req.body.fileNumber,
-      productNumber: req.body.productNumber,
-      orginFileName: req.body.orginFileName,
-      storedFileName: req.body.storedFileName,
-      storedThumbNail: req.body.storedThumbNail,
-      delegateThumbNail: req.body.delegateThumbNail,
-      fileSize: req.body.fileSize,
-      createDate: req.body.createDate,
-      deleteCheck: req.body.deleteCheck,
+      originalname: req.file.originalname,
+      mimetype: req.file.mimetype,
+      path: req.file.path,
+      size: req.file.size,
+      // createDate: req.file.createDate,
+      // deleteCheck: req.file.deleteCheck,
     };
     logger.info(`(productimagefile.reg.params) ${JSON.stringify(params)}`);
 
     // 입력값 null 체크
-    if (!params.fileNumber) {
-      const err = new Error('Not allowed null (fileNumber)');
+    if (!params.originalname) {
+      const err = new Error('Not allowed null (originalname)');
       logger.error(err.toString());
 
       res.status(500).json({ err: err.toString() });
@@ -40,23 +54,19 @@ router.post('/', async (req, res) => {
 });
 
 // 리스트 조회
-router.get('/', async (req, res) => {
+router.get('/show', async (req, res) => {
   try {
     const params = {
-      fileNumber: req.body.fileNumber,
-      productNumber: req.body.productNumber,
-      orginFileName: req.body.orginFileName,
-      storedFileName: req.body.storedFileName,
-      storedThumbNail: req.body.storedThumbNail,
-      delegateThumbNail: req.body.delegateThumbNail,
-      fileSize: req.body.fileSize,
-      createDate: req.body.createDate,
-      deleteCheck: req.body.deleteCheck,
+      originalname: req.file.originalname,
+      mimetype: req.file.mimetype,
+      path: req.file.path,
+      size: req.file.size,
+
     };
-    logger.info(`(productimagefile.list.params) ${JSON.stringify(params)}`);
+    logger.info(`(originalname.list.params) ${JSON.stringify(params)}`);
 
     const result = await productimagefileService.list(params);
-    logger.info(`(productimagefile.list.result) ${JSON.stringify(result)}`);
+    logger.info(`(originalname.list.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);
@@ -71,10 +81,10 @@ router.get('/:id', async (req, res) => {
     const params = {
       id: req.params.id,
     };
-    logger.info(`(productimagefile.info.params) ${JSON.stringify(params)}`);
+    logger.info(`(originalname.info.params) ${JSON.stringify(params)}`);
 
     const result = await productimagefileService.info(params);
-    logger.info(`(productimagefile.info.result) ${JSON.stringify(result)}`);
+    logger.info(`(originalname.info.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);
