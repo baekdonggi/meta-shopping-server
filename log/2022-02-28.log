@@ -142,3 +142,43 @@ notNull Violation: ProductImageFile.deleteCheck cannot be null
 2022-02-28 16:00:46.011[info] (product.list.params) {}
 2022-02-28 16:00:46.174[debug] (productService.list) {"count":1,"rows":[{"id":1,"productNumber":null,"categoryCode":"category_code1","productName":"옷","productPrice":5000,"productStock":1,"productDesc":"1","productDate":null,"productHits":null,"createdAt":null,"updatedAt":null,"deletedAt":null,"ProductCategoryId":null,"ProductCategory":null}]}
 2022-02-28 16:00:46.176[info] (product.list.result) {"count":1,"rows":[{"id":1,"productNumber":null,"categoryCode":"category_code1","productName":"옷","productPrice":5000,"productStock":1,"productDesc":"1","productDate":null,"productHits":null,"createdAt":null,"updatedAt":null,"deletedAt":null,"ProductCategoryId":null,"ProductCategory":null}]}
+2022-02-28 16:16:48.464[info] DB connection success
+2022-02-28 16:16:48.537[info] Sequelize sync success
+2022-02-28 16:47:54.924[info] DB connection success
+2022-02-28 16:47:54.983[info] Sequelize sync success
+2022-02-28 17:31:23.107[info] DB connection success
+2022-02-28 17:31:23.173[info] Sequelize sync success
+2022-02-28 17:31:38.723[info] (product.list.params) {}
+2022-02-28 17:31:38.855[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:31:38.856[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:32:45.430[info] (product.list.params) {}
+2022-02-28 17:32:45.548[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:32:45.548[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:33:42.170[info] (product.list.params) {}
+2022-02-28 17:33:42.311[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:33:42.312[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:33:52.696[info] (product.list.params) {}
+2022-02-28 17:33:52.812[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:33:52.813[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:36:17.913[info] (product.list.params) {}
+2022-02-28 17:36:18.065[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:36:18.066[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:36:27.175[info] (product.list.params) {}
+2022-02-28 17:36:27.191[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:36:27.192[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:36:27.462[info] (user.reg.params1) {"userId":"123","userPassword":"123","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-02-28 17:36:27.467[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f
+2022-02-28 17:36:27.468[debug] (userService.makePasswordHash) "xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f"
+2022-02-28 17:36:27.486[debug] (userService.reg) {"id":2,"userId":"123","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-28T08:36:27.471Z","createdAt":"2022-02-28T08:36:27.471Z","deletedAt":null}
+2022-02-28 17:36:27.488[info] (user.reg.result2) {"id":2,"userId":"123","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"updatedAt":"2022-02-28T08:36:27.471Z","createdAt":"2022-02-28T08:36:27.471Z","deletedAt":null}
+2022-02-28 17:40:25.123[info] (product.list.params) {}
+2022-02-28 17:40:25.280[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:40:25.281[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:41:27.889[info] (product.list.params) {}
+2022-02-28 17:41:28.036[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:41:28.038[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:41:47.532[info] (product.list.params) {}
+2022-02-28 17:41:47.651[debug] (productService.list) {"count":0,"rows":[]}
+2022-02-28 17:41:47.652[info] (product.list.result) {"count":0,"rows":[]}
+2022-02-28 17:45:03.688[info] DB connection success
+2022-02-28 17:45:03.759[info] Sequelize sync success
