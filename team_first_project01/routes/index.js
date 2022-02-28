@@ -34,7 +34,7 @@ router.get('/log-test', (req, res, next) => {
 });
 
 // product
-router.use('/', productRouter);
+router.use('/product', productRouter);
 router.use('/productcategory', productcategoryRouter);
 router.use('/productimagefile', productimagefileRouter);
 router.use('/cart', cartRouter);
