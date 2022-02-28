@@ -50,7 +50,7 @@ module.exports = class Product extends Sequelize.Model {
     db.Product.belongsTo(db.ProductCategory, { foreignKey: { categoryCode: 'categoryCode', onDelete: 'SET NULL', as: 'ProductCategory' } });
     db.Product.hasMany(db.Cart, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'Cart' });
     db.Product.hasMany(db.ProductReply, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'ProductReply' });
-    db.Product.hasMany(db.ProductImageFile, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'ProductImageFile' });
+    // db.Product.hasMany(db.ProductImageFile, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'ProductImageFile' });
     db.Product.hasMany(db.UserOrderDetail, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'UserOrderDetail' });
   }
 };
