@@ -6,15 +6,15 @@ module.exports = class ProductCategory extends Sequelize.Model {
       categoryCode: {
         type: Sequelize.STRING(30),
         unique: true,
-        // allowNull: false,
+        allowNull: false,
       },
       categoryName: {
         type: Sequelize.STRING(50),
-        // allowNull: false,
+        allowNull: false,
       },
       categoryRefCode: {
         type: Sequelize.STRING(30),
-        // allowNull: true,
+        allowNull: true,
       },
     }, {
       sequelize,

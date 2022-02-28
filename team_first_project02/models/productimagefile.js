@@ -3,40 +3,31 @@ const Sequelize = require('sequelize');
 module.exports = class ProductImageFile extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      filedname: {
-        type: Sequelize.STRING(300),
-        unique: true,
-        // allowNull: false,
-      },
       originalname: {
         type: Sequelize.STRING(300),
-        // allowNull: false,
-      },
-      encoding: {
-        type: Sequelize.STRING(300),
-        // allowNull: false,
+        unique: true,
+        allowNull: false,
       },
       mimetype: {
         type: Sequelize.STRING(300),
-        // allowNull: false,
-      },
-      destination: {
-        type: Sequelize.STRING(300),
-        // allowNull: false,
-      },
-      filename: {
-        type: Sequelize.STRING(300),
-        // allowNull: false,
+        allowNull: false,
       },
       path: {
         type: Sequelize.STRING(300),
-        // allowNull: false,
+        allowNull: false,
       },
       size: {
-        type: Sequelize.INTEGER,
-        // allowNull: false,
+        type: Sequelize.INTEGER(300),
+        allowNull: false,
       },
-
+      createDate: {
+        type: Sequelize.DATE,
+        allowNull: true,
+      },
+      deleteCheck: {
+        type: Sequelize.STRING(100),
+        allowNull: true,
+      },
     }, {
       sequelize,
       // tableName: 'tableName', // table명을 수동으로 생성 함
@@ -49,4 +40,5 @@ module.exports = class ProductImageFile extends Sequelize.Model {
 
   // static associate(db) {
   //   db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+  // }
 };

@@ -16,10 +16,10 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.filedname) {
+    if (params.originalname) {
       setQuery.where = {
         ...setQuery.where,
-        filedname: { [Op.like]: `%${params.filedname}%` }, // like검색
+        originalname: { [Op.like]: `%${params.originalname}%` }, // like검색
       };
     }
 

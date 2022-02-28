@@ -6,31 +6,31 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
       orderDetailNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        // allowNull: false,
+        allowNull: false,
       },
       orderNumber: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       productNumber: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       productCount: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       productPrice: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       orderDetailStatus: {
         type: Sequelize.STRING(10),
-        // allowNull: false,
+        allowNull: false,
       },
       returnCheck: {
         type: Sequelize.STRING(1),
-        // allowNull: false,
+        allowNull: false,
       },
     }, {
       sequelize,

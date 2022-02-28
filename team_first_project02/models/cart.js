@@ -6,19 +6,19 @@ module.exports = class Cart extends Sequelize.Model {
       cartNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        // allowNull: false,
+        allowNull: false,
       },
       productNumber: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       cartValue: {
         type: Sequelize.STRING(30),
-        // allowNull: false,
+        allowNull: false,
       },
       productCount: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
     }, {
       sequelize,

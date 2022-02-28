@@ -6,35 +6,35 @@ module.exports = class Product extends Sequelize.Model {
       productNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        // allowNull: false,
+        allowNull: false,
       },
       categoryCode: {
         type: Sequelize.STRING(30),
-        // allowNull: false,
+        allowNull: false,
       },
       productName: {
         type: Sequelize.STRING(50),
-        // allowNull: false,
+        allowNull: false,
       },
       productPrice: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       productStock: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
       productDesc: {
         type: Sequelize.TEXT,
-        // allowNull: false,
+        allowNull: false,
       },
       productDate: {
         type: Sequelize.DATE,
-        // allowNull: false,
+        allowNull: false,
       },
       productHits: {
         type: Sequelize.INTEGER,
-        // allowNull: false,
+        allowNull: false,
       },
     }, {
       sequelize,
