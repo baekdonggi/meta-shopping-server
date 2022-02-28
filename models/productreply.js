@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize');
 
-module.exports = class Cart extends Sequelize.Model {
+module.exports = class ProductReply extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      cartNumber: {
+      replyNumber: {
         type: Sequelize.INTEGER,
         unique: true,
         allowNull: false,
@@ -12,11 +12,27 @@ module.exports = class Cart extends Sequelize.Model {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      cartValue: {
-        type: Sequelize.STRING(30),
+      content: {
+        type: Sequelize.TEXT,
         allowNull: false,
       },
-      productCount: {
+      writerNickname: {
+        type: Sequelize.STRING(50),
+        allowNull: false,
+      },
+      reportingDate: {
+        type: Sequelize.DATE,
+        allowNull: false,
+      },
+      replyOriginNumber: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      replyOrder: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      replyDepth: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
@@ -31,6 +47,6 @@ module.exports = class Cart extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.Cart.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+    db.ProductReply.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
   }
 };
