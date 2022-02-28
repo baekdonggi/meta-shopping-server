@@ -32,7 +32,8 @@ models.sequelize.authenticate().then(() => {
 }).catch((err) => {
   logger.error('DB Connection fail', err);
 });
-
+// 업로드 파일위치
+app.use(express.static('upload'));
 app.use(cors(corsConfig));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
