@@ -6,7 +6,7 @@ const tokenUtil = require('../lib/tokenUtil');
 const userService = require('../service/userService');
 
 // login 진행
-router.post('./token', async (req, res) => {
+router.post('/token', async (req, res) => {
   try {
     const params = {
       userId: req.body.userId,

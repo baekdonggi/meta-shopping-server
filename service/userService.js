@@ -117,11 +117,11 @@ const service = {
     let user = null;
     try {
       user = await userDao.selectUser(params);
-      logger.debug(`(userService.login) ${JSON.stringify(user)}`);
+      logger.info(`(userService.login) ${JSON.stringify(user)}`);
 
       // 해당 사용자가 없는 경우 튕겨냄
       if (!user) {
-        const err = new Error('Incorect userid or password');
+        const err = new Error('Incorect userId or userPassword');
         logger.error(err.toString());
 
         return new Promise((resolve, reject) => {
@@ -137,12 +137,12 @@ const service = {
 
     // 2. 비밀번호 비교
     try {
-      const checkPassword = await hashUtil.checkPasswordHash(params.password, user.password);
+      const checkPassword = await hashUtil.checkPasswordHash(params.userPassword, user.userPassword);
       logger.debug(`(userService.checkPassword) ${checkPassword}`);
 
       // 비밀번호 틀린 경우 튕겨냄
       if (!checkPassword) {
-        const err = new Error('Incorect userid or password');
+        const err = new Error('Incorect userId or userPassword');
         logger.error(err.toString());
 
         return new Promise((resolve, reject) => {

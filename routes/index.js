@@ -1,6 +1,6 @@
 const express = require('express');
 const logger = require('../lib/logger');
-const authRouter = require('./auth');
+const authRouter = require('./auth'); // 로그인
 const userRouter = require('./user');
 const userorderRouter = require('./userorder');
 

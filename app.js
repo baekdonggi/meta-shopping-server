@@ -5,12 +5,12 @@ const cookieParser = require('cookie-parser');
 // const logger = require('morgan'); 구코드 삭제
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/user');
 const corsConfig = require('./config/corsConfig.json');
-
 const models = require('./models/index');
 const logger = require('./lib/logger');
+
+const indexRouter = require('./routes/index');
+// const usersRouter = require('./routes/user');
 
 const app = express();
 
@@ -43,7 +43,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+// app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
