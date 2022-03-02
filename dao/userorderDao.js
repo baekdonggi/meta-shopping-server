@@ -10,8 +10,7 @@ const dao = {
       UserOrder.create(params)
         .then((inserted) => {
           resolve(inserted);
-        })
-        .catch((err) => {
+        }).catch((err) => {
           reject(err);
         });
     });

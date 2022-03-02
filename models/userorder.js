@@ -4,7 +4,7 @@ module.exports = class UserOrder extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
       orderNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BIGINT,
         unique: true,
         // allowNull: false,
       },

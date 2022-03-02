@@ -1,4 +1,5 @@
 const logger = require('../lib/logger');
+const makeNums = require('../lib/makeNums');
 const userorderDao = require('../dao/userorderDao');
 
 const service = {
@@ -9,7 +10,7 @@ const service = {
     let inserted = null;
 
     try {
-      orderNumber = await userorderDao.orderNumInsert(params);
+      orderNumber = await makeNums.makeOrderNum(params);
       logger.debug(`(userorderService.reg) ${JSON.stringify(inserted)}`);
     } catch (err) {
       logger.error(`(userorderService.reg) ${err.toString()}`);
@@ -24,7 +25,7 @@ const service = {
       orderNumber,
     };
     try {
-      inserted = await userDao.insert(newParams);
+      inserted = await userorderDao.orderNumInsert(newParams);
       logger.debug(`(userService.reg) ${JSON.stringify(inserted)}`);
     } catch (err) {
       logger.error(`(userService.reg) ${err.toString()}`);

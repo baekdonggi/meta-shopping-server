@@ -39,27 +39,6 @@ router.post('/token', async (req, res) => {
     // 토큰 생성
     const token = tokenUtil.makeToken(result);
     res.set('token', token); // header 세팅
-
-    // const newParams = {
-    //   // userId: req.body.userId,
-    //   // userPassword: req.body.userPassword,
-    //   // userName: req.body.userName,
-    //   // userPhone: req.body.userPhone,
-    //   // userEmail: req.body.userEmail,
-    //   // userNickname: req.body.userNickname,
-    //   // userProfile: req.body.userProfile,
-    //   // emailCheck: req.body.emailCheck,
-    //   // userGender: req.body.userGender,
-    //   // userRole: req.body.userRole,
-    //   // userGrade: req.body.userGrade,
-    //   userAddress1: req.body.userAddress1,
-    //   userAddress2: req.query.userAddress2,
-    //   userAddress3: req.query.userAddress3,
-    //   // result,
-    // };
-
-    // 최종 응답
-    // res.status(200).json({ token: 'success' });
     res.status(200).json(result);
   } catch (err) {
     res.status(500).json({ err: err.toString() });

@@ -336,3 +336,499 @@
 2022-03-02 14:42:01.540[debug] (userService.checkPassword) true
 2022-03-02 14:42:01.541[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
 2022-03-02 14:42:01.544[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk3MjEsImV4cCI6MTY0NjIwNjkyMX0.DMP-pAk9qTgZqTaWTmglLDS4m4waYKwX_4MAzsu3Gw4"
+2022-03-02 14:43:47.235[info] DB connection success
+2022-03-02 14:43:47.302[info] Sequelize sync success
+2022-03-02 14:52:15.525[info] DB connection success
+2022-03-02 14:52:15.604[info] Sequelize sync success
+2022-03-02 14:52:31.523[info] (userorder.list.params) {}
+2022-03-02 14:52:31.696[info] (userorderService.list) {"count":4,"rows":[{"id":7,"orderNumber":null,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:24:41.413Z","updatedAt":"2022-03-02T01:24:41.413Z","deletedAt":null},{"id":6,"orderNumber":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:21:26.480Z","updatedAt":"2022-03-02T01:21:26.480Z","deletedAt":null},{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 14:52:31.700[info] (userorder.list.result) {"count":4,"rows":[{"id":7,"orderNumber":null,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:24:41.413Z","updatedAt":"2022-03-02T01:24:41.413Z","deletedAt":null},{"id":6,"orderNumber":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:21:26.480Z","updatedAt":"2022-03-02T01:21:26.480Z","deletedAt":null},{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 14:53:09.969[info] DB connection success
+2022-03-02 14:53:10.056[info] Sequelize sync success
+2022-03-02 14:53:51.710[info] DB connection success
+2022-03-02 14:53:51.796[info] Sequelize sync success
+2022-03-02 14:54:23.377[info] DB connection success
+2022-03-02 14:54:23.450[info] Sequelize sync success
+2022-03-02 14:54:27.439[info] DB connection success
+2022-03-02 14:54:27.506[info] Sequelize sync success
+2022-03-02 14:55:18.770[info] DB connection success
+2022-03-02 14:55:18.829[info] Sequelize sync success
+2022-03-02 14:55:33.718[info] DB connection success
+2022-03-02 14:55:33.780[info] Sequelize sync success
+2022-03-02 14:55:42.035[info] DB connection success
+2022-03-02 14:55:42.096[info] Sequelize sync success
+2022-03-02 14:55:49.478[info] DB connection success
+2022-03-02 14:55:49.540[info] Sequelize sync success
+2022-03-02 14:58:08.525[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 14:58:08.528[error] (userorderService.reg) TypeError: todayYear.slice is not a function
+2022-03-02 15:00:40.368[info] DB connection success
+2022-03-02 15:00:40.456[info] Sequelize sync success
+2022-03-02 15:00:47.637[info] DB connection success
+2022-03-02 15:00:47.701[info] Sequelize sync success
+2022-03-02 15:00:50.043[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:00:50.045[info] (makeOrderNum.orderNum) 2203022
+2022-03-02 15:00:50.046[debug] (userorderService.reg) null
+2022-03-02 15:00:50.061[debug] (userService.reg) {"id":8,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203022,"updatedAt":"2022-03-02T06:00:50.049Z","createdAt":"2022-03-02T06:00:50.049Z","deletedAt":null}
+2022-03-02 15:00:50.063[info] (userorder.reg.result2) {"id":8,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203022,"updatedAt":"2022-03-02T06:00:50.049Z","createdAt":"2022-03-02T06:00:50.049Z","deletedAt":null}
+2022-03-02 15:02:14.904[info] DB connection success
+2022-03-02 15:02:14.999[info] Sequelize sync success
+2022-03-02 15:12:49.870[info] DB connection success
+2022-03-02 15:12:49.943[info] Sequelize sync success
+2022-03-02 15:13:20.363[info] DB connection success
+2022-03-02 15:13:20.427[info] Sequelize sync success
+2022-03-02 15:13:24.736[info] DB connection success
+2022-03-02 15:13:24.800[info] Sequelize sync success
+2022-03-02 15:13:57.074[info] DB connection success
+2022-03-02 15:13:57.134[info] Sequelize sync success
+2022-03-02 15:14:03.898[info] DB connection success
+2022-03-02 15:14:03.967[info] Sequelize sync success
+2022-03-02 15:14:05.853[info] DB connection success
+2022-03-02 15:14:05.912[info] Sequelize sync success
+2022-03-02 15:15:23.170[info] DB connection success
+2022-03-02 15:15:23.232[info] Sequelize sync success
+2022-03-02 15:15:31.303[info] DB connection success
+2022-03-02 15:15:31.381[info] Sequelize sync success
+2022-03-02 15:15:38.351[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:15:38.353[info] (makeOrderNum.orderNum) 2203029
+2022-03-02 15:15:38.354[debug] (userorderService.reg) null
+2022-03-02 15:15:38.368[debug] (userService.reg) {"id":9,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203029,"updatedAt":"2022-03-02T06:15:38.356Z","createdAt":"2022-03-02T06:15:38.356Z","deletedAt":null}
+2022-03-02 15:15:38.370[info] (userorder.reg.result2) {"id":9,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203029,"updatedAt":"2022-03-02T06:15:38.356Z","createdAt":"2022-03-02T06:15:38.356Z","deletedAt":null}
+2022-03-02 15:16:09.431[info] DB connection success
+2022-03-02 15:16:09.488[info] Sequelize sync success
+2022-03-02 15:16:12.546[info] DB connection success
+2022-03-02 15:16:12.609[info] Sequelize sync success
+2022-03-02 15:16:26.948[info] DB connection success
+2022-03-02 15:16:27.006[info] Sequelize sync success
+2022-03-02 15:16:36.588[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:16:36.589[info] (makeOrderNum.orderNum) undefined, 1
+2022-03-02 15:16:36.591[info] (makeOrderNum.orderNum) undefined, 9
+2022-03-02 15:16:36.592[info] (makeOrderNum.orderNum) undefined, 7
+2022-03-02 15:16:36.593[info] (makeOrderNum.orderNum) undefined, 8
+2022-03-02 15:16:36.595[info] (makeOrderNum.orderNum) undefined, 1
+2022-03-02 15:16:36.596[info] (makeOrderNum.orderNum) undefined, 2
+2022-03-02 15:16:36.597[info] (makeOrderNum.orderNum) 2203022
+2022-03-02 15:16:36.597[debug] (userorderService.reg) null
+2022-03-02 15:16:36.617[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "user_orders_order_number_key" 고유 제약 조건을 위반함
+2022-03-02 15:16:42.220[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:16:42.221[info] (makeOrderNum.orderNum) undefined, 1
+2022-03-02 15:16:42.221[info] (makeOrderNum.orderNum) undefined, 9
+2022-03-02 15:16:42.222[info] (makeOrderNum.orderNum) undefined, 9
+2022-03-02 15:16:42.223[info] (makeOrderNum.orderNum) undefined, 4
+2022-03-02 15:16:42.223[info] (makeOrderNum.orderNum) undefined, 4
+2022-03-02 15:16:42.225[info] (makeOrderNum.orderNum) undefined, 4
+2022-03-02 15:16:42.225[info] (makeOrderNum.orderNum) 2203024
+2022-03-02 15:16:42.226[debug] (userorderService.reg) null
+2022-03-02 15:16:42.235[debug] (userService.reg) {"id":11,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203024,"updatedAt":"2022-03-02T06:16:42.227Z","createdAt":"2022-03-02T06:16:42.227Z","deletedAt":null}
+2022-03-02 15:16:42.236[info] (userorder.reg.result2) {"id":11,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2203024,"updatedAt":"2022-03-02T06:16:42.227Z","createdAt":"2022-03-02T06:16:42.227Z","deletedAt":null}
+2022-03-02 15:17:46.247[info] DB connection success
+2022-03-02 15:17:46.314[info] Sequelize sync success
+2022-03-02 15:17:50.536[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:17:50.538[info] (makeOrderNum.orderNum) undefined, null8
+2022-03-02 15:17:50.539[info] (makeOrderNum.orderNum) undefined, null87
+2022-03-02 15:17:50.540[info] (makeOrderNum.orderNum) undefined, null871
+2022-03-02 15:17:50.541[info] (makeOrderNum.orderNum) undefined, null8713
+2022-03-02 15:17:50.542[info] (makeOrderNum.orderNum) undefined, null87139
+2022-03-02 15:17:50.542[info] (makeOrderNum.orderNum) undefined, null871396
+2022-03-02 15:17:50.543[info] (makeOrderNum.orderNum) 220302null871396
+2022-03-02 15:17:50.544[debug] (userorderService.reg) null
+2022-03-02 15:17:50.555[error] (userService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "220302null871396"
+2022-03-02 15:17:52.143[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:17:52.145[info] (makeOrderNum.orderNum) undefined, null4
+2022-03-02 15:17:52.146[info] (makeOrderNum.orderNum) undefined, null40
+2022-03-02 15:17:52.147[info] (makeOrderNum.orderNum) undefined, null400
+2022-03-02 15:17:52.148[info] (makeOrderNum.orderNum) undefined, null4002
+2022-03-02 15:17:52.149[info] (makeOrderNum.orderNum) undefined, null40021
+2022-03-02 15:17:52.150[info] (makeOrderNum.orderNum) undefined, null400217
+2022-03-02 15:17:52.152[info] (makeOrderNum.orderNum) 220302null400217
+2022-03-02 15:17:52.153[debug] (userorderService.reg) null
+2022-03-02 15:17:52.159[error] (userService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "220302null400217"
+2022-03-02 15:20:17.340[info] DB connection success
+2022-03-02 15:20:17.413[info] Sequelize sync success
+2022-03-02 15:20:24.535[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:20:24.538[info] (makeOrderNum.orderNum) undefined, 9
+2022-03-02 15:20:24.539[info] (makeOrderNum.orderNum) undefined, 49
+2022-03-02 15:20:24.540[info] (makeOrderNum.orderNum) undefined, 449
+2022-03-02 15:20:24.541[info] (makeOrderNum.orderNum) undefined, 449
+2022-03-02 15:20:24.542[info] (makeOrderNum.orderNum) undefined, 50449
+2022-03-02 15:20:24.542[info] (makeOrderNum.orderNum) undefined, 950449
+2022-03-02 15:20:24.543[info] (makeOrderNum.orderNum) 220302950449
+2022-03-02 15:20:24.544[debug] (userorderService.reg) null
+2022-03-02 15:20:24.554[error] (userService.reg) SequelizeDatabaseError: 입력한 "220302950449" 값은 integer 자료형 범위를 초과했습니다
+2022-03-02 15:22:29.967[info] DB connection success
+2022-03-02 15:22:30.025[info] Sequelize sync success
+2022-03-02 15:22:59.663[info] DB connection success
+2022-03-02 15:22:59.767[info] Sequelize sync success
+2022-03-02 15:23:13.158[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:23:13.160[info] (makeOrderNum.orderNum) undefined, 4
+2022-03-02 15:23:13.161[info] (makeOrderNum.orderNum) undefined, 34
+2022-03-02 15:23:13.163[info] (makeOrderNum.orderNum) undefined, 434
+2022-03-02 15:23:13.164[info] (makeOrderNum.orderNum) undefined, 2434
+2022-03-02 15:23:13.166[info] (makeOrderNum.orderNum) undefined, 52434
+2022-03-02 15:23:13.167[info] (makeOrderNum.orderNum) undefined, 52434
+2022-03-02 15:23:13.168[info] (makeOrderNum.orderNum) 22030252434
+2022-03-02 15:23:13.169[debug] (userorderService.reg) null
+2022-03-02 15:23:13.270[debug] (userService.reg) {"id":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"22030252434","updatedAt":"2022-03-02T06:23:13.172Z","createdAt":"2022-03-02T06:23:13.172Z","deletedAt":null}
+2022-03-02 15:23:13.272[info] (userorder.reg.result2) {"id":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"22030252434","updatedAt":"2022-03-02T06:23:13.172Z","createdAt":"2022-03-02T06:23:13.172Z","deletedAt":null}
+2022-03-02 15:29:36.543[info] DB connection success
+2022-03-02 15:29:36.620[info] Sequelize sync success
+2022-03-02 15:29:48.806[info] DB connection success
+2022-03-02 15:29:48.895[info] Sequelize sync success
+2022-03-02 15:29:51.428[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:29:51.430[info] (makeOrderNum.RandomNum) 2, undefined, 8
+2022-03-02 15:29:51.432[info] (makeOrderNum.RandomNum) 3, undefined, 48
+2022-03-02 15:29:51.434[info] (makeOrderNum.RandomNum) 4, undefined, 648
+2022-03-02 15:29:51.435[info] (makeOrderNum.RandomNum) 5, undefined, 1648
+2022-03-02 15:29:51.436[info] (makeOrderNum.RandomNum) 6, undefined, 81648
+2022-03-02 15:29:51.437[info] (makeOrderNum.RandomNum) 7, undefined, 81648
+2022-03-02 15:29:51.438[info] (makeOrderNum.orderNum) 22030281648
+2022-03-02 15:29:51.439[debug] (userorderService.reg) null
+2022-03-02 15:29:51.457[debug] (userService.reg) {"id":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"22030281648","updatedAt":"2022-03-02T06:29:51.441Z","createdAt":"2022-03-02T06:29:51.441Z","deletedAt":null}
+2022-03-02 15:29:51.460[info] (userorder.reg.result2) {"id":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"22030281648","updatedAt":"2022-03-02T06:29:51.441Z","createdAt":"2022-03-02T06:29:51.441Z","deletedAt":null}
+2022-03-02 15:30:19.409[info] DB connection success
+2022-03-02 15:30:19.531[info] Sequelize sync success
+2022-03-02 15:30:21.899[info] DB connection success
+2022-03-02 15:30:21.961[info] Sequelize sync success
+2022-03-02 15:30:24.538[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:30:24.540[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-02 15:30:24.541[info] (makeOrderNum.RandomNum) 2, 9, 90
+2022-03-02 15:30:24.542[info] (makeOrderNum.RandomNum) 3, 9, 990
+2022-03-02 15:30:24.542[info] (makeOrderNum.RandomNum) 4, 5, 5990
+2022-03-02 15:30:24.544[info] (makeOrderNum.RandomNum) 5, 0, 5990
+2022-03-02 15:30:24.544[info] (makeOrderNum.RandomNum) 6, 4, 405990
+2022-03-02 15:30:24.545[info] (makeOrderNum.orderNum) 220302405990
+2022-03-02 15:30:24.546[debug] (userorderService.reg) null
+2022-03-02 15:30:24.560[debug] (userService.reg) {"id":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302405990","updatedAt":"2022-03-02T06:30:24.548Z","createdAt":"2022-03-02T06:30:24.548Z","deletedAt":null}
+2022-03-02 15:30:24.561[info] (userorder.reg.result2) {"id":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302405990","updatedAt":"2022-03-02T06:30:24.548Z","createdAt":"2022-03-02T06:30:24.548Z","deletedAt":null}
+2022-03-02 15:31:44.532[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:44.534[info] (makeOrderNum.RandomNum) 1, 3, 3
+2022-03-02 15:31:44.535[info] (makeOrderNum.RandomNum) 2, 9, 93
+2022-03-02 15:31:44.537[info] (makeOrderNum.RandomNum) 3, 9, 993
+2022-03-02 15:31:44.537[info] (makeOrderNum.RandomNum) 4, 3, 3993
+2022-03-02 15:31:44.538[info] (makeOrderNum.RandomNum) 5, 0, 3993
+2022-03-02 15:31:44.539[info] (makeOrderNum.RandomNum) 6, 9, 903993
+2022-03-02 15:31:44.540[info] (makeOrderNum.orderNum) 220302903993
+2022-03-02 15:31:44.541[debug] (userorderService.reg) null
+2022-03-02 15:31:44.642[debug] (userService.reg) {"id":4,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302903993","updatedAt":"2022-03-02T06:31:44.542Z","createdAt":"2022-03-02T06:31:44.542Z","deletedAt":null}
+2022-03-02 15:31:44.643[info] (userorder.reg.result2) {"id":4,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302903993","updatedAt":"2022-03-02T06:31:44.542Z","createdAt":"2022-03-02T06:31:44.542Z","deletedAt":null}
+2022-03-02 15:31:45.740[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:45.742[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-02 15:31:45.743[info] (makeOrderNum.RandomNum) 2, 4, 40
+2022-03-02 15:31:45.743[info] (makeOrderNum.RandomNum) 3, 4, 440
+2022-03-02 15:31:45.744[info] (makeOrderNum.RandomNum) 4, 7, 7440
+2022-03-02 15:31:45.744[info] (makeOrderNum.RandomNum) 5, 6, 67440
+2022-03-02 15:31:45.745[info] (makeOrderNum.RandomNum) 6, 1, 167440
+2022-03-02 15:31:45.746[info] (makeOrderNum.orderNum) 220302167440
+2022-03-02 15:31:45.746[debug] (userorderService.reg) null
+2022-03-02 15:31:45.753[debug] (userService.reg) {"id":5,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302167440","updatedAt":"2022-03-02T06:31:45.747Z","createdAt":"2022-03-02T06:31:45.747Z","deletedAt":null}
+2022-03-02 15:31:45.754[info] (userorder.reg.result2) {"id":5,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302167440","updatedAt":"2022-03-02T06:31:45.747Z","createdAt":"2022-03-02T06:31:45.747Z","deletedAt":null}
+2022-03-02 15:31:46.490[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:46.491[info] (makeOrderNum.RandomNum) 1, 8, 8
+2022-03-02 15:31:46.492[info] (makeOrderNum.RandomNum) 2, 5, 58
+2022-03-02 15:31:46.493[info] (makeOrderNum.RandomNum) 3, 6, 658
+2022-03-02 15:31:46.494[info] (makeOrderNum.RandomNum) 4, 8, 8658
+2022-03-02 15:31:46.495[info] (makeOrderNum.RandomNum) 5, 4, 48658
+2022-03-02 15:31:46.496[info] (makeOrderNum.RandomNum) 6, 3, 348658
+2022-03-02 15:31:46.496[info] (makeOrderNum.orderNum) 220302348658
+2022-03-02 15:31:46.498[debug] (userorderService.reg) null
+2022-03-02 15:31:46.504[debug] (userService.reg) {"id":6,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302348658","updatedAt":"2022-03-02T06:31:46.498Z","createdAt":"2022-03-02T06:31:46.498Z","deletedAt":null}
+2022-03-02 15:31:46.506[info] (userorder.reg.result2) {"id":6,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302348658","updatedAt":"2022-03-02T06:31:46.498Z","createdAt":"2022-03-02T06:31:46.498Z","deletedAt":null}
+2022-03-02 15:31:47.155[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:47.157[info] (makeOrderNum.RandomNum) 1, 9, 9
+2022-03-02 15:31:47.158[info] (makeOrderNum.RandomNum) 2, 6, 69
+2022-03-02 15:31:47.158[info] (makeOrderNum.RandomNum) 3, 0, 69
+2022-03-02 15:31:47.159[info] (makeOrderNum.RandomNum) 4, 2, 2069
+2022-03-02 15:31:47.160[info] (makeOrderNum.RandomNum) 5, 3, 32069
+2022-03-02 15:31:47.160[info] (makeOrderNum.RandomNum) 6, 2, 232069
+2022-03-02 15:31:47.161[info] (makeOrderNum.orderNum) 220302232069
+2022-03-02 15:31:47.161[debug] (userorderService.reg) null
+2022-03-02 15:31:47.169[debug] (userService.reg) {"id":7,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302232069","updatedAt":"2022-03-02T06:31:47.162Z","createdAt":"2022-03-02T06:31:47.162Z","deletedAt":null}
+2022-03-02 15:31:47.170[info] (userorder.reg.result2) {"id":7,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302232069","updatedAt":"2022-03-02T06:31:47.162Z","createdAt":"2022-03-02T06:31:47.162Z","deletedAt":null}
+2022-03-02 15:31:47.829[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:47.830[info] (makeOrderNum.RandomNum) 1, 5, 5
+2022-03-02 15:31:47.831[info] (makeOrderNum.RandomNum) 2, 1, 15
+2022-03-02 15:31:47.832[info] (makeOrderNum.RandomNum) 3, 5, 515
+2022-03-02 15:31:47.832[info] (makeOrderNum.RandomNum) 4, 7, 7515
+2022-03-02 15:31:47.833[info] (makeOrderNum.RandomNum) 5, 3, 37515
+2022-03-02 15:31:47.834[info] (makeOrderNum.RandomNum) 6, 5, 537515
+2022-03-02 15:31:47.836[info] (makeOrderNum.orderNum) 220302537515
+2022-03-02 15:31:47.836[debug] (userorderService.reg) null
+2022-03-02 15:31:47.843[debug] (userService.reg) {"id":8,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302537515","updatedAt":"2022-03-02T06:31:47.837Z","createdAt":"2022-03-02T06:31:47.837Z","deletedAt":null}
+2022-03-02 15:31:47.844[info] (userorder.reg.result2) {"id":8,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302537515","updatedAt":"2022-03-02T06:31:47.837Z","createdAt":"2022-03-02T06:31:47.837Z","deletedAt":null}
+2022-03-02 15:31:48.544[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:48.558[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-02 15:31:48.559[info] (makeOrderNum.RandomNum) 2, 4, 40
+2022-03-02 15:31:48.561[info] (makeOrderNum.RandomNum) 3, 1, 140
+2022-03-02 15:31:48.563[info] (makeOrderNum.RandomNum) 4, 5, 5140
+2022-03-02 15:31:48.564[info] (makeOrderNum.RandomNum) 5, 3, 35140
+2022-03-02 15:31:48.565[info] (makeOrderNum.RandomNum) 6, 4, 435140
+2022-03-02 15:31:48.567[info] (makeOrderNum.orderNum) 220302435140
+2022-03-02 15:31:48.569[debug] (userorderService.reg) null
+2022-03-02 15:31:48.577[debug] (userService.reg) {"id":9,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302435140","updatedAt":"2022-03-02T06:31:48.570Z","createdAt":"2022-03-02T06:31:48.570Z","deletedAt":null}
+2022-03-02 15:31:48.579[info] (userorder.reg.result2) {"id":9,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302435140","updatedAt":"2022-03-02T06:31:48.570Z","createdAt":"2022-03-02T06:31:48.570Z","deletedAt":null}
+2022-03-02 15:31:50.569[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:50.571[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-02 15:31:50.572[info] (makeOrderNum.RandomNum) 2, 3, 30
+2022-03-02 15:31:50.573[info] (makeOrderNum.RandomNum) 3, 3, 330
+2022-03-02 15:31:50.574[info] (makeOrderNum.RandomNum) 4, 7, 7330
+2022-03-02 15:31:50.577[info] (makeOrderNum.RandomNum) 5, 4, 47330
+2022-03-02 15:31:50.578[info] (makeOrderNum.RandomNum) 6, 1, 147330
+2022-03-02 15:31:50.579[info] (makeOrderNum.orderNum) 220302147330
+2022-03-02 15:31:50.580[debug] (userorderService.reg) null
+2022-03-02 15:31:50.586[debug] (userService.reg) {"id":10,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302147330","updatedAt":"2022-03-02T06:31:50.581Z","createdAt":"2022-03-02T06:31:50.581Z","deletedAt":null}
+2022-03-02 15:31:50.588[info] (userorder.reg.result2) {"id":10,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302147330","updatedAt":"2022-03-02T06:31:50.581Z","createdAt":"2022-03-02T06:31:50.581Z","deletedAt":null}
+2022-03-02 15:31:51.242[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:51.243[info] (makeOrderNum.RandomNum) 1, 5, 5
+2022-03-02 15:31:51.244[info] (makeOrderNum.RandomNum) 2, 9, 95
+2022-03-02 15:31:51.245[info] (makeOrderNum.RandomNum) 3, 4, 495
+2022-03-02 15:31:51.245[info] (makeOrderNum.RandomNum) 4, 4, 4495
+2022-03-02 15:31:51.246[info] (makeOrderNum.RandomNum) 5, 9, 94495
+2022-03-02 15:31:51.247[info] (makeOrderNum.RandomNum) 6, 2, 294495
+2022-03-02 15:31:51.247[info] (makeOrderNum.orderNum) 220302294495
+2022-03-02 15:31:51.248[debug] (userorderService.reg) null
+2022-03-02 15:31:51.251[debug] (userService.reg) {"id":11,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302294495","updatedAt":"2022-03-02T06:31:51.249Z","createdAt":"2022-03-02T06:31:51.249Z","deletedAt":null}
+2022-03-02 15:31:51.253[info] (userorder.reg.result2) {"id":11,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302294495","updatedAt":"2022-03-02T06:31:51.249Z","createdAt":"2022-03-02T06:31:51.249Z","deletedAt":null}
+2022-03-02 15:31:51.867[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:51.869[info] (makeOrderNum.RandomNum) 1, 2, 2
+2022-03-02 15:31:51.870[info] (makeOrderNum.RandomNum) 2, 2, 22
+2022-03-02 15:31:51.871[info] (makeOrderNum.RandomNum) 3, 0, 22
+2022-03-02 15:31:51.871[info] (makeOrderNum.RandomNum) 4, 7, 7022
+2022-03-02 15:31:51.872[info] (makeOrderNum.RandomNum) 5, 2, 27022
+2022-03-02 15:31:51.873[info] (makeOrderNum.RandomNum) 6, 9, 927022
+2022-03-02 15:31:51.874[info] (makeOrderNum.orderNum) 220302927022
+2022-03-02 15:31:51.875[debug] (userorderService.reg) null
+2022-03-02 15:31:51.882[debug] (userService.reg) {"id":12,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302927022","updatedAt":"2022-03-02T06:31:51.876Z","createdAt":"2022-03-02T06:31:51.876Z","deletedAt":null}
+2022-03-02 15:31:51.884[info] (userorder.reg.result2) {"id":12,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302927022","updatedAt":"2022-03-02T06:31:51.876Z","createdAt":"2022-03-02T06:31:51.876Z","deletedAt":null}
+2022-03-02 15:31:52.561[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:52.562[info] (makeOrderNum.RandomNum) 1, 7, 7
+2022-03-02 15:31:52.563[info] (makeOrderNum.RandomNum) 2, 4, 47
+2022-03-02 15:31:52.563[info] (makeOrderNum.RandomNum) 3, 0, 47
+2022-03-02 15:31:52.564[info] (makeOrderNum.RandomNum) 4, 4, 4047
+2022-03-02 15:31:52.565[info] (makeOrderNum.RandomNum) 5, 4, 44047
+2022-03-02 15:31:52.566[info] (makeOrderNum.RandomNum) 6, 8, 844047
+2022-03-02 15:31:52.567[info] (makeOrderNum.orderNum) 220302844047
+2022-03-02 15:31:52.567[debug] (userorderService.reg) null
+2022-03-02 15:31:52.570[debug] (userService.reg) {"id":13,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302844047","updatedAt":"2022-03-02T06:31:52.568Z","createdAt":"2022-03-02T06:31:52.568Z","deletedAt":null}
+2022-03-02 15:31:52.571[info] (userorder.reg.result2) {"id":13,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302844047","updatedAt":"2022-03-02T06:31:52.568Z","createdAt":"2022-03-02T06:31:52.568Z","deletedAt":null}
+2022-03-02 15:31:53.174[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:53.176[info] (makeOrderNum.RandomNum) 1, 2, 2
+2022-03-02 15:31:53.176[info] (makeOrderNum.RandomNum) 2, 9, 92
+2022-03-02 15:31:53.177[info] (makeOrderNum.RandomNum) 3, 1, 192
+2022-03-02 15:31:53.177[info] (makeOrderNum.RandomNum) 4, 5, 5192
+2022-03-02 15:31:53.178[info] (makeOrderNum.RandomNum) 5, 8, 85192
+2022-03-02 15:31:53.179[info] (makeOrderNum.RandomNum) 6, 9, 985192
+2022-03-02 15:31:53.179[info] (makeOrderNum.orderNum) 220302985192
+2022-03-02 15:31:53.180[debug] (userorderService.reg) null
+2022-03-02 15:31:53.184[debug] (userService.reg) {"id":14,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302985192","updatedAt":"2022-03-02T06:31:53.181Z","createdAt":"2022-03-02T06:31:53.181Z","deletedAt":null}
+2022-03-02 15:31:53.185[info] (userorder.reg.result2) {"id":14,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302985192","updatedAt":"2022-03-02T06:31:53.181Z","createdAt":"2022-03-02T06:31:53.181Z","deletedAt":null}
+2022-03-02 15:31:55.510[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:55.514[info] (makeOrderNum.RandomNum) 1, 1, 1
+2022-03-02 15:31:55.516[info] (makeOrderNum.RandomNum) 2, 7, 71
+2022-03-02 15:31:55.518[info] (makeOrderNum.RandomNum) 3, 5, 571
+2022-03-02 15:31:55.518[info] (makeOrderNum.RandomNum) 4, 0, 571
+2022-03-02 15:31:55.519[info] (makeOrderNum.RandomNum) 5, 2, 20571
+2022-03-02 15:31:55.520[info] (makeOrderNum.RandomNum) 6, 4, 420571
+2022-03-02 15:31:55.520[info] (makeOrderNum.orderNum) 220302420571
+2022-03-02 15:31:55.521[debug] (userorderService.reg) null
+2022-03-02 15:31:55.524[debug] (userService.reg) {"id":15,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302420571","updatedAt":"2022-03-02T06:31:55.522Z","createdAt":"2022-03-02T06:31:55.522Z","deletedAt":null}
+2022-03-02 15:31:55.525[info] (userorder.reg.result2) {"id":15,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302420571","updatedAt":"2022-03-02T06:31:55.522Z","createdAt":"2022-03-02T06:31:55.522Z","deletedAt":null}
+2022-03-02 15:31:56.129[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:56.131[info] (makeOrderNum.RandomNum) 1, 5, 5
+2022-03-02 15:31:56.131[info] (makeOrderNum.RandomNum) 2, 0, 5
+2022-03-02 15:31:56.132[info] (makeOrderNum.RandomNum) 3, 0, 5
+2022-03-02 15:31:56.133[info] (makeOrderNum.RandomNum) 4, 8, 8005
+2022-03-02 15:31:56.133[info] (makeOrderNum.RandomNum) 5, 2, 28005
+2022-03-02 15:31:56.134[info] (makeOrderNum.RandomNum) 6, 4, 428005
+2022-03-02 15:31:56.134[info] (makeOrderNum.orderNum) 220302428005
+2022-03-02 15:31:56.135[debug] (userorderService.reg) null
+2022-03-02 15:31:56.141[debug] (userService.reg) {"id":16,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302428005","updatedAt":"2022-03-02T06:31:56.136Z","createdAt":"2022-03-02T06:31:56.136Z","deletedAt":null}
+2022-03-02 15:31:56.142[info] (userorder.reg.result2) {"id":16,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302428005","updatedAt":"2022-03-02T06:31:56.136Z","createdAt":"2022-03-02T06:31:56.136Z","deletedAt":null}
+2022-03-02 15:31:56.768[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:56.770[info] (makeOrderNum.RandomNum) 1, 1, 1
+2022-03-02 15:31:56.771[info] (makeOrderNum.RandomNum) 2, 7, 71
+2022-03-02 15:31:56.771[info] (makeOrderNum.RandomNum) 3, 6, 671
+2022-03-02 15:31:56.772[info] (makeOrderNum.RandomNum) 4, 8, 8671
+2022-03-02 15:31:56.773[info] (makeOrderNum.RandomNum) 5, 0, 8671
+2022-03-02 15:31:56.773[info] (makeOrderNum.RandomNum) 6, 9, 908671
+2022-03-02 15:31:56.774[info] (makeOrderNum.orderNum) 220302908671
+2022-03-02 15:31:56.775[debug] (userorderService.reg) null
+2022-03-02 15:31:56.781[debug] (userService.reg) {"id":17,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302908671","updatedAt":"2022-03-02T06:31:56.775Z","createdAt":"2022-03-02T06:31:56.775Z","deletedAt":null}
+2022-03-02 15:31:56.782[info] (userorder.reg.result2) {"id":17,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302908671","updatedAt":"2022-03-02T06:31:56.775Z","createdAt":"2022-03-02T06:31:56.775Z","deletedAt":null}
+2022-03-02 15:31:57.441[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:57.443[info] (makeOrderNum.RandomNum) 1, 8, 8
+2022-03-02 15:31:57.444[info] (makeOrderNum.RandomNum) 2, 2, 28
+2022-03-02 15:31:57.445[info] (makeOrderNum.RandomNum) 3, 6, 628
+2022-03-02 15:31:57.446[info] (makeOrderNum.RandomNum) 4, 2, 2628
+2022-03-02 15:31:57.447[info] (makeOrderNum.RandomNum) 5, 7, 72628
+2022-03-02 15:31:57.447[info] (makeOrderNum.RandomNum) 6, 1, 172628
+2022-03-02 15:31:57.448[info] (makeOrderNum.orderNum) 220302172628
+2022-03-02 15:31:57.449[debug] (userorderService.reg) null
+2022-03-02 15:31:57.455[debug] (userService.reg) {"id":18,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302172628","updatedAt":"2022-03-02T06:31:57.449Z","createdAt":"2022-03-02T06:31:57.449Z","deletedAt":null}
+2022-03-02 15:31:57.456[info] (userorder.reg.result2) {"id":18,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302172628","updatedAt":"2022-03-02T06:31:57.449Z","createdAt":"2022-03-02T06:31:57.449Z","deletedAt":null}
+2022-03-02 15:31:58.060[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:58.062[info] (makeOrderNum.RandomNum) 1, 5, 5
+2022-03-02 15:31:58.063[info] (makeOrderNum.RandomNum) 2, 8, 85
+2022-03-02 15:31:58.064[info] (makeOrderNum.RandomNum) 3, 1, 185
+2022-03-02 15:31:58.065[info] (makeOrderNum.RandomNum) 4, 7, 7185
+2022-03-02 15:31:58.066[info] (makeOrderNum.RandomNum) 5, 2, 27185
+2022-03-02 15:31:58.067[info] (makeOrderNum.RandomNum) 6, 5, 527185
+2022-03-02 15:31:58.068[info] (makeOrderNum.orderNum) 220302527185
+2022-03-02 15:31:58.069[debug] (userorderService.reg) null
+2022-03-02 15:31:58.076[debug] (userService.reg) {"id":19,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302527185","updatedAt":"2022-03-02T06:31:58.070Z","createdAt":"2022-03-02T06:31:58.070Z","deletedAt":null}
+2022-03-02 15:31:58.078[info] (userorder.reg.result2) {"id":19,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302527185","updatedAt":"2022-03-02T06:31:58.070Z","createdAt":"2022-03-02T06:31:58.070Z","deletedAt":null}
+2022-03-02 15:31:58.705[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 15:31:58.706[info] (makeOrderNum.RandomNum) 1, 6, 6
+2022-03-02 15:31:58.707[info] (makeOrderNum.RandomNum) 2, 8, 86
+2022-03-02 15:31:58.707[info] (makeOrderNum.RandomNum) 3, 0, 86
+2022-03-02 15:31:58.708[info] (makeOrderNum.RandomNum) 4, 3, 3086
+2022-03-02 15:31:58.709[info] (makeOrderNum.RandomNum) 5, 9, 93086
+2022-03-02 15:31:58.710[info] (makeOrderNum.RandomNum) 6, 1, 193086
+2022-03-02 15:31:58.710[info] (makeOrderNum.orderNum) 220302193086
+2022-03-02 15:31:58.712[debug] (userorderService.reg) null
+2022-03-02 15:31:58.715[debug] (userService.reg) {"id":20,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302193086","updatedAt":"2022-03-02T06:31:58.712Z","createdAt":"2022-03-02T06:31:58.712Z","deletedAt":null}
+2022-03-02 15:31:58.716[info] (userorder.reg.result2) {"id":20,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":"220302193086","updatedAt":"2022-03-02T06:31:58.712Z","createdAt":"2022-03-02T06:31:58.712Z","deletedAt":null}
+2022-03-02 15:46:56.012[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 15:46:56.090[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 15:46:56.093[debug] (userService.checkPassword) true
+2022-03-02 15:46:56.094[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 15:46:56.097[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDM2MTYsImV4cCI6MTY0NjIxMDgxNn0._K2DsNbMQAz6xpLOZRlERENKUwqMYyrjxP_MbSwB29A"
+2022-03-02 15:52:50.279[info] (auth.token.params) {"userId":"123","userPassword":"1"}
+2022-03-02 15:52:50.353[info] (userService.login) {"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null}
+2022-03-02 15:52:50.356[debug] (userService.checkPassword) false
+2022-03-02 15:52:50.357[error] Error: Incorect userId or userPassword
+2022-03-02 15:52:56.583[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 15:52:56.591[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 15:52:56.594[debug] (userService.checkPassword) true
+2022-03-02 15:52:56.595[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 15:52:56.597[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDM5NzYsImV4cCI6MTY0NjIxMTE3Nn0.ixA2AoBkXxzlstoOfdnQ6ZdLuf_p68SRTldWbWsOiEI"
+2022-03-02 16:01:01.013[info] (product.list.params) {}
+2022-03-02 16:01:01.182[debug] (productService.list) {"count":0,"rows":[]}
+2022-03-02 16:01:01.184[info] (product.list.result) {"count":0,"rows":[]}
+2022-03-02 16:01:30.779[info] (product.list.params) {}
+2022-03-02 16:01:30.904[debug] (productService.list) {"count":0,"rows":[]}
+2022-03-02 16:01:30.905[info] (product.list.result) {"count":0,"rows":[]}
+2022-03-02 16:01:31.038[info] (user.reg.params1) {"userId":"123","userPassword":"123","userName":"테스트1","userPhone":"테스트1","userEmail":"테스트1","userNickname":"테스트1","userProfile":null,"emailCheck":"y","userGender":1,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:01:31.042[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) BZbb1mF/cHU6BCSz4dxgO/+tQR+QzcsZH74a0RnHYW5LZGeRrvC15qTrc85xa5fqVQXs7IuB1J1+aiP8azFyPw==.6c239c5df13122c36922b8eba9bc3790ba86bd34739725e4f1a30037c63ab92d5dc1d21323b7c47f283f4c9d7c3753212c381487817e2d16f6629cd42d1ca5dd
+2022-03-02 16:01:31.044[debug] (userService.makePasswordHash) "BZbb1mF/cHU6BCSz4dxgO/+tQR+QzcsZH74a0RnHYW5LZGeRrvC15qTrc85xa5fqVQXs7IuB1J1+aiP8azFyPw==.6c239c5df13122c36922b8eba9bc3790ba86bd34739725e4f1a30037c63ab92d5dc1d21323b7c47f283f4c9d7c3753212c381487817e2d16f6629cd42d1ca5dd"
+2022-03-02 16:01:31.052[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_user_id_key" 고유 제약 조건을 위반함
+2022-03-02 16:02:05.163[info] (product.list.params) {}
+2022-03-02 16:02:05.317[debug] (productService.list) {"count":0,"rows":[]}
+2022-03-02 16:02:05.322[info] (product.list.result) {"count":0,"rows":[]}
+2022-03-02 16:02:20.515[info] (user.list.params) {}
+2022-03-02 16:02:20.598[debug] (userService.list) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 16:02:20.602[info] (user.list.result) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 16:02:45.519[info] (product.list.params) {}
+2022-03-02 16:02:45.630[debug] (productService.list) {"count":0,"rows":[]}
+2022-03-02 16:02:45.631[info] (product.list.result) {"count":0,"rows":[]}
+2022-03-02 16:02:45.778[info] (user.reg.params1) {"userId":"123","userPassword":"1","userName":"테스트1","userPhone":"1","userEmail":"1","userNickname":"테스트1","userProfile":null,"emailCheck":"y","userGender":1,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:02:45.782[info] (./lib/hashUtil/makePasswordHash<encryptedPassword>) i03Ag60P09DIFP3SVnMbIVYBR5BWGP2eVPHYFdtLT5veXi7NrHJTaxVtyLbnaNls0G3TfcRvvmqnicwPLLdWeQ==.10851e37bc41ebb7df0c6817067e7092d0a87d3d5e9b9332ade221044ca2368ad3826219fef6bf7f33750ce24f73a6846d134f4bc4c2baf61e11f18d19328e04
+2022-03-02 16:02:45.783[debug] (userService.makePasswordHash) "i03Ag60P09DIFP3SVnMbIVYBR5BWGP2eVPHYFdtLT5veXi7NrHJTaxVtyLbnaNls0G3TfcRvvmqnicwPLLdWeQ==.10851e37bc41ebb7df0c6817067e7092d0a87d3d5e9b9332ade221044ca2368ad3826219fef6bf7f33750ce24f73a6846d134f4bc4c2baf61e11f18d19328e04"
+2022-03-02 16:02:45.791[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_user_id_key" 고유 제약 조건을 위반함
+2022-03-02 16:12:49.877[info] (auth.token.params) {"userId":"yechan","userPassword":"1"}
+2022-03-02 16:12:49.936[info] (userService.login) null
+2022-03-02 16:12:49.937[error] Error: Incorect userId or userPassword
+2022-03-02 16:12:58.980[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:12:58.985[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:12:58.992[debug] (userService.checkPassword) true
+2022-03-02 16:12:58.993[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:12:58.995[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDUxNzgsImV4cCI6MTY0NjIxMjM3OH0.zWkCgXw0CH_RniIgG0d_-EjBKqC1yriBT5uAxYdy2OI"
+2022-03-02 16:17:24.213[info] DB connection success
+2022-03-02 16:17:24.292[info] Sequelize sync success
+2022-03-02 16:17:46.301[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:17:46.389[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:17:46.393[debug] (userService.checkPassword) true
+2022-03-02 16:17:46.394[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:17:46.399[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU0NjYsImV4cCI6MTY0NjIxMjY2Nn0.aohllrzkKs8YtwpvxmkF0_K8PPDXfiJNdkRplgMnU_w"
+2022-03-02 16:18:10.432[info] DB connection success
+2022-03-02 16:18:10.519[info] Sequelize sync success
+2022-03-02 16:18:13.138[info] DB connection success
+2022-03-02 16:18:13.208[info] Sequelize sync success
+2022-03-02 16:18:15.992[info] DB connection success
+2022-03-02 16:18:16.069[info] Sequelize sync success
+2022-03-02 16:20:15.819[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:20:16.016[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:20:16.020[debug] (userService.checkPassword) true
+2022-03-02 16:20:16.021[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:20:16.025[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU2MTYsImV4cCI6MTY0NjIxMjgxNn0.AHw39W0vrufmAoDz0EGdnyO8R-HxxOU2palXc_ySGFs"
+2022-03-02 16:20:47.311[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:20:47.393[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:20:47.397[debug] (userService.checkPassword) true
+2022-03-02 16:20:47.398[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:20:47.401[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU2NDcsImV4cCI6MTY0NjIxMjg0N30.wo2lW3mmwxvDn5-2I0XGIAYf6rfAjdJ4aSRJwwiMWZQ"
+2022-03-02 16:21:15.011[info] DB connection success
+2022-03-02 16:21:15.082[info] Sequelize sync success
+2022-03-02 16:21:17.527[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:21:17.537[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:21:17.541[debug] (userService.checkPassword) true
+2022-03-02 16:21:17.543[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:21:17.546[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU2NzcsImV4cCI6MTY0NjIxMjg3N30.eLJbTYZARw7p1FYEGQZbQ19btyiMjCYNXnOu5KimOYo"
+2022-03-02 16:22:11.308[info] DB connection success
+2022-03-02 16:22:11.400[info] Sequelize sync success
+2022-03-02 16:22:12.110[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:22:12.122[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:12.127[debug] (userService.checkPassword) true
+2022-03-02 16:22:12.128[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:12.132[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU3MzIsImV4cCI6MTY0NjIxMjkzMn0.wPq5vLtGoBAIfyF4B13n32hhMPK5W8CHwm0YEjXT9ao"
+2022-03-02 16:22:32.978[info] DB connection success
+2022-03-02 16:22:33.065[info] Sequelize sync success
+2022-03-02 16:22:33.129[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:22:33.146[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:33.150[debug] (userService.checkPassword) true
+2022-03-02 16:22:33.151[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:33.156[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU3NTMsImV4cCI6MTY0NjIxMjk1M30.uNk9TVCmC14mQ6YNI54Zg7klMglTUbYxyHvP5Gd1LxI"
+2022-03-02 16:22:45.676[info] DB connection success
+2022-03-02 16:22:45.821[info] Sequelize sync success
+2022-03-02 16:22:46.042[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:22:46.056[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:46.061[debug] (userService.checkPassword) true
+2022-03-02 16:22:46.063[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:22:46.067[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDU3NjYsImV4cCI6MTY0NjIxMjk2Nn0.2IFSSUt4zi4C_AbziOewQnhaXCOPXTn3WtD6L4b-35U"
+2022-03-02 16:25:11.964[info] DB connection success
+2022-03-02 16:25:12.029[info] Sequelize sync success
+2022-03-02 16:26:44.217[info] DB connection success
+2022-03-02 16:26:44.283[info] Sequelize sync success
+2022-03-02 16:26:54.942[info] DB connection success
+2022-03-02 16:26:55.002[info] Sequelize sync success
+2022-03-02 16:27:01.096[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:27:01.110[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:27:01.115[debug] (userService.checkPassword) true
+2022-03-02 16:27:01.117[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:27:01.121[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDYwMjEsImV4cCI6MTY0NjIxMzIyMX0.CeHWTjU1XTF1U0BE7rejjcCh6hnuZSymd-zUyUjcAao"
+2022-03-02 16:27:31.744[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:27:31.928[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:27:31.932[debug] (userService.checkPassword) true
+2022-03-02 16:27:31.933[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:27:31.935[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDYwNTEsImV4cCI6MTY0NjIxMzI1MX0.sJyn1eBJVAFGD7fo_rd1msDRWtB3XUBj6jViYGTAQrQ"
+2022-03-02 16:29:32.820[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:29:32.884[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:29:32.887[debug] (userService.checkPassword) true
+2022-03-02 16:29:32.888[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userRole":1,"userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:29:32.890[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYyMDYxNzIsImV4cCI6MTY0NjIxMzM3Mn0.dttB7jG2zZPZcC-u3czpJkIOVWbflEV9VYLHw9vkL6Q"
+2022-03-02 16:31:18.025[info] DB connection success
+2022-03-02 16:31:18.115[info] Sequelize sync success
+2022-03-02 16:31:30.921[info] DB connection success
+2022-03-02 16:31:30.994[info] Sequelize sync success
+2022-03-02 16:32:08.004[info] DB connection success
+2022-03-02 16:32:08.094[info] Sequelize sync success
+2022-03-02 16:34:06.224[info] DB connection success
+2022-03-02 16:34:06.289[info] Sequelize sync success
+2022-03-02 16:34:18.147[info] DB connection success
+2022-03-02 16:34:18.215[info] Sequelize sync success
+2022-03-02 16:34:32.271[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:34:32.367[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:34:32.371[debug] (userService.checkPassword) true
+2022-03-02 16:34:32.372[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:34:32.375[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJQYXNzd29yZCI6IjNjdmwvek5xdENKQ1ZhYjdZNDdXeG1reHFJU3VqZnBkeExhVzVkanVGVVgvaDh6M0RoSFNDa1NoYmVHUzhVOVpiNW5SRHNVRWdodWlVQzZ3WWRxTGhRPT0uNzZlNzY1MjJmZjY5ZTdkNzI3ZTYxYWY5M2U0MjZjYjRiMzNlNzEyYWE2N2MwMjVhNmU2NzdhOTJkOWUxYjg2ZjUwMGM1MjZkZmFlNTk5ZWQxMWZmNTFhZDg2NjdhMGIzMjY0ZDkxYWUyMGY2MTkxNWMwYWVmOTlmNzlkNTRkZDAiLCJ1c2VyTmFtZSI6IuyYiOywrDEiLCJ1c2VyUGhvbmUiOiIwMTAiLCJ1c2VyRW1haWwiOiLsnbTrqZTsnbwxIiwidXNlck5pY2tuYW1lIjoi64uJ64Sk7J6EMSIsInVzZXJQcm9maWxlIjoi7ZSE66Gc7ZWE7J2066-47KeAIiwiZW1haWxDaGVjayI6InkiLCJ1c2VyR2VuZGVyIjoxLCJ1c2VyUm9sZSI6MSwidXNlckdyYWRlIjoi7Iuk67KEIiwidXNlckFkZHJlc3MxIjpudWxsLCJ1c2VyQWRkcmVzczIiOm51bGwsInVzZXJBZGRyZXNzMyI6bnVsbCwiaWF0IjoxNjQ2MjA2NDcyLCJleHAiOjE2NDYyMTM2NzJ9.kD0lG5G-y_TXfxp57h37pm7E-ta0QTtPeySEpjldPrQ"
+2022-03-02 16:35:12.822[info] DB connection success
+2022-03-02 16:35:12.910[info] Sequelize sync success
+2022-03-02 16:35:23.585[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:35:23.595[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:35:23.599[debug] (userService.checkPassword) true
+2022-03-02 16:35:23.600[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 16:35:23.603[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJQYXNzd29yZCI6IjNjdmwvek5xdENKQ1ZhYjdZNDdXeG1reHFJU3VqZnBkeExhVzVkanVGVVgvaDh6M0RoSFNDa1NoYmVHUzhVOVpiNW5SRHNVRWdodWlVQzZ3WWRxTGhRPT0uNzZlNzY1MjJmZjY5ZTdkNzI3ZTYxYWY5M2U0MjZjYjRiMzNlNzEyYWE2N2MwMjVhNmU2NzdhOTJkOWUxYjg2ZjUwMGM1MjZkZmFlNTk5ZWQxMWZmNTFhZDg2NjdhMGIzMjY0ZDkxYWUyMGY2MTkxNWMwYWVmOTlmNzlkNTRkZDAiLCJ1c2VyTmFtZSI6IuyYiOywrDEiLCJ1c2VyUGhvbmUiOiIwMTAiLCJ1c2VyRW1haWwiOiLsnbTrqZTsnbwxIiwidXNlck5pY2tuYW1lIjoi64uJ64Sk7J6EMSIsInVzZXJQcm9maWxlIjoi7ZSE66Gc7ZWE7J2066-47KeAIiwiZW1haWxDaGVjayI6InkiLCJ1c2VyR2VuZGVyIjoxLCJ1c2VyUm9sZSI6MSwidXNlckdyYWRlIjoi7Iuk67KEIiwidXNlckFkZHJlc3MxIjpudWxsLCJ1c2VyQWRkcmVzczIiOm51bGwsInVzZXJBZGRyZXNzMyI6bnVsbCwiaWF0IjoxNjQ2MjA2NTIzLCJleHAiOjE2NDYyMTM3MjN9.LgE0tYVkVmzdUyxGtc3UeFwj7RhiRwwpumlDO_kOJ9E"
+2022-03-02 16:35:51.075[info] DB connection success
+2022-03-02 16:35:51.157[info] Sequelize sync success
+2022-03-02 16:36:01.294[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 16:36:01.482[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:36:01.486[debug] (userService.checkPassword) true
+2022-03-02 16:36:01.487[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 16:36:01.490[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJQYXNzd29yZCI6IjNjdmwvek5xdENKQ1ZhYjdZNDdXeG1reHFJU3VqZnBkeExhVzVkanVGVVgvaDh6M0RoSFNDa1NoYmVHUzhVOVpiNW5SRHNVRWdodWlVQzZ3WWRxTGhRPT0uNzZlNzY1MjJmZjY5ZTdkNzI3ZTYxYWY5M2U0MjZjYjRiMzNlNzEyYWE2N2MwMjVhNmU2NzdhOTJkOWUxYjg2ZjUwMGM1MjZkZmFlNTk5ZWQxMWZmNTFhZDg2NjdhMGIzMjY0ZDkxYWUyMGY2MTkxNWMwYWVmOTlmNzlkNTRkZDAiLCJ1c2VyTmFtZSI6IuyYiOywrDEiLCJ1c2VyUGhvbmUiOiIwMTAiLCJ1c2VyRW1haWwiOiLsnbTrqZTsnbwxIiwidXNlck5pY2tuYW1lIjoi64uJ64Sk7J6EMSIsInVzZXJQcm9maWxlIjoi7ZSE66Gc7ZWE7J2066-47KeAIiwiZW1haWxDaGVjayI6InkiLCJ1c2VyR2VuZGVyIjoxLCJ1c2VyUm9sZSI6MSwidXNlckdyYWRlIjoi7Iuk67KEIiwidXNlckFkZHJlc3MxIjpudWxsLCJ1c2VyQWRkcmVzczIiOm51bGwsInVzZXJBZGRyZXNzMyI6bnVsbCwiaWF0IjoxNjQ2MjA2NTYxLCJleHAiOjE2NDYyMTM3NjF9.WwHT2YSCgFBgicb1ED_kOBHVht9_W16A-bDd3-Yx4W4"
