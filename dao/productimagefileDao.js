@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { Product, ProductImageFile } = require('../models/index');
+const { ProductImageFile } = require('../models/index');
 
 const dao = {
   // 등록
@@ -16,10 +16,10 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.originalname) {
+    if (params.filename) {
       setQuery.where = {
         ...setQuery.where,
-        originalname: { [Op.like]: `%${params.originalname}%` }, // like검색
+        filename: { [Op.like]: `%${params.filename}%` }, // like검색
       };
     }
 
@@ -29,13 +29,6 @@ const dao = {
     return new Promise((resolve, reject) => {
       ProductImageFile.findAndCountAll({
         ...setQuery,
-        attributes: { exclude: ['password'] }, // password 필드 제외
-        include: [
-          {
-            model: Product,
-            as: 'Product',
-          },
-        ],
       }).then((selectedList) => {
         resolve(selectedList);
       }).catch((err) => {

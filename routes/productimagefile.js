@@ -37,7 +37,7 @@ router.post('/', upload.single('imgFile'), async (req, res) => {
 
     // 입력값 null 체크
     if (!params.filename) {
-      const err = new Error('Not allowed null (originalname)');
+      const err = new Error('Not allowed null (productNumber)');
       logger.error(err.toString());
 
       res.status(500).json({ err: err.toString() });
@@ -59,16 +59,17 @@ router.post('/', upload.single('imgFile'), async (req, res) => {
 router.get('/show', async (req, res) => {
   try {
     const params = {
-      filename: req.file.filename,
-      mimetype: req.file.mimetype,
-      path: req.file.path,
-      size: req.file.size,
+      productNumber: req.body.productNumber,
+      filename: req.body.filename,
+      mimetype: req.body.mimetype,
+      path: req.body.path,
+      size: req.body.size,
 
     };
-    logger.info(`(originalname.list.params) ${JSON.stringify(params)}`);
+    logger.info(`(filename.list.params) ${JSON.stringify(params)}`);
 
     const result = await productimagefileService.list(params);
-    logger.info(`(originalname.list.result) ${JSON.stringify(result)}`);
+    logger.info(`(filename.list.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);
@@ -83,10 +84,10 @@ router.get('/:id', async (req, res) => {
     const params = {
       id: req.params.id,
     };
-    logger.info(`(originalname.info.params) ${JSON.stringify(params)}`);
+    logger.info(`(filename.info.params) ${JSON.stringify(params)}`);
 
     const result = await productimagefileService.info(params);
-    logger.info(`(originalname.info.result) ${JSON.stringify(result)}`);
+    logger.info(`(filename.info.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);

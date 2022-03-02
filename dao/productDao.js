@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { ProductCategory, Product } = require('../models/index');
+const { Product } = require('../models/index');
 
 const dao = {
   // 등록
@@ -29,13 +29,6 @@ const dao = {
     return new Promise((resolve, reject) => {
       Product.findAndCountAll({
         ...setQuery,
-        attributes: { exclude: ['password'] }, // password 필드 제외
-        include: [
-          {
-            model: ProductCategory,
-            as: 'ProductCategory',
-          },
-        ],
       }).then((selectedList) => {
         resolve(selectedList);
       }).catch((err) => {
