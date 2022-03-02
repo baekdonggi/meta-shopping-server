@@ -1,0 +1,673 @@
+2022-03-02 09:08:06.932[info] DB connection success
+2022-03-02 09:08:07.000[info] Sequelize sync success
+2022-03-02 09:08:57.296[info] DB connection success
+2022-03-02 09:08:57.428[info] Sequelize sync success
+2022-03-02 09:10:03.958[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646179803951.jpg","size":56813}
+2022-03-02 09:10:28.620[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:10:28.710[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:10:28.625Z","createdAt":"2022-03-02T00:10:28.625Z","deletedAt":null,"productId":null}
+2022-03-02 09:10:28.714[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:10:28.625Z","createdAt":"2022-03-02T00:10:28.625Z","deletedAt":null,"productId":null}
+2022-03-02 09:11:58.844[info] DB connection success
+2022-03-02 09:11:58.908[info] Sequelize sync success
+2022-03-02 09:12:02.034[info] DB connection success
+2022-03-02 09:12:02.087[info] Sequelize sync success
+2022-03-02 09:12:26.709[info] DB connection success
+2022-03-02 09:12:26.835[info] Sequelize sync success
+2022-03-02 09:13:27.403[info] DB connection success
+2022-03-02 09:13:27.461[info] Sequelize sync success
+2022-03-02 09:13:49.886[info] DB connection success
+2022-03-02 09:13:50.011[info] Sequelize sync success
+2022-03-02 09:16:00.923[info] DB connection success
+2022-03-02 09:16:01.041[info] Sequelize sync success
+2022-03-02 09:23:27.489[info] (productcategory.reg.params) {"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:23:27.579[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:23:27.493Z","createdAt":"2022-03-02T00:23:27.493Z","deletedAt":null}
+2022-03-02 09:23:27.582[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:23:27.493Z","createdAt":"2022-03-02T00:23:27.493Z","deletedAt":null}
+2022-03-02 09:23:35.005[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:23:35.021[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:23:35.008Z","createdAt":"2022-03-02T00:23:35.008Z","deletedAt":null}
+2022-03-02 09:23:35.024[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:23:35.008Z","createdAt":"2022-03-02T00:23:35.008Z","deletedAt":null}
+2022-03-02 09:23:48.086[info] (cart.reg.params) {"cartNumber":"001","productNumber":"001","cartValue":"shrit001","productCount":"5000"}
+2022-03-02 09:23:48.209[debug] (cartService.reg) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-03-02T00:23:48.112Z","createdAt":"2022-03-02T00:23:48.112Z","deletedAt":null}
+2022-03-02 09:23:48.212[info] (cart.reg.result) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-03-02T00:23:48.112Z","createdAt":"2022-03-02T00:23:48.112Z","deletedAt":null}
+2022-03-02 09:24:30.220[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:24:30.292[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 09:24:36.071[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:24:36.079[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:24:54.438[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:24:54.611[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:24:56.818[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:24:56.824[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:17.386[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:25:17.455[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:21.463[info] (productcategory.reg.params) {"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:25:21.469[error] (productcategoryService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_categories_category_code_key" 고유 제약 조건을 위반함
+2022-03-02 09:25:22.903[info] (productcategory.reg.params) {"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:25:22.908[error] (productcategoryService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_categories_category_code_key" 고유 제약 조건을 위반함
+2022-03-02 09:25:25.186[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:25:25.191[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:26.365[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:25:26.372[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:35.033[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:25:35.047[debug] (productcategoryService.reg) {"id":4,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:25:35.036Z","createdAt":"2022-03-02T00:25:35.036Z","deletedAt":null}
+2022-03-02 09:25:35.049[info] (productcategory.reg.result) {"id":4,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:25:35.036Z","createdAt":"2022-03-02T00:25:35.036Z","deletedAt":null}
+2022-03-02 09:25:38.104[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:25:38.110[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:40.342[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:25:40.347[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:25:48.968[info] (product.list.params) {}
+2022-03-02 09:25:48.973[error] (productService.list) SequelizeEagerLoadingError: ProductCategory is associated to Product using an alias. You've included an alias (ProductCategory), but it does not match the alias(es) defined in your association (ProductCategorys).
+2022-03-02 09:25:51.562[info] (product.list.params) {}
+2022-03-02 09:25:51.565[error] (productService.list) SequelizeEagerLoadingError: ProductCategory is associated to Product using an alias. You've included an alias (ProductCategory), but it does not match the alias(es) defined in your association (ProductCategorys).
+2022-03-02 09:25:54.003[info] (product.list.params) {}
+2022-03-02 09:25:54.005[error] (productService.list) SequelizeEagerLoadingError: ProductCategory is associated to Product using an alias. You've included an alias (ProductCategory), but it does not match the alias(es) defined in your association (ProductCategorys).
+2022-03-02 09:26:14.900[info] (productcategory.list.params) {}
+2022-03-02 09:26:15.000[debug] (productcategoryService.list) {"count":2,"rows":[{"id":4,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","createdAt":"2022-03-02T00:25:35.036Z","updatedAt":"2022-03-02T00:25:35.036Z","deletedAt":null},{"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","createdAt":"2022-03-02T00:23:27.493Z","updatedAt":"2022-03-02T00:23:27.493Z","deletedAt":null}]}
+2022-03-02 09:26:15.002[info] (productcategory.list.result) {"count":2,"rows":[{"id":4,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","createdAt":"2022-03-02T00:25:35.036Z","updatedAt":"2022-03-02T00:25:35.036Z","deletedAt":null},{"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","createdAt":"2022-03-02T00:23:27.493Z","updatedAt":"2022-03-02T00:23:27.493Z","deletedAt":null}]}
+2022-03-02 09:26:21.141[info] (product.list.params) {}
+2022-03-02 09:26:21.144[error] (productService.list) SequelizeEagerLoadingError: ProductCategory is associated to Product using an alias. You've included an alias (ProductCategory), but it does not match the alias(es) defined in your association (ProductCategorys).
+2022-03-02 09:26:26.368[info] (product.list.params) {}
+2022-03-02 09:26:26.371[error] (productService.list) SequelizeEagerLoadingError: ProductCategory is associated to Product using an alias. You've included an alias (ProductCategory), but it does not match the alias(es) defined in your association (ProductCategorys).
+2022-03-02 09:27:08.321[info] DB connection success
+2022-03-02 09:27:08.391[info] Sequelize sync success
+2022-03-02 09:27:16.729[info] DB connection success
+2022-03-02 09:27:16.788[info] Sequelize sync success
+2022-03-02 09:28:04.763[info] DB connection success
+2022-03-02 09:28:04.808[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:28:54.396[info] DB connection success
+2022-03-02 09:28:54.433[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:29:00.719[info] DB connection success
+2022-03-02 09:29:00.759[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:29:55.476[info] DB connection success
+2022-03-02 09:29:55.519[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:30:03.175[info] DB connection success
+2022-03-02 09:30:03.216[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:30:14.699[info] DB connection success
+2022-03-02 09:30:14.745[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:31:41.008[info] DB connection success
+2022-03-02 09:31:41.046[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:31:43.893[info] DB connection success
+2022-03-02 09:31:43.934[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:31:47.203[info] DB connection success
+2022-03-02 09:31:47.328[info] Sequelize sync success
+2022-03-02 09:31:48.936[info] DB connection success
+2022-03-02 09:31:49.012[info] Sequelize sync success
+2022-03-02 09:32:18.816[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:32:19.026[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:18.820Z","createdAt":"2022-03-02T00:32:18.820Z","deletedAt":null}
+2022-03-02 09:32:19.028[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-1","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:18.820Z","createdAt":"2022-03-02T00:32:18.820Z","deletedAt":null}
+2022-03-02 09:32:23.473[info] (productcategory.reg.params) {"categoryCode":"T-2","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:32:23.484[debug] (productcategoryService.reg) {"id":2,"categoryCode":"T-2","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:23.474Z","createdAt":"2022-03-02T00:32:23.474Z","deletedAt":null}
+2022-03-02 09:32:23.486[info] (productcategory.reg.result) {"id":2,"categoryCode":"T-2","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:23.474Z","createdAt":"2022-03-02T00:32:23.474Z","deletedAt":null}
+2022-03-02 09:32:29.273[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:32:29.287[debug] (productcategoryService.reg) {"id":3,"categoryCode":"T-3","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:29.276Z","createdAt":"2022-03-02T00:32:29.276Z","deletedAt":null}
+2022-03-02 09:32:29.288[info] (productcategory.reg.result) {"id":3,"categoryCode":"T-3","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:32:29.276Z","createdAt":"2022-03-02T00:32:29.276Z","deletedAt":null}
+2022-03-02 09:32:35.630[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:35.647[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:35.634Z","createdAt":"2022-03-02T00:32:35.634Z","deletedAt":null}
+2022-03-02 09:32:35.649[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:35.634Z","createdAt":"2022-03-02T00:32:35.634Z","deletedAt":null}
+2022-03-02 09:32:39.790[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:39.802[debug] (productService.reg) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:39.792Z","createdAt":"2022-03-02T00:32:39.792Z","deletedAt":null}
+2022-03-02 09:32:39.805[info] (product.reg.result) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:39.792Z","createdAt":"2022-03-02T00:32:39.792Z","deletedAt":null}
+2022-03-02 09:32:43.692[info] (product.reg.params) {"productNumber":"003","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:43.698[debug] (productService.reg) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:43.694Z","createdAt":"2022-03-02T00:32:43.694Z","deletedAt":null}
+2022-03-02 09:32:43.699[info] (product.reg.result) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:32:43.694Z","createdAt":"2022-03-02T00:32:43.694Z","deletedAt":null}
+2022-03-02 09:32:49.258[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:49.268[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 09:32:52.618[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:52.624[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:32:56.453[info] (product.reg.params) {"productNumber":"005","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:56.458[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:32:59.684[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:32:59.690[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:33:12.285[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:33:12.363[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:33:13.367[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:33:13.373[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:33:16.192[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:33:16.199[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:33:16.998[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:33:17.004[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:33:29.740[info] (cart.reg.params) {"cartNumber":"001","productNumber":"001","cartValue":"shrit001","productCount":"5000"}
+2022-03-02 09:33:29.820[debug] (cartService.reg) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-03-02T00:33:29.742Z","createdAt":"2022-03-02T00:33:29.742Z","deletedAt":null}
+2022-03-02 09:33:29.822[info] (cart.reg.result) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-03-02T00:33:29.742Z","createdAt":"2022-03-02T00:33:29.742Z","deletedAt":null}
+2022-03-02 09:33:36.267[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:33:36.273[error] (productcategoryService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_categories_category_code_key" 고유 제약 조건을 위반함
+2022-03-02 09:33:41.395[info] (productcategory.reg.params) {"categoryCode":"T-4","categoryName":"shrit001","categoryRefCode":"10"}
+2022-03-02 09:33:41.402[debug] (productcategoryService.reg) {"id":5,"categoryCode":"T-4","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:33:41.396Z","createdAt":"2022-03-02T00:33:41.396Z","deletedAt":null}
+2022-03-02 09:33:41.404[info] (productcategory.reg.result) {"id":5,"categoryCode":"T-4","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-03-02T00:33:41.396Z","createdAt":"2022-03-02T00:33:41.396Z","deletedAt":null}
+2022-03-02 09:34:17.874[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:34:17.949[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:34:19.681[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:34:19.688[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:34:20.317[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:34:20.323[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:34:35.784[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:34:35.857[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:35:46.847[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:35:46.912[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:45:23.409[info] DB connection success
+2022-03-02 09:45:23.456[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:45:37.791[info] DB connection success
+2022-03-02 09:45:37.824[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:47:05.513[info] DB connection success
+2022-03-02 09:47:05.548[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:50:01.983[info] DB connection success
+2022-03-02 09:50:02.023[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:53:01.559[info] DB connection success
+2022-03-02 09:53:01.601[error] Sequelize sync error "products_category_code_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-02 09:53:05.441[info] DB connection success
+2022-03-02 09:53:05.594[info] Sequelize sync success
+2022-03-02 09:53:13.150[info] DB connection success
+2022-03-02 09:53:13.222[info] Sequelize sync success
+2022-03-02 09:53:16.784[info] DB connection success
+2022-03-02 09:53:16.864[info] Sequelize sync success
+2022-03-02 09:53:27.059[info] DB connection success
+2022-03-02 09:53:27.123[info] Sequelize sync success
+2022-03-02 09:53:45.551[info] DB connection success
+2022-03-02 09:53:45.705[info] Sequelize sync success
+2022-03-02 09:54:32.189[info] (productcategory.list.params) {"categoryCode":"001","categoryName":"T-shrit","categoryRefCode":"10"}
+2022-03-02 09:54:32.298[debug] (productcategoryService.list) {"count":0,"rows":[]}
+2022-03-02 09:54:32.299[info] (productcategory.list.result) {"count":0,"rows":[]}
+2022-03-02 09:54:44.674[info] (productcategory.list.params) {"categoryCode":"001","categoryName":"T-shrit","categoryRefCode":"10"}
+2022-03-02 09:54:44.784[debug] (productcategoryService.list) {"count":0,"rows":[]}
+2022-03-02 09:54:44.785[info] (productcategory.list.result) {"count":0,"rows":[]}
+2022-03-02 09:55:07.766[info] (productcategory.reg.params) {"categoryCode":"001","categoryName":"T-shrit","categoryRefCode":"10"}
+2022-03-02 09:55:07.843[debug] (productcategoryService.reg) {"id":1,"categoryCode":"001","categoryName":"T-shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:07.769Z","createdAt":"2022-03-02T00:55:07.769Z","deletedAt":null}
+2022-03-02 09:55:07.846[info] (productcategory.reg.result) {"id":1,"categoryCode":"001","categoryName":"T-shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:07.769Z","createdAt":"2022-03-02T00:55:07.769Z","deletedAt":null}
+2022-03-02 09:55:15.005[info] (productcategory.reg.params) {"categoryCode":"001","categoryName":"T-2","categoryRefCode":"10"}
+2022-03-02 09:55:15.010[error] (productcategoryService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_categories_category_code_key" 고유 제약 조건을 위반함
+2022-03-02 09:55:18.286[info] (productcategory.reg.params) {"categoryCode":"002","categoryName":"T-2","categoryRefCode":"10"}
+2022-03-02 09:55:18.298[debug] (productcategoryService.reg) {"id":3,"categoryCode":"002","categoryName":"T-2","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:18.289Z","createdAt":"2022-03-02T00:55:18.289Z","deletedAt":null}
+2022-03-02 09:55:18.300[info] (productcategory.reg.result) {"id":3,"categoryCode":"002","categoryName":"T-2","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:18.289Z","createdAt":"2022-03-02T00:55:18.289Z","deletedAt":null}
+2022-03-02 09:55:22.480[info] (productcategory.reg.params) {"categoryCode":"003","categoryName":"T-3","categoryRefCode":"10"}
+2022-03-02 09:55:22.491[debug] (productcategoryService.reg) {"id":4,"categoryCode":"003","categoryName":"T-3","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:22.482Z","createdAt":"2022-03-02T00:55:22.482Z","deletedAt":null}
+2022-03-02 09:55:22.493[info] (productcategory.reg.result) {"id":4,"categoryCode":"003","categoryName":"T-3","categoryRefCode":"10","updatedAt":"2022-03-02T00:55:22.482Z","createdAt":"2022-03-02T00:55:22.482Z","deletedAt":null}
+2022-03-02 09:55:29.935[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:55:29.951[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_category_code_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:55:39.670[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:55:39.679[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_category_code_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:56:25.652[info] DB connection success
+2022-03-02 09:56:25.720[info] Sequelize sync success
+2022-03-02 09:57:29.661[info] DB connection success
+2022-03-02 09:57:29.783[info] Sequelize sync success
+2022-03-02 09:58:03.261[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 09:58:03.350[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:03.264Z","createdAt":"2022-03-02T00:58:03.264Z","deletedAt":null}
+2022-03-02 09:58:03.354[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:03.264Z","createdAt":"2022-03-02T00:58:03.264Z","deletedAt":null}
+2022-03-02 09:58:08.381[info] (productcategory.reg.params) {"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 09:58:08.393[debug] (productcategoryService.reg) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:08.383Z","createdAt":"2022-03-02T00:58:08.383Z","deletedAt":null}
+2022-03-02 09:58:08.395[info] (productcategory.reg.result) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:08.383Z","createdAt":"2022-03-02T00:58:08.383Z","deletedAt":null}
+2022-03-02 09:58:11.154[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 09:58:11.165[debug] (productcategoryService.reg) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:11.155Z","createdAt":"2022-03-02T00:58:11.155Z","deletedAt":null}
+2022-03-02 09:58:11.167[info] (productcategory.reg.result) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T00:58:11.155Z","createdAt":"2022-03-02T00:58:11.155Z","deletedAt":null}
+2022-03-02 09:58:18.814[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:58:18.828[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:18.817Z","createdAt":"2022-03-02T00:58:18.817Z","deletedAt":null}
+2022-03-02 09:58:18.831[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:18.817Z","createdAt":"2022-03-02T00:58:18.817Z","deletedAt":null}
+2022-03-02 09:58:21.634[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:58:21.641[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 09:58:25.840[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:58:25.854[debug] (productService.reg) {"id":3,"productNumber":2,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:25.844Z","createdAt":"2022-03-02T00:58:25.844Z","deletedAt":null}
+2022-03-02 09:58:25.855[info] (product.reg.result) {"id":3,"productNumber":2,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:25.844Z","createdAt":"2022-03-02T00:58:25.844Z","deletedAt":null}
+2022-03-02 09:58:29.707[info] (product.reg.params) {"productNumber":"003","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 09:58:29.719[debug] (productService.reg) {"id":4,"productNumber":3,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:29.709Z","createdAt":"2022-03-02T00:58:29.709Z","deletedAt":null}
+2022-03-02 09:58:29.721[info] (product.reg.result) {"id":4,"productNumber":3,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T00:58:29.709Z","createdAt":"2022-03-02T00:58:29.709Z","deletedAt":null}
+2022-03-02 09:59:43.152[info] (cart.list.params) {"cartNumber":"11"}
+2022-03-02 09:59:43.272[error] (cartService.list) SequelizeDatabaseError: 연산자 없음: integer ~~ unknown
+2022-03-02 09:59:58.218[info] (cart.list.params) {"cartNumber":"1"}
+2022-03-02 09:59:58.316[error] (cartService.list) SequelizeDatabaseError: 연산자 없음: integer ~~ unknown
+2022-03-02 10:00:09.218[info] (cart.reg.params) {"cartNumber":"1","productNumber":"002","cartValue":"10","productCount":"10"}
+2022-03-02 10:00:09.294[debug] (cartService.reg) {"id":1,"cartNumber":1,"productNumber":2,"cartValue":"10","productCount":10,"updatedAt":"2022-03-02T01:00:09.220Z","createdAt":"2022-03-02T01:00:09.220Z","deletedAt":null}
+2022-03-02 10:00:09.296[info] (cart.reg.result) {"id":1,"cartNumber":1,"productNumber":2,"cartValue":"10","productCount":10,"updatedAt":"2022-03-02T01:00:09.220Z","createdAt":"2022-03-02T01:00:09.220Z","deletedAt":null}
+2022-03-02 10:00:12.682[info] (cart.reg.params) {"cartNumber":"1","productNumber":"002","cartValue":"10","productCount":"10"}
+2022-03-02 10:00:12.688[error] (cartService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "carts_cart_number_key" 고유 제약 조건을 위반함
+2022-03-02 10:00:20.128[info] (cart.reg.params) {"cartNumber":"2","productNumber":"002","cartValue":"10","productCount":"10"}
+2022-03-02 10:00:20.134[debug] (cartService.reg) {"id":3,"cartNumber":2,"productNumber":2,"cartValue":"10","productCount":10,"updatedAt":"2022-03-02T01:00:20.130Z","createdAt":"2022-03-02T01:00:20.130Z","deletedAt":null}
+2022-03-02 10:00:20.135[info] (cart.reg.result) {"id":3,"cartNumber":2,"productNumber":2,"cartValue":"10","productCount":10,"updatedAt":"2022-03-02T01:00:20.130Z","createdAt":"2022-03-02T01:00:20.130Z","deletedAt":null}
+2022-03-02 10:00:50.062[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646182850057.jpg","size":56813}
+2022-03-02 10:01:37.065[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:01:37.153[debug] (productService.reg) {"id":5,"productNumber":4,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:01:37.068Z","createdAt":"2022-03-02T01:01:37.068Z","deletedAt":null}
+2022-03-02 10:01:37.155[info] (product.reg.result) {"id":5,"productNumber":4,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:01:37.068Z","createdAt":"2022-03-02T01:01:37.068Z","deletedAt":null}
+2022-03-02 10:01:58.672[info] DB connection success
+2022-03-02 10:01:58.725[info] Sequelize sync success
+2022-03-02 10:02:03.176[info] DB connection success
+2022-03-02 10:02:03.232[info] Sequelize sync success
+2022-03-02 10:03:50.177[info] DB connection success
+2022-03-02 10:03:50.249[info] Sequelize sync success
+2022-03-02 10:04:25.415[info] (productimagefile.reg.params) {"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646183065401.jpg","size":847845}
+2022-03-02 10:07:38.212[info] DB connection success
+2022-03-02 10:07:38.286[info] Sequelize sync success
+2022-03-02 10:07:44.484[info] DB connection success
+2022-03-02 10:07:44.549[info] Sequelize sync success
+2022-03-02 10:08:21.145[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646183301140.jpg","size":56813}
+2022-03-02 10:08:45.659[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:08:45.669[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:10:37.982[info] DB connection success
+2022-03-02 10:10:38.044[info] Sequelize sync success
+2022-03-02 10:10:43.326[info] DB connection success
+2022-03-02 10:10:43.461[info] Sequelize sync success
+2022-03-02 10:10:45.429[info] DB connection success
+2022-03-02 10:10:45.492[info] Sequelize sync success
+2022-03-02 10:10:59.349[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:10:59.359[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:11:00.452[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:11:00.460[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:11:01.485[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:11:01.491[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:11:02.526[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:11:02.532[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:13:25.381[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:13:25.384[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:13:29.505[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:13:29.511[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:19:28.646[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646183968626.png","size":1770347}
+2022-03-02 10:20:03.658[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:20:03.662[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:22:55.261[info] DB connection success
+2022-03-02 10:22:55.326[info] Sequelize sync success
+2022-03-02 10:22:58.573[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:22:58.587[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 10:23:03.122[info] (product.reg.params) {"productNumber":"007","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:23:03.145[debug] (productService.reg) {"id":15,"productNumber":7,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:23:03.123Z","createdAt":"2022-03-02T01:23:03.123Z","deletedAt":null}
+2022-03-02 10:23:03.149[info] (product.reg.result) {"id":15,"productNumber":7,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:23:03.123Z","createdAt":"2022-03-02T01:23:03.123Z","deletedAt":null}
+2022-03-02 10:25:02.593[info] DB connection success
+2022-03-02 10:25:02.696[info] Sequelize sync success
+2022-03-02 10:25:20.520[info] (productimagefile.reg.params) {"originalname":"296bbe1775d2d.png","mimetype":"image/png","path":"upload\\296bbe1775d2d-1646184320486.png","size":3822093}
+2022-03-02 10:25:26.611[info] (product.reg.params) {"productNumber":"008","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:25:26.621[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:32:38.278[info] DB connection success
+2022-03-02 10:32:38.335[info] Sequelize sync success
+2022-03-02 10:35:45.341[info] (product.reg.params) {"productNumber":"008","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:35:45.349[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:36:10.628[info] DB connection success
+2022-03-02 10:36:10.696[info] Sequelize sync success
+2022-03-02 10:36:17.523[info] (product.reg.params) {"productNumber":"008","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:36:17.534[error] (productService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.originalname cannot be null,
+notNull Violation: ProductImageFile.mimetype cannot be null,
+notNull Violation: ProductImageFile.path cannot be null,
+notNull Violation: ProductImageFile.size cannot be null
+2022-03-02 10:37:49.276[info] DB connection success
+2022-03-02 10:37:49.327[info] Sequelize sync success
+2022-03-02 10:37:57.712[info] DB connection success
+2022-03-02 10:37:57.770[info] Sequelize sync success
+2022-03-02 10:38:10.113[info] (product.reg.params) {"productNumber":"009","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:38:10.192[debug] (productService.reg) {"id":19,"productNumber":9,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:38:10.117Z","createdAt":"2022-03-02T01:38:10.117Z","deletedAt":null}
+2022-03-02 10:38:10.194[info] (product.reg.result) {"id":19,"productNumber":9,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:38:10.117Z","createdAt":"2022-03-02T01:38:10.117Z","deletedAt":null}
+2022-03-02 10:39:50.909[info] DB connection success
+2022-03-02 10:39:50.973[info] Sequelize sync success
+2022-03-02 10:40:01.262[info] (product.reg.params) {"productNumber":"010","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:40:01.367[debug] (productService.reg) {"id":20,"productNumber":10,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:40:01.268Z","createdAt":"2022-03-02T01:40:01.268Z","deletedAt":null}
+2022-03-02 10:40:01.369[info] (product.reg.result) {"id":20,"productNumber":10,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:40:01.268Z","createdAt":"2022-03-02T01:40:01.268Z","deletedAt":null}
+2022-03-02 10:40:17.627[info] DB connection success
+2022-03-02 10:40:17.681[info] Sequelize sync success
+2022-03-02 10:40:37.062[info] DB connection success
+2022-03-02 10:40:37.128[info] Sequelize sync success
+2022-03-02 10:40:44.601[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:40:44.627[debug] (productService.reg) {"id":21,"productNumber":11,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:40:44.607Z","createdAt":"2022-03-02T01:40:44.607Z","deletedAt":null}
+2022-03-02 10:40:44.629[info] (product.reg.result) {"id":21,"productNumber":11,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:40:44.607Z","createdAt":"2022-03-02T01:40:44.607Z","deletedAt":null}
+2022-03-02 10:41:41.337[info] DB connection success
+2022-03-02 10:41:41.398[info] Sequelize sync success
+2022-03-02 10:41:46.059[info] (product.reg.params) {"productNumber":"011","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:41:46.070[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 10:41:50.240[info] (product.reg.params) {"productNumber":"012","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 10:41:50.251[debug] (productService.reg) {"id":23,"productNumber":12,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:41:50.244Z","createdAt":"2022-03-02T01:41:50.244Z","deletedAt":null}
+2022-03-02 10:41:50.255[info] (product.reg.result) {"id":23,"productNumber":12,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:41:50.244Z","createdAt":"2022-03-02T01:41:50.244Z","deletedAt":null}
+2022-03-02 10:42:32.017[info] (product.reg.params) {"productNumber":"013","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100","filePaths":"g"}
+2022-03-02 10:42:32.104[debug] (productService.reg) {"id":24,"productNumber":13,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:42:32.019Z","createdAt":"2022-03-02T01:42:32.019Z","deletedAt":null}
+2022-03-02 10:42:32.106[info] (product.reg.result) {"id":24,"productNumber":13,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:42:32.019Z","createdAt":"2022-03-02T01:42:32.019Z","deletedAt":null}
+2022-03-02 10:43:05.486[info] DB connection success
+2022-03-02 10:43:05.573[info] Sequelize sync success
+2022-03-02 10:47:32.748[info] DB connection success
+2022-03-02 10:47:32.801[info] Sequelize sync success
+2022-03-02 10:51:43.030[info] DB connection success
+2022-03-02 10:51:43.148[info] Sequelize sync success
+2022-03-02 10:52:19.933[info] DB connection success
+2022-03-02 10:52:19.987[info] Sequelize sync success
+2022-03-02 10:52:32.086[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646185952082.jpg","size":56813}
+2022-03-02 10:53:58.611[info] DB connection success
+2022-03-02 10:53:58.673[info] Sequelize sync success
+2022-03-02 10:54:06.832[info] (product.reg.params) {"productNumber":"013","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100","filePaths":"g"}
+2022-03-02 10:54:06.846[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-02 10:54:10.860[info] (product.reg.params) {"productNumber":"014","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100","filePaths":"g"}
+2022-03-02 10:54:10.876[debug] (productService.reg) {"id":26,"productNumber":14,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:54:10.863Z","createdAt":"2022-03-02T01:54:10.863Z","deletedAt":null}
+2022-03-02 10:54:10.878[info] (product.reg.result) {"id":26,"productNumber":14,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T01:54:10.863Z","createdAt":"2022-03-02T01:54:10.863Z","deletedAt":null}
+2022-03-02 10:55:29.997[info] DB connection success
+2022-03-02 10:55:30.057[info] Sequelize sync success
+2022-03-02 10:55:44.293[info] DB connection success
+2022-03-02 10:55:44.355[info] Sequelize sync success
+2022-03-02 10:55:57.189[info] (productimagefile.reg.params) {"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646186157166.jpg","size":847845}
+2022-03-02 10:55:57.272[debug] (productimagefileService.reg) {"id":1,"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646186157166.jpg","size":847845,"updatedAt":"2022-03-02T01:55:57.197Z","createdAt":"2022-03-02T01:55:57.197Z","deletedAt":null}
+2022-03-02 10:55:57.275[info] (productimagefile.reg.result) {"id":1,"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646186157166.jpg","size":847845,"updatedAt":"2022-03-02T01:55:57.197Z","createdAt":"2022-03-02T01:55:57.197Z","deletedAt":null}
+2022-03-02 10:56:16.491[info] DB connection success
+2022-03-02 10:56:16.550[info] Sequelize sync success
+2022-03-02 11:07:23.106[info] DB connection success
+2022-03-02 11:07:23.169[info] Sequelize sync success
+2022-03-02 11:08:10.873[info] DB connection success
+2022-03-02 11:08:10.932[info] Sequelize sync success
+2022-03-02 11:08:13.100[info] DB connection success
+2022-03-02 11:08:13.160[info] Sequelize sync success
+2022-03-02 11:08:38.393[info] DB connection success
+2022-03-02 11:08:38.448[info] Sequelize sync success
+2022-03-02 11:08:55.308[info] DB connection success
+2022-03-02 11:08:55.367[info] Sequelize sync success
+2022-03-02 11:08:59.749[info] DB connection success
+2022-03-02 11:08:59.805[info] Sequelize sync success
+2022-03-02 11:09:27.436[info] DB connection success
+2022-03-02 11:09:27.501[info] Sequelize sync success
+2022-03-02 11:09:30.096[info] DB connection success
+2022-03-02 11:09:30.150[info] Sequelize sync success
+2022-03-02 11:09:53.544[info] (productimagefile.reg.params) {"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646186993530.jpg","size":847845}
+2022-03-02 11:10:10.615[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646187010613.jpg","size":56813}
+2022-03-02 11:11:03.030[info] DB connection success
+2022-03-02 11:11:03.089[info] Sequelize sync success
+2022-03-02 11:13:18.152[info] DB connection success
+2022-03-02 11:13:18.212[info] Sequelize sync success
+2022-03-02 11:13:27.876[info] DB connection success
+2022-03-02 11:13:27.934[info] Sequelize sync success
+2022-03-02 11:13:42.381[info] DB connection success
+2022-03-02 11:13:42.457[info] Sequelize sync success
+2022-03-02 11:14:00.945[info] DB connection success
+2022-03-02 11:14:00.995[info] Sequelize sync success
+2022-03-02 11:14:28.199[info] DB connection success
+2022-03-02 11:14:28.258[info] Sequelize sync success
+2022-03-02 11:14:45.003[info] DB connection success
+2022-03-02 11:14:45.056[info] Sequelize sync success
+2022-03-02 11:14:53.127[info] DB connection success
+2022-03-02 11:14:53.180[info] Sequelize sync success
+2022-03-02 11:16:37.647[info] DB connection success
+2022-03-02 11:16:37.710[info] Sequelize sync success
+2022-03-02 13:13:29.730[info] DB connection success
+2022-03-02 13:13:29.795[info] Sequelize sync success
+2022-03-02 13:13:43.313[info] DB connection success
+2022-03-02 13:13:43.392[info] Sequelize sync success
+2022-03-02 13:17:25.257[info] DB connection success
+2022-03-02 13:17:25.343[info] Sequelize sync success
+2022-03-02 13:20:56.564[info] (productimagefile.reg.params) {"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646194856546.jpg","size":847845}
+2022-03-02 13:20:56.674[debug] (productimagefileService.reg) {"id":1,"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646194856546.jpg","size":847845,"updatedAt":"2022-03-02T04:20:56.571Z","createdAt":"2022-03-02T04:20:56.571Z","deletedAt":null}
+2022-03-02 13:20:56.678[info] (productimagefile.reg.result) {"id":1,"originalname":"Blue-Wave-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646194856546.jpg","size":847845,"updatedAt":"2022-03-02T04:20:56.571Z","createdAt":"2022-03-02T04:20:56.571Z","deletedAt":null}
+2022-03-02 13:22:03.544[info] DB connection success
+2022-03-02 13:22:03.616[info] Sequelize sync success
+2022-03-02 13:37:41.308[info] DB connection success
+2022-03-02 13:37:41.371[info] Sequelize sync success
+2022-03-02 13:46:02.895[info] DB connection success
+2022-03-02 13:46:02.956[info] Sequelize sync success
+2022-03-02 13:48:09.341[info] DB connection success
+2022-03-02 13:48:09.420[info] Sequelize sync success
+2022-03-02 13:48:32.907[info] DB connection success
+2022-03-02 13:48:32.968[info] Sequelize sync success
+2022-03-02 13:54:26.248[info] DB connection success
+2022-03-02 13:54:26.309[info] Sequelize sync success
+2022-03-02 13:54:38.193[info] DB connection success
+2022-03-02 13:54:38.282[info] Sequelize sync success
+2022-03-02 13:54:45.345[info] DB connection success
+2022-03-02 13:54:45.428[info] Sequelize sync success
+2022-03-02 13:55:12.937[info] DB connection success
+2022-03-02 13:55:13.081[info] Sequelize sync success
+2022-03-02 13:55:51.848[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 13:55:51.939[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:55:51.852Z","createdAt":"2022-03-02T04:55:51.852Z","deletedAt":null}
+2022-03-02 13:55:51.944[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:55:51.852Z","createdAt":"2022-03-02T04:55:51.852Z","deletedAt":null}
+2022-03-02 13:55:58.406[info] (productcategory.reg.params) {"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 13:55:58.423[debug] (productcategoryService.reg) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:55:58.410Z","createdAt":"2022-03-02T04:55:58.410Z","deletedAt":null}
+2022-03-02 13:55:58.426[info] (productcategory.reg.result) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:55:58.410Z","createdAt":"2022-03-02T04:55:58.410Z","deletedAt":null}
+2022-03-02 13:56:01.209[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 13:56:01.223[debug] (productcategoryService.reg) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:56:01.212Z","createdAt":"2022-03-02T04:56:01.212Z","deletedAt":null}
+2022-03-02 13:56:01.225[info] (productcategory.reg.result) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T04:56:01.212Z","createdAt":"2022-03-02T04:56:01.212Z","deletedAt":null}
+2022-03-02 13:56:34.123[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:34.213[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:34.126Z","createdAt":"2022-03-02T04:56:34.126Z","deletedAt":null}
+2022-03-02 13:56:34.216[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:34.126Z","createdAt":"2022-03-02T04:56:34.126Z","deletedAt":null}
+2022-03-02 13:56:39.444[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:39.459[debug] (productService.reg) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:39.448Z","createdAt":"2022-03-02T04:56:39.448Z","deletedAt":null}
+2022-03-02 13:56:39.461[info] (product.reg.result) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:39.448Z","createdAt":"2022-03-02T04:56:39.448Z","deletedAt":null}
+2022-03-02 13:56:42.635[info] (product.reg.params) {"productNumber":"003","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:42.649[debug] (productService.reg) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:42.638Z","createdAt":"2022-03-02T04:56:42.638Z","deletedAt":null}
+2022-03-02 13:56:42.652[info] (product.reg.result) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:42.638Z","createdAt":"2022-03-02T04:56:42.638Z","deletedAt":null}
+2022-03-02 13:56:48.650[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:48.662[debug] (productService.reg) {"id":4,"productNumber":4,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:48.653Z","createdAt":"2022-03-02T04:56:48.653Z","deletedAt":null}
+2022-03-02 13:56:48.664[info] (product.reg.result) {"id":4,"productNumber":4,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:48.653Z","createdAt":"2022-03-02T04:56:48.653Z","deletedAt":null}
+2022-03-02 13:56:51.263[info] (product.reg.params) {"productNumber":"005","categoryCode":"T-2","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:51.278[debug] (productService.reg) {"id":5,"productNumber":5,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:51.268Z","createdAt":"2022-03-02T04:56:51.268Z","deletedAt":null}
+2022-03-02 13:56:51.280[info] (product.reg.result) {"id":5,"productNumber":5,"categoryCode":"T-2","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:51.268Z","createdAt":"2022-03-02T04:56:51.268Z","deletedAt":null}
+2022-03-02 13:56:55.746[info] (product.reg.params) {"productNumber":"006","categoryCode":"T-3","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 13:56:55.759[debug] (productService.reg) {"id":6,"productNumber":6,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:55.749Z","createdAt":"2022-03-02T04:56:55.749Z","deletedAt":null}
+2022-03-02 13:56:55.761[info] (product.reg.result) {"id":6,"productNumber":6,"categoryCode":"T-3","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T04:56:55.749Z","createdAt":"2022-03-02T04:56:55.749Z","deletedAt":null}
+2022-03-02 13:57:08.659[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197028635.png","size":1770347}
+2022-03-02 13:57:08.662[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 13:58:29.662[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197109643.png","size":1770347}
+2022-03-02 13:58:29.665[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 13:58:49.604[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197129591.png","size":1770347}
+2022-03-02 13:58:49.606[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 13:59:05.067[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197145055.png","size":1770347}
+2022-03-02 13:59:05.069[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 13:59:21.649[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197161635.png","size":1770347}
+2022-03-02 13:59:21.652[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:00:38.362[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197238344.png","size":1770347}
+2022-03-02 14:00:38.366[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:02:16.701[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197336685.png","size":1770347}
+2022-03-02 14:02:16.703[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:04:09.141[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197449127.png","size":1770347}
+2022-03-02 14:04:09.144[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:07:25.640[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197645627.png","size":1770347}
+2022-03-02 14:07:25.642[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:07:45.693[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197665666.png","size":1770347}
+2022-03-02 14:07:45.720[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:10:43.597[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197843582.png","size":1770347}
+2022-03-02 14:10:43.599[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:10:55.275[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197855249.png","size":1770347}
+2022-03-02 14:10:55.278[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:12:45.724[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197965710.png","size":1770347}
+2022-03-02 14:12:45.727[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:13:07.678[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646197987664.png","size":1770347}
+2022-03-02 14:13:07.681[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:15:36.343[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198136329.png","size":1770347}
+2022-03-02 14:15:36.346[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:15:40.665[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198140654.png","size":1770347}
+2022-03-02 14:15:40.667[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:17:19.862[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198239835.png","size":1770347}
+2022-03-02 14:17:19.865[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:17:25.241[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198245225.png","size":1770347}
+2022-03-02 14:17:25.245[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:17:26.211[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198246200.png","size":1770347}
+2022-03-02 14:17:26.214[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:18:35.161[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198315149.png","size":1770347}
+2022-03-02 14:18:35.164[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:19:21.999[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198361985.png","size":1770347}
+2022-03-02 14:19:22.001[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:19:26.757[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198366740.png","size":1770347}
+2022-03-02 14:19:26.760[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:19:27.574[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198367564.png","size":1770347}
+2022-03-02 14:19:27.578[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:19:28.185[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198368168.png","size":1770347}
+2022-03-02 14:19:28.187[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:19:30.652[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198370642.png","size":1770347}
+2022-03-02 14:19:30.655[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:21:07.063[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198467027.png","size":1770347}
+2022-03-02 14:21:07.066[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:21:14.292[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198474276.png","size":1770347}
+2022-03-02 14:21:14.294[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:21:17.358[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198477343.png","size":1770347}
+2022-03-02 14:21:17.361[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:21:20.848[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198480836.png","size":1770347}
+2022-03-02 14:21:20.850[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:22:12.955[info] DB connection success
+2022-03-02 14:22:13.018[info] Sequelize sync success
+2022-03-02 14:22:20.188[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198540152.png","size":1770347}
+2022-03-02 14:22:20.216[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:22:25.788[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198545770.png","size":1770347}
+2022-03-02 14:22:25.792[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:22:26.622[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198546605.png","size":1770347}
+2022-03-02 14:22:26.628[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:22:27.385[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198547372.png","size":1770347}
+2022-03-02 14:22:27.388[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:22:44.658[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198564638.png","size":1770347}
+2022-03-02 14:22:44.664[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:23:03.655[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198583635.png","size":1770347}
+2022-03-02 14:23:03.658[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:23:16.491[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198596476.png","size":1770347}
+2022-03-02 14:23:16.494[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:24:55.630[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198695603.png","size":1770347}
+2022-03-02 14:24:55.635[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:24:58.145[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198698131.png","size":1770347}
+2022-03-02 14:24:58.147[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:15.513[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198715498.png","size":1770347}
+2022-03-02 14:25:15.516[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:16.246[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198716228.png","size":1770347}
+2022-03-02 14:25:16.249[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:16.873[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198716855.png","size":1770347}
+2022-03-02 14:25:16.876[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:19.903[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198719887.png","size":1770347}
+2022-03-02 14:25:19.906[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:20.817[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198720804.png","size":1770347}
+2022-03-02 14:25:20.820[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:31.959[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198731940.png","size":1770347}
+2022-03-02 14:25:31.962[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:32.822[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198732806.png","size":1770347}
+2022-03-02 14:25:32.825[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:55.041[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198755030.png","size":1770347}
+2022-03-02 14:25:55.044[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:25:57.661[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198757649.png","size":1770347}
+2022-03-02 14:25:57.663[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:31.996[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198791986.png","size":1770347}
+2022-03-02 14:26:31.998[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:32.884[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198792865.png","size":1770347}
+2022-03-02 14:26:32.887[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:33.679[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198793668.png","size":1770347}
+2022-03-02 14:26:33.682[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:34.464[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198794453.png","size":1770347}
+2022-03-02 14:26:34.467[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:38.391[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198798375.png","size":1770347}
+2022-03-02 14:26:38.393[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:39.096[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198799084.png","size":1770347}
+2022-03-02 14:26:39.099[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:39.767[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198799755.png","size":1770347}
+2022-03-02 14:26:39.770[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:40.335[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198800324.png","size":1770347}
+2022-03-02 14:26:40.338[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:55.370[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198815352.png","size":1770347}
+2022-03-02 14:26:55.374[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:26:56.253[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198816234.png","size":1770347}
+2022-03-02 14:26:56.257[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:27:04.140[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198824130.png","size":1770347}
+2022-03-02 14:27:04.143[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productNumber cannot be null
+2022-03-02 14:28:00.315[info] (productimagefile.reg.params) {"productNumber":"{ \"001\" }","originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198880295.png","size":1770347}
+2022-03-02 14:28:00.402[error] (productimagefileService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "{ "001" }"
+2022-03-02 14:28:10.026[info] (productimagefile.reg.params) {"productNumber":"[\"001\" ]","originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198890013.png","size":1770347}
+2022-03-02 14:28:10.033[error] (productimagefileService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "["001" ]"
+2022-03-02 14:28:15.571[info] (productimagefile.reg.params) {"productNumber":"\"001\" ","originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198895557.png","size":1770347}
+2022-03-02 14:28:15.580[error] (productimagefileService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: ""001" "
+2022-03-02 14:28:20.247[info] (productimagefile.reg.params) {"productNumber":"001","originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198900236.png","size":1770347}
+2022-03-02 14:28:20.263[debug] (productimagefileService.reg) {"id":1,"productNumber":1,"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198900236.png","size":1770347,"updatedAt":"2022-03-02T05:28:20.250Z","createdAt":"2022-03-02T05:28:20.250Z","deletedAt":null}
+2022-03-02 14:28:20.266[info] (productimagefile.reg.result) {"id":1,"productNumber":1,"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646198900236.png","size":1770347,"updatedAt":"2022-03-02T05:28:20.250Z","createdAt":"2022-03-02T05:28:20.250Z","deletedAt":null}
+2022-03-02 14:29:15.933[info] (productimagefile.reg.params) {"productNumber":"001","originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646198955931.jpg","size":101269}
+2022-03-02 14:29:16.011[debug] (productimagefileService.reg) {"id":2,"productNumber":1,"originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646198955931.jpg","size":101269,"updatedAt":"2022-03-02T05:29:15.938Z","createdAt":"2022-03-02T05:29:15.938Z","deletedAt":null}
+2022-03-02 14:29:16.014[info] (productimagefile.reg.result) {"id":2,"productNumber":1,"originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646198955931.jpg","size":101269,"updatedAt":"2022-03-02T05:29:15.938Z","createdAt":"2022-03-02T05:29:15.938Z","deletedAt":null}
+2022-03-02 14:29:21.635[info] (productimagefile.reg.params) {"productNumber":"001","originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198961626.jpg","size":680038}
+2022-03-02 14:29:21.650[debug] (productimagefileService.reg) {"id":3,"productNumber":1,"originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198961626.jpg","size":680038,"updatedAt":"2022-03-02T05:29:21.639Z","createdAt":"2022-03-02T05:29:21.639Z","deletedAt":null}
+2022-03-02 14:29:21.654[info] (productimagefile.reg.result) {"id":3,"productNumber":1,"originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198961626.jpg","size":680038,"updatedAt":"2022-03-02T05:29:21.639Z","createdAt":"2022-03-02T05:29:21.639Z","deletedAt":null}
+2022-03-02 14:29:37.049[info] (productimagefile.reg.params) {"productNumber":"007","originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198977045.jpg","size":680038}
+2022-03-02 14:29:37.128[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:29:40.631[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198980627.jpg","size":680038}
+2022-03-02 14:29:40.638[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:29:41.908[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198981902.jpg","size":680038}
+2022-03-02 14:29:41.916[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:29:45.557[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"Blue-Beach-1920x1200-wallpapershd.org.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Beach-1920x1200-wallpapershd.org-1646198985543.jpg","size":680038}
+2022-03-02 14:29:45.563[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:29:54.718[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"296bbe1775d2d.png","mimetype":"image/png","path":"upload\\296bbe1775d2d-1646198994688.png","size":3822093}
+2022-03-02 14:29:54.733[debug] (productimagefileService.reg) {"id":8,"productNumber":6,"originalname":"296bbe1775d2d.png","mimetype":"image/png","path":"upload\\296bbe1775d2d-1646198994688.png","size":3822093,"updatedAt":"2022-03-02T05:29:54.720Z","createdAt":"2022-03-02T05:29:54.720Z","deletedAt":null}
+2022-03-02 14:29:54.736[info] (productimagefile.reg.result) {"id":8,"productNumber":6,"originalname":"296bbe1775d2d.png","mimetype":"image/png","path":"upload\\296bbe1775d2d-1646198994688.png","size":3822093,"updatedAt":"2022-03-02T05:29:54.720Z","createdAt":"2022-03-02T05:29:54.720Z","deletedAt":null}
+2022-03-02 14:31:13.088[info] DB connection success
+2022-03-02 14:31:13.158[info] Sequelize sync success
+2022-03-02 14:31:18.944[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"296bbe1775d2d.png","mimetype":"image/png","path":"upload\\74287293605e4168947b80386588ef2a","size":3822093}
+2022-03-02 14:31:18.961[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:31:25.465[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\e061d91f05636f64cfb3ab74a7764de6","size":2427797}
+2022-03-02 14:31:25.474[debug] (productimagefileService.reg) {"id":10,"productNumber":6,"originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\e061d91f05636f64cfb3ab74a7764de6","size":2427797,"updatedAt":"2022-03-02T05:31:25.467Z","createdAt":"2022-03-02T05:31:25.467Z","deletedAt":null}
+2022-03-02 14:31:25.477[info] (productimagefile.reg.result) {"id":10,"productNumber":6,"originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\e061d91f05636f64cfb3ab74a7764de6","size":2427797,"updatedAt":"2022-03-02T05:31:25.467Z","createdAt":"2022-03-02T05:31:25.467Z","deletedAt":null}
+2022-03-02 14:31:31.705[info] (productimagefile.reg.params) {"productNumber":"006","originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\aca12241b2647ccc1107ead44bd627b0","size":2427797}
+2022-03-02 14:31:31.715[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-03-02 14:32:15.089[info] DB connection success
+2022-03-02 14:32:15.159[info] Sequelize sync success
+2022-03-02 14:32:17.654[info] DB connection success
+2022-03-02 14:32:17.716[info] Sequelize sync success
+2022-03-02 14:32:22.600[info] DB connection success
+2022-03-02 14:32:22.679[info] Sequelize sync success
+2022-03-02 14:32:53.424[info] DB connection success
+2022-03-02 14:32:53.488[info] Sequelize sync success
+2022-03-02 14:32:55.018[info] DB connection success
+2022-03-02 14:32:55.077[info] Sequelize sync success
+2022-03-02 14:33:28.484[info] DB connection success
+2022-03-02 14:33:28.551[info] Sequelize sync success
+2022-03-02 14:33:50.628[info] DB connection success
+2022-03-02 14:33:50.692[info] Sequelize sync success
+2022-03-02 14:34:37.766[info] DB connection success
+2022-03-02 14:34:37.903[info] Sequelize sync success
+2022-03-02 14:35:21.664[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 14:35:21.770[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:21.674Z","createdAt":"2022-03-02T05:35:21.674Z","deletedAt":null}
+2022-03-02 14:35:21.772[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:21.674Z","createdAt":"2022-03-02T05:35:21.674Z","deletedAt":null}
+2022-03-02 14:35:24.638[info] (productcategory.reg.params) {"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 14:35:24.652[debug] (productcategoryService.reg) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:24.642Z","createdAt":"2022-03-02T05:35:24.642Z","deletedAt":null}
+2022-03-02 14:35:24.655[info] (productcategory.reg.result) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:24.642Z","createdAt":"2022-03-02T05:35:24.642Z","deletedAt":null}
+2022-03-02 14:35:27.651[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-02 14:35:27.656[debug] (productcategoryService.reg) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:27.653Z","createdAt":"2022-03-02T05:35:27.653Z","deletedAt":null}
+2022-03-02 14:35:27.658[info] (productcategory.reg.result) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-02T05:35:27.653Z","createdAt":"2022-03-02T05:35:27.653Z","deletedAt":null}
+2022-03-02 14:35:34.846[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 14:35:34.875[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:34.852Z","createdAt":"2022-03-02T05:35:34.852Z","deletedAt":null}
+2022-03-02 14:35:34.881[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:34.852Z","createdAt":"2022-03-02T05:35:34.852Z","deletedAt":null}
+2022-03-02 14:35:38.124[info] (product.reg.params) {"productNumber":"002","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 14:35:38.143[debug] (productService.reg) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:38.131Z","createdAt":"2022-03-02T05:35:38.131Z","deletedAt":null}
+2022-03-02 14:35:38.145[info] (product.reg.result) {"id":2,"productNumber":2,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:38.131Z","createdAt":"2022-03-02T05:35:38.131Z","deletedAt":null}
+2022-03-02 14:35:40.776[info] (product.reg.params) {"productNumber":"003","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 14:35:40.790[debug] (productService.reg) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:40.778Z","createdAt":"2022-03-02T05:35:40.778Z","deletedAt":null}
+2022-03-02 14:35:40.794[info] (product.reg.result) {"id":3,"productNumber":3,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:40.778Z","createdAt":"2022-03-02T05:35:40.778Z","deletedAt":null}
+2022-03-02 14:35:43.486[info] (product.reg.params) {"productNumber":"004","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 14:35:43.492[debug] (productService.reg) {"id":4,"productNumber":4,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:43.489Z","createdAt":"2022-03-02T05:35:43.489Z","deletedAt":null}
+2022-03-02 14:35:43.494[info] (product.reg.result) {"id":4,"productNumber":4,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:43.489Z","createdAt":"2022-03-02T05:35:43.489Z","deletedAt":null}
+2022-03-02 14:35:46.003[info] (product.reg.params) {"productNumber":"005","categoryCode":"T-1","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-02 14:35:46.017[debug] (productService.reg) {"id":5,"productNumber":5,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:46.007Z","createdAt":"2022-03-02T05:35:46.007Z","deletedAt":null}
+2022-03-02 14:35:46.019[info] (product.reg.result) {"id":5,"productNumber":5,"categoryCode":"T-1","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-02T05:35:46.007Z","createdAt":"2022-03-02T05:35:46.007Z","deletedAt":null}
+2022-03-02 14:35:54.677[info] (productimagefile.reg.params) {"productNumber":"001","filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","size":56813}
+2022-03-02 14:35:54.693[debug] (productimagefileService.reg) {"id":1,"productNumber":1,"filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","size":56813,"updatedAt":"2022-03-02T05:35:54.682Z","createdAt":"2022-03-02T05:35:54.682Z","deletedAt":null}
+2022-03-02 14:35:54.696[info] (productimagefile.reg.result) {"id":1,"productNumber":1,"filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199354670.jpg","size":56813,"updatedAt":"2022-03-02T05:35:54.682Z","createdAt":"2022-03-02T05:35:54.682Z","deletedAt":null}
+2022-03-02 14:36:01.677[info] (productimagefile.reg.params) {"productNumber":"001","filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","size":56813}
+2022-03-02 14:36:01.689[debug] (productimagefileService.reg) {"id":2,"productNumber":1,"filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","size":56813,"updatedAt":"2022-03-02T05:36:01.679Z","createdAt":"2022-03-02T05:36:01.679Z","deletedAt":null}
+2022-03-02 14:36:01.693[info] (productimagefile.reg.result) {"id":2,"productNumber":1,"filename":"64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646199361675.jpg","size":56813,"updatedAt":"2022-03-02T05:36:01.679Z","createdAt":"2022-03-02T05:36:01.679Z","deletedAt":null}
+2022-03-02 14:36:24.466[info] (productimagefile.reg.params) {"productNumber":"001","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","size":847845}
+2022-03-02 14:36:24.709[debug] (productimagefileService.reg) {"id":3,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","size":847845,"updatedAt":"2022-03-02T05:36:24.470Z","createdAt":"2022-03-02T05:36:24.470Z","deletedAt":null}
+2022-03-02 14:36:24.717[info] (productimagefile.reg.result) {"id":3,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199384450.jpg","size":847845,"updatedAt":"2022-03-02T05:36:24.470Z","createdAt":"2022-03-02T05:36:24.470Z","deletedAt":null}
+2022-03-02 14:36:28.675[info] (productimagefile.reg.params) {"productNumber":"001","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","size":847845}
+2022-03-02 14:36:28.688[debug] (productimagefileService.reg) {"id":4,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","size":847845,"updatedAt":"2022-03-02T05:36:28.677Z","createdAt":"2022-03-02T05:36:28.677Z","deletedAt":null}
+2022-03-02 14:36:28.692[info] (productimagefile.reg.result) {"id":4,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199388661.jpg","size":847845,"updatedAt":"2022-03-02T05:36:28.677Z","createdAt":"2022-03-02T05:36:28.677Z","deletedAt":null}
+2022-03-02 14:36:34.250[info] (productimagefile.reg.params) {"productNumber":"001","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","size":847845}
+2022-03-02 14:36:34.269[debug] (productimagefileService.reg) {"id":5,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","size":847845,"updatedAt":"2022-03-02T05:36:34.256Z","createdAt":"2022-03-02T05:36:34.256Z","deletedAt":null}
+2022-03-02 14:36:34.273[info] (productimagefile.reg.result) {"id":5,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646199394244.jpg","size":847845,"updatedAt":"2022-03-02T05:36:34.256Z","createdAt":"2022-03-02T05:36:34.256Z","deletedAt":null}
+2022-03-02 14:43:44.120[info] (productimagefile.reg.params) {"productNumber":"002","filename":"1-1646199824106.png","mimetype":"image/png","path":"upload\\1-1646199824106.png","size":1770347}
+2022-03-02 14:43:44.202[debug] (productimagefileService.reg) {"id":6,"productNumber":2,"filename":"1-1646199824106.png","mimetype":"image/png","path":"upload\\1-1646199824106.png","size":1770347,"updatedAt":"2022-03-02T05:43:44.123Z","createdAt":"2022-03-02T05:43:44.123Z","deletedAt":null}
+2022-03-02 14:43:44.205[info] (productimagefile.reg.result) {"id":6,"productNumber":2,"filename":"1-1646199824106.png","mimetype":"image/png","path":"upload\\1-1646199824106.png","size":1770347,"updatedAt":"2022-03-02T05:43:44.123Z","createdAt":"2022-03-02T05:43:44.123Z","deletedAt":null}
+2022-03-02 14:43:45.005[info] (productimagefile.reg.params) {"productNumber":"002","filename":"1-1646199824987.png","mimetype":"image/png","path":"upload\\1-1646199824987.png","size":1770347}
+2022-03-02 14:43:45.018[debug] (productimagefileService.reg) {"id":7,"productNumber":2,"filename":"1-1646199824987.png","mimetype":"image/png","path":"upload\\1-1646199824987.png","size":1770347,"updatedAt":"2022-03-02T05:43:45.007Z","createdAt":"2022-03-02T05:43:45.007Z","deletedAt":null}
+2022-03-02 14:43:45.021[info] (productimagefile.reg.result) {"id":7,"productNumber":2,"filename":"1-1646199824987.png","mimetype":"image/png","path":"upload\\1-1646199824987.png","size":1770347,"updatedAt":"2022-03-02T05:43:45.007Z","createdAt":"2022-03-02T05:43:45.007Z","deletedAt":null}
+2022-03-02 14:43:47.186[info] (productimagefile.reg.params) {"productNumber":"002","filename":"1-1646199827160.png","mimetype":"image/png","path":"upload\\1-1646199827160.png","size":1770347}
+2022-03-02 14:43:47.198[debug] (productimagefileService.reg) {"id":8,"productNumber":2,"filename":"1-1646199827160.png","mimetype":"image/png","path":"upload\\1-1646199827160.png","size":1770347,"updatedAt":"2022-03-02T05:43:47.188Z","createdAt":"2022-03-02T05:43:47.188Z","deletedAt":null}
+2022-03-02 14:43:47.201[info] (productimagefile.reg.result) {"id":8,"productNumber":2,"filename":"1-1646199827160.png","mimetype":"image/png","path":"upload\\1-1646199827160.png","size":1770347,"updatedAt":"2022-03-02T05:43:47.188Z","createdAt":"2022-03-02T05:43:47.188Z","deletedAt":null}
