@@ -10,14 +10,14 @@ router.route('/')
   .get(async (req, res) => {
     try {
       const params = {
-        // userId: req.query.userId,
-        // orderDate: req.query.orderDate,
-        // address1: req.query.address1,
-        // address2: req.query.address2,
-        // address3: req.query.address3,
-        // receiverName: req.query.receiverName,
-        // receiverPhone: req.query.receiverPhone,
-        // orderNumber: req.query.orderNumber,
+        userId: req.query.userId,
+        orderDate: req.query.orderDate,
+        address1: req.query.address1,
+        address2: req.query.address2,
+        address3: req.query.address3,
+        receiverName: req.query.receiverName,
+        receiverPhone: req.query.receiverPhone,
+        orderNumber: req.query.orderNumber,
       };
       logger.info(`(userorder.list.params) ${JSON.stringify(params)}`);
 

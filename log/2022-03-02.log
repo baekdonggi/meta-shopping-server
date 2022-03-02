@@ -1,0 +1,338 @@
+2022-03-02 09:31:34.538[info] DB connection success
+2022-03-02 09:31:34.601[info] Sequelize sync success
+2022-03-02 09:32:14.844[info] (user.list.params) {}
+2022-03-02 09:32:14.966[debug] (userService.list) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 09:32:14.971[info] (user.list.result) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 09:34:08.521[info] (userorder.reg.params1) {"userId":"유저아이디3"}
+2022-03-02 09:34:08.608[error] (userorderService.reg) SequelizeForeignKeyConstraintError: "user_orders" 테이블에서 자료 추가, 갱신 작업이 "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:35:36.055[info] (userorder.reg.params1) {"userId":"yechan1","orderNumber":"1"}
+2022-03-02 09:35:36.125[debug] (userorderService.reg) {"id":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":1,"updatedAt":"2022-03-02T00:35:36.056Z","createdAt":"2022-03-02T00:35:36.056Z","deletedAt":null}
+2022-03-02 09:35:36.127[info] (userorder.reg.result2) {"id":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":1,"updatedAt":"2022-03-02T00:35:36.056Z","createdAt":"2022-03-02T00:35:36.056Z","deletedAt":null}
+2022-03-02 09:35:40.183[info] (userorder.reg.params1) {"userId":"yechan2","orderNumber":"1"}
+2022-03-02 09:35:40.191[error] (userorderService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "user_orders_order_number_key" 고유 제약 조건을 위반함
+2022-03-02 09:35:47.824[info] (userorder.reg.params1) {"userId":"yechan2","orderNumber":"2"}
+2022-03-02 09:35:47.830[error] (userorderService.reg) SequelizeForeignKeyConstraintError: "user_orders" 테이블에서 자료 추가, 갱신 작업이 "user_orders_user_id_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-02 09:35:51.142[info] (userorder.reg.params1) {"userId":"yechan1","orderNumber":"2"}
+2022-03-02 09:35:51.146[debug] (userorderService.reg) {"id":5,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2,"updatedAt":"2022-03-02T00:35:51.144Z","createdAt":"2022-03-02T00:35:51.144Z","deletedAt":null}
+2022-03-02 09:35:51.147[info] (userorder.reg.result2) {"id":5,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":2,"updatedAt":"2022-03-02T00:35:51.144Z","createdAt":"2022-03-02T00:35:51.144Z","deletedAt":null}
+2022-03-02 09:40:31.565[info] DB connection success
+2022-03-02 09:40:31.639[info] Sequelize sync success
+2022-03-02 09:41:18.633[info] DB connection success
+2022-03-02 09:41:18.699[info] Sequelize sync success
+2022-03-02 09:58:54.532[info] DB connection success
+2022-03-02 09:58:54.596[info] Sequelize sync success
+2022-03-02 10:10:42.403[info] (userorder.list.params) {}
+2022-03-02 10:15:34.448[info] DB connection success
+2022-03-02 10:15:34.510[info] Sequelize sync success
+2022-03-02 10:15:43.350[info] DB connection success
+2022-03-02 10:15:43.411[info] Sequelize sync success
+2022-03-02 10:17:34.806[info] (userorder.list.params) {}
+2022-03-02 10:17:34.934[debug] (userorderService.list) {"count":2,"rows":[{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:17:34.938[info] (userorder.list.result) {"count":2,"rows":[{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:17:52.660[info] DB connection success
+2022-03-02 10:17:52.718[info] Sequelize sync success
+2022-03-02 10:18:00.257[info] DB connection success
+2022-03-02 10:18:00.324[info] Sequelize sync success
+2022-03-02 10:18:03.127[info] DB connection success
+2022-03-02 10:18:03.186[info] Sequelize sync success
+2022-03-02 10:19:04.554[info] DB connection success
+2022-03-02 10:19:04.618[info] Sequelize sync success
+2022-03-02 10:19:10.670[info] (userorder.list.params) {}
+2022-03-02 10:19:10.687[debug] (userorderService.list) {"count":2,"rows":[{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:19:10.692[info] (userorder.list.result) {"count":2,"rows":[{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:20:20.829[info] DB connection success
+2022-03-02 10:20:20.888[info] Sequelize sync success
+2022-03-02 10:21:01.945[info] (userorder.reg.params1) {"userId":"yechan1","orderNumber":"3"}
+2022-03-02 10:21:01.946[error] (userorderService.reg) TypeError: userorderDao.orderNumInsert is not a function
+2022-03-02 10:21:24.238[info] DB connection success
+2022-03-02 10:21:24.303[info] Sequelize sync success
+2022-03-02 10:21:26.476[info] (userorder.reg.params1) {"userId":"yechan1","orderNumber":"3"}
+2022-03-02 10:21:26.490[debug] (userorderService.reg) {"id":6,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":3,"updatedAt":"2022-03-02T01:21:26.480Z","createdAt":"2022-03-02T01:21:26.480Z","deletedAt":null}
+2022-03-02 10:21:26.492[info] (userorder.reg.result2) {"id":6,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":3,"updatedAt":"2022-03-02T01:21:26.480Z","createdAt":"2022-03-02T01:21:26.480Z","deletedAt":null}
+2022-03-02 10:23:16.003[info] DB connection success
+2022-03-02 10:23:16.062[info] Sequelize sync success
+2022-03-02 10:24:41.408[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 10:24:41.495[debug] (userorderService.reg) {"id":7,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":null,"updatedAt":"2022-03-02T01:24:41.413Z","createdAt":"2022-03-02T01:24:41.413Z","deletedAt":null}
+2022-03-02 10:24:41.498[info] (userorder.reg.result2) {"id":7,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"orderNumber":null,"updatedAt":"2022-03-02T01:24:41.413Z","createdAt":"2022-03-02T01:24:41.413Z","deletedAt":null}
+2022-03-02 10:29:04.645[info] (userorder.list.params) {}
+2022-03-02 10:29:04.775[info] (userorderService.list) {"count":4,"rows":[{"id":7,"orderNumber":null,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:24:41.413Z","updatedAt":"2022-03-02T01:24:41.413Z","deletedAt":null},{"id":6,"orderNumber":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:21:26.480Z","updatedAt":"2022-03-02T01:21:26.480Z","deletedAt":null},{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:29:04.780[info] (userorder.list.result) {"count":4,"rows":[{"id":7,"orderNumber":null,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:24:41.413Z","updatedAt":"2022-03-02T01:24:41.413Z","deletedAt":null},{"id":6,"orderNumber":3,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T01:21:26.480Z","updatedAt":"2022-03-02T01:21:26.480Z","deletedAt":null},{"id":5,"orderNumber":2,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:51.144Z","updatedAt":"2022-03-02T00:35:51.144Z","deletedAt":null},{"id":2,"orderNumber":1,"userId":"yechan1","orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T00:35:36.056Z","updatedAt":"2022-03-02T00:35:36.056Z","deletedAt":null}]}
+2022-03-02 10:35:01.838[info] DB connection success
+2022-03-02 10:35:01.914[info] Sequelize sync success
+2022-03-02 10:35:07.106[info] DB connection success
+2022-03-02 10:35:07.181[info] Sequelize sync success
+2022-03-02 10:36:07.712[info] DB connection success
+2022-03-02 10:36:07.809[info] Sequelize sync success
+2022-03-02 10:36:20.628[info] DB connection success
+2022-03-02 10:36:20.719[info] Sequelize sync success
+2022-03-02 10:37:02.460[info] DB connection success
+2022-03-02 10:37:02.564[info] Sequelize sync success
+2022-03-02 10:37:42.600[info] DB connection success
+2022-03-02 10:37:42.654[info] Sequelize sync success
+2022-03-02 10:40:51.282[info] DB connection success
+2022-03-02 10:40:51.377[info] Sequelize sync success
+2022-03-02 10:57:35.791[info] DB connection success
+2022-03-02 10:57:35.865[info] Sequelize sync success
+2022-03-02 10:57:54.657[info] DB connection success
+2022-03-02 10:57:54.723[info] Sequelize sync success
+2022-03-02 11:00:48.300[info] DB connection success
+2022-03-02 11:00:48.365[info] Sequelize sync success
+2022-03-02 11:01:42.144[info] DB connection success
+2022-03-02 11:01:42.204[info] Sequelize sync success
+2022-03-02 11:01:50.999[info] DB connection success
+2022-03-02 11:01:51.077[info] Sequelize sync success
+2022-03-02 11:03:38.169[info] DB connection success
+2022-03-02 11:03:38.242[info] Sequelize sync success
+2022-03-02 11:04:09.161[info] DB connection success
+2022-03-02 11:04:09.239[info] Sequelize sync success
+2022-03-02 11:04:33.541[info] DB connection success
+2022-03-02 11:04:33.625[info] Sequelize sync success
+2022-03-02 11:04:51.460[info] DB connection success
+2022-03-02 11:04:51.552[info] Sequelize sync success
+2022-03-02 11:07:55.698[info] DB connection success
+2022-03-02 11:07:55.767[info] Sequelize sync success
+2022-03-02 11:08:30.075[info] DB connection success
+2022-03-02 11:08:30.144[info] Sequelize sync success
+2022-03-02 11:08:50.754[info] DB connection success
+2022-03-02 11:08:50.810[info] Sequelize sync success
+2022-03-02 11:09:04.529[info] DB connection success
+2022-03-02 11:09:04.614[info] Sequelize sync success
+2022-03-02 11:14:40.334[info] DB connection success
+2022-03-02 11:14:40.393[info] Sequelize sync success
+2022-03-02 11:16:32.801[info] DB connection success
+2022-03-02 11:16:32.855[info] Sequelize sync success
+2022-03-02 11:19:44.474[info] DB connection success
+2022-03-02 11:19:44.561[info] Sequelize sync success
+2022-03-02 11:19:47.085[info] DB connection success
+2022-03-02 11:19:47.148[info] Sequelize sync success
+2022-03-02 11:19:51.449[info] DB connection success
+2022-03-02 11:19:51.526[info] Sequelize sync success
+2022-03-02 11:20:59.454[info] DB connection success
+2022-03-02 11:20:59.548[info] Sequelize sync success
+2022-03-02 11:23:36.700[info] DB connection success
+2022-03-02 11:23:36.763[info] Sequelize sync success
+2022-03-02 11:23:44.906[info] DB connection success
+2022-03-02 11:23:44.972[info] Sequelize sync success
+2022-03-02 11:23:52.682[info] DB connection success
+2022-03-02 11:23:52.775[info] Sequelize sync success
+2022-03-02 11:23:59.558[info] DB connection success
+2022-03-02 11:23:59.617[info] Sequelize sync success
+2022-03-02 11:24:46.916[info] DB connection success
+2022-03-02 11:24:46.979[info] Sequelize sync success
+2022-03-02 11:24:48.293[info] DB connection success
+2022-03-02 11:24:48.351[info] Sequelize sync success
+2022-03-02 11:25:24.506[info] DB connection success
+2022-03-02 11:25:24.581[info] Sequelize sync success
+2022-03-02 11:26:24.734[info] DB connection success
+2022-03-02 11:26:24.795[info] Sequelize sync success
+2022-03-02 11:26:32.762[info] DB connection success
+2022-03-02 11:26:32.813[info] Sequelize sync success
+2022-03-02 11:26:48.570[info] DB connection success
+2022-03-02 11:26:48.626[info] Sequelize sync success
+2022-03-02 11:27:39.352[info] DB connection success
+2022-03-02 11:27:39.416[info] Sequelize sync success
+2022-03-02 11:28:23.658[info] DB connection success
+2022-03-02 11:28:23.749[info] Sequelize sync success
+2022-03-02 11:28:33.295[info] DB connection success
+2022-03-02 11:28:33.365[info] Sequelize sync success
+2022-03-02 11:29:02.532[info] DB connection success
+2022-03-02 11:29:02.599[info] Sequelize sync success
+2022-03-02 11:29:14.116[info] DB connection success
+2022-03-02 11:29:14.168[info] Sequelize sync success
+2022-03-02 11:29:20.513[info] DB connection success
+2022-03-02 11:29:20.572[info] Sequelize sync success
+2022-03-02 11:29:26.853[info] DB connection success
+2022-03-02 11:29:26.918[info] Sequelize sync success
+2022-03-02 11:31:38.236[info] DB connection success
+2022-03-02 11:31:38.300[info] Sequelize sync success
+2022-03-02 11:31:54.039[info] DB connection success
+2022-03-02 11:31:54.115[info] Sequelize sync success
+2022-03-02 11:34:53.920[info] DB connection success
+2022-03-02 11:34:53.980[info] Sequelize sync success
+2022-03-02 11:35:20.743[info] DB connection success
+2022-03-02 11:35:20.824[info] Sequelize sync success
+2022-03-02 11:35:33.177[info] DB connection success
+2022-03-02 11:35:33.254[info] Sequelize sync success
+2022-03-02 11:35:35.983[info] DB connection success
+2022-03-02 11:35:36.035[info] Sequelize sync success
+2022-03-02 11:36:08.472[info] DB connection success
+2022-03-02 11:36:08.525[info] Sequelize sync success
+2022-03-02 11:36:20.132[info] DB connection success
+2022-03-02 11:36:20.189[info] Sequelize sync success
+2022-03-02 14:25:11.813[info] DB connection success
+2022-03-02 14:25:11.878[info] Sequelize sync success
+2022-03-02 14:25:24.169[info] (auth.token.params) {}
+2022-03-02 14:25:24.171[error] Error: Not allowed null (userId, Password)
+2022-03-02 14:25:24.179[error] (userService.login) Error: WHERE parameter "user_id" has invalid "undefined" value
+2022-03-02 14:26:27.540[info] (auth.token.params) {}
+2022-03-02 14:26:27.542[error] Error: Not allowed null (userId, Password)
+2022-03-02 14:26:27.544[error] (userService.login) Error: WHERE parameter "user_id" has invalid "undefined" value
+2022-03-02 14:26:32.995[info] (auth.token.params) {}
+2022-03-02 14:26:32.997[error] Error: Not allowed null (userId, Password)
+2022-03-02 14:26:32.999[error] (userService.login) Error: WHERE parameter "user_id" has invalid "undefined" value
+2022-03-02 14:27:10.502[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:27:10.614[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:27:10.644[debug] (userService.checkPassword) true
+2022-03-02 14:27:10.645[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:27:10.649[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTg4MzAsImV4cCI6MTY0NjIwNjAzMH0.CqG04LVlV7duqnOG8Wwm50mG8Kcf7xgCzHDSS_2TrxE"
+2022-03-02 14:30:40.454[info] DB connection success
+2022-03-02 14:30:40.557[info] Sequelize sync success
+2022-03-02 14:31:01.197[info] DB connection success
+2022-03-02 14:31:01.259[info] Sequelize sync success
+2022-03-02 14:31:37.321[info] DB connection success
+2022-03-02 14:31:37.377[info] Sequelize sync success
+2022-03-02 14:31:42.421[info] DB connection success
+2022-03-02 14:31:42.492[info] Sequelize sync success
+2022-03-02 14:31:44.703[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:31:44.713[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:31:44.717[debug] (userService.checkPassword) true
+2022-03-02 14:31:44.718[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:31:44.721[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkxMDQsImV4cCI6MTY0NjIwNjMwNH0.w3yfhNihXTcBXz5nze4UqSQ6jZtd0-noY2E9tMfZ8K8"
+2022-03-02 14:32:36.330[info] (user.list.params) {}
+2022-03-02 14:32:36.460[debug] (userService.list) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 14:32:36.466[info] (user.list.result) {"count":2,"rows":[{"id":2,"userId":"123","userPassword":"xZOrktWG1SU5Znm6DWY/iqCRn3G0D//uT2MqVPwW4FjcJyeePR6lAJxXhSb6H3KujkKdQsgMsPyZxwhx4nOYtA==.1ee646132001ffa2bcc57b33fe273a33bd8f7989a3786c8e2292e3eeaf25c2be5710ffc377e721f8b6e93a17fd9868e40b1d721e7f693b890268c49926252c5f","userName":"123","userPhone":null,"userEmail":null,"userNickname":"123","userProfile":null,"emailCheck":null,"userGender":null,"userRole":1,"userGrade":null,"userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T08:36:27.471Z","updatedAt":"2022-02-28T08:36:27.471Z","deletedAt":null},{"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}]}
+2022-03-02 14:32:50.013[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:32:50.147[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:32:50.152[debug] (userService.checkPassword) true
+2022-03-02 14:32:50.154[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:32:50.157[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkxNzAsImV4cCI6MTY0NjIwNjM3MH0.kEH5Zj3wmgUlQQ6vfxOHWEV7-UAEfrZ66KJg21YUHP4"
+2022-03-02 14:32:58.634[info] DB connection success
+2022-03-02 14:32:58.702[info] Sequelize sync success
+2022-03-02 14:33:00.539[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:00.563[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:00.574[debug] (userService.checkPassword) true
+2022-03-02 14:33:00.577[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:00.583[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkxODAsImV4cCI6MTY0NjIwNjM4MH0.DFdzSqiww9v_PcAQHVTQBfV_Rm0WZXsRIihm8irdORY"
+2022-03-02 14:33:07.993[info] DB connection success
+2022-03-02 14:33:08.080[info] Sequelize sync success
+2022-03-02 14:33:08.167[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:08.179[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:08.183[debug] (userService.checkPassword) true
+2022-03-02 14:33:08.185[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:08.189[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkxODgsImV4cCI6MTY0NjIwNjM4OH0.Bw0efQKI30KehA7xYkwpGkH8qbKcgqDLRlfQZPTukfs"
+2022-03-02 14:33:21.589[info] DB connection success
+2022-03-02 14:33:21.657[info] Sequelize sync success
+2022-03-02 14:33:24.660[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:24.675[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:24.681[debug] (userService.checkPassword) true
+2022-03-02 14:33:24.682[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:24.687[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkyMDQsImV4cCI6MTY0NjIwNjQwNH0.r4UhWlHftjfpG5q9kfD6lplqDBENFe8vC8bxzUacFpI"
+2022-03-02 14:33:28.689[info] DB connection success
+2022-03-02 14:33:28.763[info] Sequelize sync success
+2022-03-02 14:33:29.521[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:29.536[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:29.541[debug] (userService.checkPassword) true
+2022-03-02 14:33:29.542[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:29.551[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkyMDksImV4cCI6MTY0NjIwNjQwOX0.bkQxhBEEGIdoCwGF2owz3aH2OB_mvoCPpNFlSViR3P8"
+2022-03-02 14:33:32.406[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:32.411[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:32.414[debug] (userService.checkPassword) true
+2022-03-02 14:33:32.415[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:32.417[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkyMTIsImV4cCI6MTY0NjIwNjQxMn0.gp5y3DJTKOScTtx_DM241Ug3vIQddKTmtVOM9jcvpKg"
+2022-03-02 14:33:46.535[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:33:46.558[info] DB connection success
+2022-03-02 14:33:46.571[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:46.579[debug] (userService.checkPassword) true
+2022-03-02 14:33:46.581[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:33:46.589[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkyMjYsImV4cCI6MTY0NjIwNjQyNn0.GPAr-chAgI8ujkiHepPzamw_RPkgNOINF36GJ-haChA"
+2022-03-02 14:33:46.782[info] Sequelize sync success
+2022-03-02 14:34:21.592[info] DB connection success
+2022-03-02 14:34:21.659[info] Sequelize sync success
+2022-03-02 14:34:22.786[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:34:22.798[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:34:22.803[debug] (userService.checkPassword) true
+2022-03-02 14:34:22.804[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:34:22.809[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkyNjIsImV4cCI6MTY0NjIwNjQ2Mn0.vR76Zu9Zfu47fTpJJThE4L9KqlgOoktZ-al-S9abF3k"
+2022-03-02 14:35:29.845[info] DB connection success
+2022-03-02 14:35:29.930[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:35:29.959[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:29.984[debug] (userService.checkPassword) true
+2022-03-02 14:35:29.986[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:29.991[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkzMjksImV4cCI6MTY0NjIwNjUyOX0.79WClqutyh6YwFxyVODHS22V6iQbjrKQX4TS88kY4Yg"
+2022-03-02 14:35:30.104[info] Sequelize sync success
+2022-03-02 14:35:41.030[info] DB connection success
+2022-03-02 14:35:41.099[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:35:41.118[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:41.136[debug] (userService.checkPassword) true
+2022-03-02 14:35:41.138[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:41.143[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkzNDEsImV4cCI6MTY0NjIwNjU0MX0.hyeDSaaicIaRbcFd_UyC_Ki8AdV9Socf9NwaCoLaZLI"
+2022-03-02 14:35:41.290[info] Sequelize sync success
+2022-03-02 14:35:45.729[info] DB connection success
+2022-03-02 14:35:45.793[info] Sequelize sync success
+2022-03-02 14:35:46.045[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:35:46.058[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:46.062[debug] (userService.checkPassword) true
+2022-03-02 14:35:46.063[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:35:46.067[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkzNDYsImV4cCI6MTY0NjIwNjU0Nn0.qRWBC6THjg2ZNWhZx6dWey_7SzAyQP6jf0yIsriuzq0"
+2022-03-02 14:36:37.522[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:36:37.617[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:36:37.620[debug] (userService.checkPassword) true
+2022-03-02 14:36:37.620[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:36:37.622[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTkzOTcsImV4cCI6MTY0NjIwNjU5N30.GBN3bzSZiEWQINTP2z23EJregR3fTOkUGuSXhPsFIZo"
+2022-03-02 14:37:02.470[info] DB connection success
+2022-03-02 14:37:02.526[info] Sequelize sync success
+2022-03-02 14:37:05.564[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:37:05.607[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:37:05.613[debug] (userService.checkPassword) true
+2022-03-02 14:37:05.616[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userRole":1}
+2022-03-02 14:37:05.622[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk0MjUsImV4cCI6MTY0NjIwNjYyNX0.MM2J6XOk66VaL530mKY3pguDBEvEBO50TMRTMM5Q1ec"
+2022-03-02 14:38:15.793[info] DB connection success
+2022-03-02 14:38:15.902[info] Sequelize sync success
+2022-03-02 14:38:18.047[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:38:18.061[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:38:18.065[debug] (userService.checkPassword) true
+2022-03-02 14:38:18.066[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:38:18.070[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk0OTgsImV4cCI6MTY0NjIwNjY5OH0.OQvbj4YCzm9BST1SSE6CsCPLcZO67YKL55HseadTYJ8"
+2022-03-02 14:39:10.351[info] DB connection success
+2022-03-02 14:39:10.415[info] Sequelize sync success
+2022-03-02 14:39:13.016[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:39:13.030[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:39:13.034[debug] (userService.checkPassword) true
+2022-03-02 14:39:13.035[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:39:13.038[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk1NTMsImV4cCI6MTY0NjIwNjc1M30.MOeQ9nBEBnecYowuuNA50hPsfsiLZkYoklxwMzhc2JY"
+2022-03-02 14:40:37.742[info] DB connection success
+2022-03-02 14:40:37.823[info] Sequelize sync success
+2022-03-02 14:40:38.654[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:40:38.667[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:40:38.672[debug] (userService.checkPassword) true
+2022-03-02 14:40:38.673[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:40:38.677[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk2MzgsImV4cCI6MTY0NjIwNjgzOH0.8bU7lvU2HOjP5WNeJq0L1FELFZsJBcqWSSXr_F8USD8"
+2022-03-02 14:40:47.582[info] DB connection success
+2022-03-02 14:40:47.650[info] Sequelize sync success
+2022-03-02 14:40:49.005[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:40:49.027[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:40:49.032[debug] (userService.checkPassword) true
+2022-03-02 14:40:49.034[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:40:49.037[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk2NDksImV4cCI6MTY0NjIwNjg0OX0._UTdkINzxNcNTqiz5NCIRIbnXC2iE66os7ynAzQTEkM"
+2022-03-02 14:41:11.753[info] DB connection success
+2022-03-02 14:41:11.818[info] Sequelize sync success
+2022-03-02 14:41:12.060[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:41:12.073[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:12.077[debug] (userService.checkPassword) true
+2022-03-02 14:41:12.078[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:12.081[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk2NzIsImV4cCI6MTY0NjIwNjg3Mn0.-_0ilut5V3Y53wNDtpvJ1woe22IQQw_B6TLNpchQ2r4"
+2022-03-02 14:41:17.159[info] DB connection success
+2022-03-02 14:41:17.270[info] Sequelize sync success
+2022-03-02 14:41:28.275[info] DB connection success
+2022-03-02 14:41:28.408[info] Sequelize sync success
+2022-03-02 14:41:28.610[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:41:28.626[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:28.630[debug] (userService.checkPassword) true
+2022-03-02 14:41:28.631[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:28.636[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk2ODgsImV4cCI6MTY0NjIwNjg4OH0.Ea5BX_0d_cKZe5eTsP2XzlF0xrNX8qJ0agOzVhKKEWk"
+2022-03-02 14:41:39.433[info] DB connection success
+2022-03-02 14:41:39.604[info] Sequelize sync success
+2022-03-02 14:41:39.625[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:41:39.638[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:39.642[debug] (userService.checkPassword) true
+2022-03-02 14:41:39.643[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:41:39.647[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk2OTksImV4cCI6MTY0NjIwNjg5OX0.M5da9Xc50_BXg6TwP75zQSEL8gBJLIyxVREiZXUwThw"
+2022-03-02 14:41:52.186[info] DB connection success
+2022-03-02 14:41:52.253[info] Sequelize sync success
+2022-03-02 14:41:57.511[info] DB connection success
+2022-03-02 14:41:57.574[info] Sequelize sync success
+2022-03-02 14:42:01.524[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 14:42:01.536[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:42:01.540[debug] (userService.checkPassword) true
+2022-03-02 14:42:01.541[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-02-28T01:12:07.749Z","updatedAt":"2022-02-28T01:12:07.749Z","deletedAt":null}
+2022-03-02 14:42:01.544[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJOYW1lIjoi7JiI7LCsMSIsInVzZXJSb2xlIjoxLCJpYXQiOjE2NDYxOTk3MjEsImV4cCI6MTY0NjIwNjkyMX0.DMP-pAk9qTgZqTaWTmglLDS4m4waYKwX_4MAzsu3Gw4"

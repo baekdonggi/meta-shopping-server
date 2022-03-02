@@ -2,15 +2,32 @@ const logger = require('../lib/logger');
 const userorderDao = require('../dao/userorderDao');
 
 const service = {
-  // 회원정보 입력(회원가입)
+  // 1. 주문번호 생성
+  // '결제하기' 버튼 누르기 전단계 누르면 '주문번호' 생성한다.
   async reg(params) {
+    let orderNumber = null;
     let inserted = null;
 
     try {
-      inserted = await userorderDao.insert(params);
+      orderNumber = await userorderDao.orderNumInsert(params);
       logger.debug(`(userorderService.reg) ${JSON.stringify(inserted)}`);
     } catch (err) {
       logger.error(`(userorderService.reg) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    // 2. 사용자 등록 처리
+    const newParams = {
+      ...params,
+      orderNumber,
+    };
+    try {
+      inserted = await userDao.insert(newParams);
+      logger.debug(`(userService.reg) ${JSON.stringify(inserted)}`);
+    } catch (err) {
+      logger.error(`(userService.reg) ${err.toString()}`);
       return new Promise((resolve, reject) => {
         reject(err);
       });
@@ -27,7 +44,7 @@ const service = {
 
     try {
       result = await userorderDao.selectList(params);
-      logger.debug(`(userorderService.list) ${JSON.stringify(result)}`);
+      logger.info(`(userorderService.list) ${JSON.stringify(result)}`);
     } catch (err) {
       logger.error(`(userorderService.list) ${err.toString()}`);
       return new Promise((resolve, reject) => {
@@ -39,6 +56,7 @@ const service = {
       resolve(result);
     });
   },
+  /*
   // selectInfo
   async info(params) {
     let result = null;
@@ -92,7 +110,7 @@ const service = {
     return new Promise((resolve) => {
       resolve(result);
     });
-  },
+  }, */
 };
 
 module.exports = service;

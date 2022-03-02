@@ -182,3 +182,5 @@ notNull Violation: ProductImageFile.deleteCheck cannot be null
 2022-02-28 17:41:47.652[info] (product.list.result) {"count":0,"rows":[]}
 2022-02-28 17:45:03.688[info] DB connection success
 2022-02-28 17:45:03.759[info] Sequelize sync success
+2022-02-28 17:45:28.901[info] DB connection success
+2022-02-28 17:45:28.964[info] Sequelize sync success
