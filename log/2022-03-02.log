@@ -832,3 +832,71 @@
 2022-03-02 16:36:01.486[debug] (userService.checkPassword) true
 2022-03-02 16:36:01.487[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
 2022-03-02 16:36:01.490[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJQYXNzd29yZCI6IjNjdmwvek5xdENKQ1ZhYjdZNDdXeG1reHFJU3VqZnBkeExhVzVkanVGVVgvaDh6M0RoSFNDa1NoYmVHUzhVOVpiNW5SRHNVRWdodWlVQzZ3WWRxTGhRPT0uNzZlNzY1MjJmZjY5ZTdkNzI3ZTYxYWY5M2U0MjZjYjRiMzNlNzEyYWE2N2MwMjVhNmU2NzdhOTJkOWUxYjg2ZjUwMGM1MjZkZmFlNTk5ZWQxMWZmNTFhZDg2NjdhMGIzMjY0ZDkxYWUyMGY2MTkxNWMwYWVmOTlmNzlkNTRkZDAiLCJ1c2VyTmFtZSI6IuyYiOywrDEiLCJ1c2VyUGhvbmUiOiIwMTAiLCJ1c2VyRW1haWwiOiLsnbTrqZTsnbwxIiwidXNlck5pY2tuYW1lIjoi64uJ64Sk7J6EMSIsInVzZXJQcm9maWxlIjoi7ZSE66Gc7ZWE7J2066-47KeAIiwiZW1haWxDaGVjayI6InkiLCJ1c2VyR2VuZGVyIjoxLCJ1c2VyUm9sZSI6MSwidXNlckdyYWRlIjoi7Iuk67KEIiwidXNlckFkZHJlc3MxIjpudWxsLCJ1c2VyQWRkcmVzczIiOm51bGwsInVzZXJBZGRyZXNzMyI6bnVsbCwiaWF0IjoxNjQ2MjA2NTYxLCJleHAiOjE2NDYyMTM3NjF9.WwHT2YSCgFBgicb1ED_kOBHVht9_W16A-bDd3-Yx4W4"
+2022-03-02 17:17:36.400[info] DB connection success
+2022-03-02 17:17:36.473[info] Sequelize sync success
+2022-03-02 17:18:15.748[info] (auth.token.params) {"userId":"yechan1","userPassword":"1"}
+2022-03-02 17:18:15.835[info] (userService.login) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 17:18:15.839[debug] (userService.checkPassword) true
+2022-03-02 17:18:15.840[info] (auth.token.result) {"id":1,"userId":"yechan1","userPassword":"3cvl/zNqtCJCVab7Y47WxmkxqISujfpdxLaW5djuFUX/h8z3DhHSCkShbeGS8U9Zb5nRDsUEghuiUC6wYdqLhQ==.76e76522ff69e7d727e61af93e426cb4b33e712aa67c025a6e677a92d9e1b86f500c526dfae599ed11ff51ad8667a0b3264d91ae20f61915c0aef99f79d54dd0","userName":"예찬1","userPhone":"010","userEmail":"이메일1","userNickname":"닉네임1","userProfile":"프로필이미지","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null}
+2022-03-02 17:18:15.845[debug] (tokenUtil.tokenUtil.makeToken) "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcklkIjoieWVjaGFuMSIsInVzZXJQYXNzd29yZCI6IjNjdmwvek5xdENKQ1ZhYjdZNDdXeG1reHFJU3VqZnBkeExhVzVkanVGVVgvaDh6M0RoSFNDa1NoYmVHUzhVOVpiNW5SRHNVRWdodWlVQzZ3WWRxTGhRPT0uNzZlNzY1MjJmZjY5ZTdkNzI3ZTYxYWY5M2U0MjZjYjRiMzNlNzEyYWE2N2MwMjVhNmU2NzdhOTJkOWUxYjg2ZjUwMGM1MjZkZmFlNTk5ZWQxMWZmNTFhZDg2NjdhMGIzMjY0ZDkxYWUyMGY2MTkxNWMwYWVmOTlmNzlkNTRkZDAiLCJ1c2VyTmFtZSI6IuyYiOywrDEiLCJ1c2VyUGhvbmUiOiIwMTAiLCJ1c2VyRW1haWwiOiLsnbTrqZTsnbwxIiwidXNlck5pY2tuYW1lIjoi64uJ64Sk7J6EMSIsInVzZXJQcm9maWxlIjoi7ZSE66Gc7ZWE7J2066-47KeAIiwiZW1haWxDaGVjayI6InkiLCJ1c2VyR2VuZGVyIjoxLCJ1c2VyUm9sZSI6MSwidXNlckdyYWRlIjoi7Iuk67KEIiwidXNlckFkZHJlc3MxIjpudWxsLCJ1c2VyQWRkcmVzczIiOm51bGwsInVzZXJBZGRyZXNzMyI6bnVsbCwiaWF0IjoxNjQ2MjA5MDk1LCJleHAiOjE2NDYyMTYyOTV9.-LVhlXVfOekRmq2et5C3VoJ_clmGpR_vD2kn3geru3Y"
+2022-03-02 20:07:33.560[info] DB connection success
+2022-03-02 20:07:33.651[info] Sequelize sync success
+2022-03-02 20:09:01.794[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 20:09:01.796[error] (userorderService.reg) TypeError: Op.col is not a function
+2022-03-02 20:09:59.404[info] DB connection success
+2022-03-02 20:09:59.505[info] Sequelize sync success
+2022-03-02 20:10:06.573[info] DB connection success
+2022-03-02 20:10:06.639[info] Sequelize sync success
+2022-03-02 20:29:30.560[info] DB connection success
+2022-03-02 20:29:30.642[info] Sequelize sync success
+2022-03-02 20:31:23.660[info] DB connection success
+2022-03-02 20:31:23.750[info] Sequelize sync success
+2022-03-02 20:31:32.632[info] DB connection success
+2022-03-02 20:31:32.716[info] Sequelize sync success
+2022-03-02 20:32:11.258[info] DB connection success
+2022-03-02 20:32:11.317[info] Sequelize sync success
+2022-03-02 20:32:48.223[info] DB connection success
+2022-03-02 20:32:48.311[info] Sequelize sync success
+2022-03-02 20:32:49.529[info] DB connection success
+2022-03-02 20:32:49.591[info] Sequelize sync success
+2022-03-02 20:33:19.639[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 20:33:19.726[debug] (userorderService.reg) null
+2022-03-02 20:33:19.727[info] (userorder.reg.result) null
+2022-03-02 20:33:19.728[info] (makeOrderNum.RandomNum) 1, 8, 8
+2022-03-02 20:33:19.729[info] (makeOrderNum.RandomNum) 2, 2, 28
+2022-03-02 20:33:19.730[info] (makeOrderNum.RandomNum) 3, 2, 228
+2022-03-02 20:33:19.731[info] (makeOrderNum.RandomNum) 4, 4, 4228
+2022-03-02 20:33:19.732[info] (makeOrderNum.RandomNum) 5, 1, 14228
+2022-03-02 20:33:19.734[info] (makeOrderNum.RandomNum) 6, 8, 814228
+2022-03-02 20:33:19.735[info] (makeOrderNum.orderNum) 220302814228
+2022-03-02 20:33:19.736[debug] (userorderService.reg) null
+2022-03-02 20:33:19.751[debug] (userService.reg) {"id":1,"orderNumber":"220302814228","updatedAt":"2022-03-02T11:33:19.738Z","createdAt":"2022-03-02T11:33:19.738Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-02 20:33:19.753[info] (userorder.reg.result2) {"id":1,"orderNumber":"220302814228","updatedAt":"2022-03-02T11:33:19.738Z","createdAt":"2022-03-02T11:33:19.738Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-02 20:34:03.749[info] DB connection success
+2022-03-02 20:34:03.807[info] Sequelize sync success
+2022-03-02 20:34:19.799[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 20:34:19.895[debug] (userorderService.selectMaxId) 1
+2022-03-02 20:34:19.896[info] (userorder.reg.result) 1
+2022-03-02 20:34:19.897[info] (makeOrderNum.RandomNum) 1, 2, 2
+2022-03-02 20:34:19.898[info] (makeOrderNum.RandomNum) 2, 0, 2
+2022-03-02 20:34:19.899[info] (makeOrderNum.RandomNum) 3, 5, 502
+2022-03-02 20:34:19.900[info] (makeOrderNum.RandomNum) 4, 6, 6502
+2022-03-02 20:34:19.902[info] (makeOrderNum.RandomNum) 5, 0, 6502
+2022-03-02 20:34:19.903[info] (makeOrderNum.RandomNum) 6, 7, 706502
+2022-03-02 20:34:19.904[info] (makeOrderNum.orderNum) 220302706502
+2022-03-02 20:34:19.905[debug] (userorderService.reg) null
+2022-03-02 20:34:19.917[debug] (userService.reg) {"id":2,"orderNumber":"220302706502","updatedAt":"2022-03-02T11:34:19.908Z","createdAt":"2022-03-02T11:34:19.908Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-02 20:34:19.919[info] (userorder.reg.result2) {"id":2,"orderNumber":"220302706502","updatedAt":"2022-03-02T11:34:19.908Z","createdAt":"2022-03-02T11:34:19.908Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-02 20:34:47.372[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-02 20:34:47.437[debug] (userorderService.selectMaxId) 2
+2022-03-02 20:34:47.439[info] (userorder.reg.result) 2
+2022-03-02 20:34:47.440[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-02 20:34:47.441[info] (makeOrderNum.RandomNum) 2, 0, 0
+2022-03-02 20:34:47.442[info] (makeOrderNum.RandomNum) 3, 9, 900
+2022-03-02 20:34:47.443[info] (makeOrderNum.RandomNum) 4, 2, 2900
+2022-03-02 20:34:47.444[info] (makeOrderNum.RandomNum) 5, 7, 72900
+2022-03-02 20:34:47.444[info] (makeOrderNum.RandomNum) 6, 6, 672900
+2022-03-02 20:34:47.445[info] (makeOrderNum.orderNum) 220302672900
+2022-03-02 20:34:47.446[debug] (userorderService.reg) null
+2022-03-02 20:34:47.453[debug] (userService.reg) {"id":3,"orderNumber":"220302672900","updatedAt":"2022-03-02T11:34:47.447Z","createdAt":"2022-03-02T11:34:47.447Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-02 20:34:47.455[info] (userorder.reg.result2) {"id":3,"orderNumber":"220302672900","updatedAt":"2022-03-02T11:34:47.447Z","createdAt":"2022-03-02T11:34:47.447Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}

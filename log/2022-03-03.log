@@ -1,0 +1,241 @@
+2022-03-03 09:29:46.053[info] DB connection success
+2022-03-03 09:29:46.158[info] Sequelize sync success
+2022-03-03 09:32:13.322[info] (userorder.list.params) {}
+2022-03-03 09:32:13.449[info] (userorderService.list) {"count":3,"rows":[{"id":3,"orderNumber":"220302672900","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:34:47.447Z","updatedAt":"2022-03-02T11:34:47.447Z","deletedAt":null},{"id":2,"orderNumber":"220302706502","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:34:19.908Z","updatedAt":"2022-03-02T11:34:19.908Z","deletedAt":null},{"id":1,"orderNumber":"220302814228","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:33:19.738Z","updatedAt":"2022-03-02T11:33:19.738Z","deletedAt":null}]}
+2022-03-03 09:32:13.453[info] (userorder.list.result) {"count":3,"rows":[{"id":3,"orderNumber":"220302672900","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:34:47.447Z","updatedAt":"2022-03-02T11:34:47.447Z","deletedAt":null},{"id":2,"orderNumber":"220302706502","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:34:19.908Z","updatedAt":"2022-03-02T11:34:19.908Z","deletedAt":null},{"id":1,"orderNumber":"220302814228","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"createdAt":"2022-03-02T11:33:19.738Z","updatedAt":"2022-03-02T11:33:19.738Z","deletedAt":null}]}
+2022-03-03 09:32:25.325[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:32:25.421[debug] (userorderService.selectMaxId) 3
+2022-03-03 09:35:14.741[info] DB connection success
+2022-03-03 09:35:14.811[info] Sequelize sync success
+2022-03-03 09:35:58.351[info] DB connection success
+2022-03-03 09:35:58.410[info] Sequelize sync success
+2022-03-03 09:36:21.866[info] DB connection success
+2022-03-03 09:36:21.962[info] Sequelize sync success
+2022-03-03 09:36:33.871[info] DB connection success
+2022-03-03 09:36:33.939[info] Sequelize sync success
+2022-03-03 09:37:13.910[info] DB connection success
+2022-03-03 09:37:13.972[info] Sequelize sync success
+2022-03-03 09:37:48.480[info] DB connection success
+2022-03-03 09:37:48.590[info] Sequelize sync success
+2022-03-03 09:41:46.341[info] DB connection success
+2022-03-03 09:41:46.404[info] Sequelize sync success
+2022-03-03 09:42:26.863[info] DB connection success
+2022-03-03 09:42:26.946[info] Sequelize sync success
+2022-03-03 09:42:29.688[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:42:29.697[debug] (userorderService.selectMaxId) 3
+2022-03-03 09:44:34.892[info] DB connection success
+2022-03-03 09:44:34.985[info] Sequelize sync success
+2022-03-03 09:45:59.695[info] DB connection success
+2022-03-03 09:45:59.785[info] Sequelize sync success
+2022-03-03 09:46:04.870[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:46:04.885[debug] (userorderService.selectMaxId1) 3
+2022-03-03 09:49:41.584[info] DB connection success
+2022-03-03 09:49:41.651[info] Sequelize sync success
+2022-03-03 09:49:46.353[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:49:46.363[debug] (userorderService.selectMaxId1) 3
+2022-03-03 09:53:21.324[info] DB connection success
+2022-03-03 09:53:21.394[info] Sequelize sync success
+2022-03-03 09:53:23.236[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:53:23.248[debug] (userorderService.selectMaxId1) 3
+2022-03-03 09:53:23.250[debug] (userorderService.selectMaxId2) 3
+2022-03-03 09:53:23.252[debug] (userorderService.selectMaxId3) 3
+2022-03-03 09:53:23.252[info] (userorder.seletMaxId.result) 3
+2022-03-03 09:53:23.254[debug] (makeNums.date) 220303
+2022-03-03 09:53:23.255[debug] (makeNums) 3
+2022-03-03 09:53:23.256[debug] (makeNums.strParams) 3
+2022-03-03 09:53:23.257[debug] (makeNums.encodedParams) Mw==
+2022-03-03 09:53:23.258[info] (makeOrderNum.orderNum) 220303Mw==
+2022-03-03 09:53:23.259[debug] (userorderService.reg) null
+2022-03-03 09:53:23.281[error] (userService.reg) SequelizeDatabaseError: bigint 자료형 대한 잘못된 입력: "220303Mw=="
+2022-03-03 09:54:56.610[info] DB connection success
+2022-03-03 09:54:56.695[info] Sequelize sync success
+2022-03-03 09:55:02.316[info] DB connection success
+2022-03-03 09:55:02.389[info] Sequelize sync success
+2022-03-03 09:55:06.491[info] DB connection success
+2022-03-03 09:55:06.568[info] Sequelize sync success
+2022-03-03 09:55:14.830[info] DB connection success
+2022-03-03 09:55:14.892[info] Sequelize sync success
+2022-03-03 09:57:31.165[info] DB connection success
+2022-03-03 09:57:31.245[info] Sequelize sync success
+2022-03-03 09:57:33.427[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:57:33.435[debug] (userorderService.selectMaxId1) 3
+2022-03-03 09:58:30.617[info] DB connection success
+2022-03-03 09:58:30.683[info] Sequelize sync success
+2022-03-03 09:58:32.047[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 09:58:32.059[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:00:04.414[info] DB connection success
+2022-03-03 10:00:04.478[info] Sequelize sync success
+2022-03-03 10:00:06.254[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:00:06.263[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:00:06.264[info] (userorder.seletMaxId.result) 3
+2022-03-03 10:00:06.266[debug] (makeNums.idArray) 3
+2022-03-03 10:00:06.267[debug] (makeNums.idLength) 1
+2022-03-03 10:00:06.267[debug] (makeNums.strParams) 3
+2022-03-03 10:00:06.268[debug] (makeNums.encodedParams) Mw==
+2022-03-03 10:00:06.269[info] (makeOrderNum.orderNum) 220303Mw==
+2022-03-03 10:00:06.270[debug] (userorderService.reg) null
+2022-03-03 10:00:06.281[error] (userService.reg) SequelizeDatabaseError: bigint 자료형 대한 잘못된 입력: "220303Mw=="
+2022-03-03 10:00:30.172[info] DB connection success
+2022-03-03 10:00:30.231[info] Sequelize sync success
+2022-03-03 10:00:32.607[info] DB connection success
+2022-03-03 10:00:32.669[info] Sequelize sync success
+2022-03-03 10:00:36.375[info] DB connection success
+2022-03-03 10:00:36.433[info] Sequelize sync success
+2022-03-03 10:00:39.528[info] DB connection success
+2022-03-03 10:00:39.620[info] Sequelize sync success
+2022-03-03 10:00:42.340[info] DB connection success
+2022-03-03 10:00:42.405[info] Sequelize sync success
+2022-03-03 10:01:31.440[info] DB connection success
+2022-03-03 10:01:31.505[info] Sequelize sync success
+2022-03-03 10:01:36.616[info] DB connection success
+2022-03-03 10:01:36.695[info] Sequelize sync success
+2022-03-03 10:04:16.102[info] DB connection success
+2022-03-03 10:04:16.179[info] Sequelize sync success
+2022-03-03 10:05:43.232[info] DB connection success
+2022-03-03 10:05:43.295[info] Sequelize sync success
+2022-03-03 10:05:51.143[info] DB connection success
+2022-03-03 10:05:51.221[info] Sequelize sync success
+2022-03-03 10:05:52.826[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:05:52.838[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:06:14.186[info] DB connection success
+2022-03-03 10:06:14.254[info] Sequelize sync success
+2022-03-03 10:06:20.816[info] DB connection success
+2022-03-03 10:06:20.882[info] Sequelize sync success
+2022-03-03 10:06:46.089[info] DB connection success
+2022-03-03 10:06:46.149[info] Sequelize sync success
+2022-03-03 10:06:50.335[info] DB connection success
+2022-03-03 10:06:50.399[info] Sequelize sync success
+2022-03-03 10:06:56.910[info] DB connection success
+2022-03-03 10:06:56.976[info] Sequelize sync success
+2022-03-03 10:07:02.961[info] DB connection success
+2022-03-03 10:07:03.020[info] Sequelize sync success
+2022-03-03 10:07:08.727[info] DB connection success
+2022-03-03 10:07:08.799[info] Sequelize sync success
+2022-03-03 10:07:12.049[info] DB connection success
+2022-03-03 10:07:12.124[info] Sequelize sync success
+2022-03-03 10:07:17.123[info] DB connection success
+2022-03-03 10:07:17.196[info] Sequelize sync success
+2022-03-03 10:07:22.458[info] DB connection success
+2022-03-03 10:07:22.525[info] Sequelize sync success
+2022-03-03 10:07:23.461[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:07:23.470[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:07:23.472[info] (userorder.seletMaxId.result) 3
+2022-03-03 10:07:23.473[debug] (makeNums.idArray) 3
+2022-03-03 10:07:23.474[debug] (makeNums.idLength) 1
+2022-03-03 10:07:23.474[debug] (makeNums.strParams) 0,0,0,0,3
+2022-03-03 10:07:23.475[debug] (makeNums.encodedParams) MCwwLDAsMCwz
+2022-03-03 10:07:23.476[info] (makeOrderNum.orderNum) 220303MCwwLDAsMCwz
+2022-03-03 10:07:23.477[debug] (userorderService.reg) null
+2022-03-03 10:07:23.487[error] (userService.reg) SequelizeDatabaseError: bigint 자료형 대한 잘못된 입력: "220303MCwwLDAsMCwz"
+2022-03-03 10:08:14.146[info] DB connection success
+2022-03-03 10:08:14.216[info] Sequelize sync success
+2022-03-03 10:08:18.982[info] DB connection success
+2022-03-03 10:08:19.045[info] Sequelize sync success
+2022-03-03 10:08:20.739[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:08:20.749[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:08:20.750[info] (userorder.seletMaxId.result) 3
+2022-03-03 10:08:20.751[debug] (makeNums.idArray) 3
+2022-03-03 10:08:20.752[debug] (makeNums.idLength) 1
+2022-03-03 10:08:20.753[debug] (makeNums.strParams) 0,0,0,0,0,3
+2022-03-03 10:08:20.754[debug] (makeNums.encodedParams) MCwwLDAsMCwwLDM=
+2022-03-03 10:08:20.755[info] (makeOrderNum.orderNum) 220303MCwwLDAsMCwwLDM=
+2022-03-03 10:08:20.756[debug] (userorderService.reg) null
+2022-03-03 10:08:20.768[error] (userService.reg) SequelizeDatabaseError: bigint 자료형 대한 잘못된 입력: "220303MCwwLDAsMCwwLDM="
+2022-03-03 10:09:26.432[info] DB connection success
+2022-03-03 10:09:26.545[info] Sequelize sync success
+2022-03-03 10:09:35.189[info] DB connection success
+2022-03-03 10:09:35.250[info] Sequelize sync success
+2022-03-03 10:09:38.889[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:09:38.900[debug] (userorderService.selectMaxId1) 3
+2022-03-03 10:09:38.902[info] (userorder.seletMaxId.result) 3
+2022-03-03 10:09:38.904[debug] (makeNums.idArray) 3
+2022-03-03 10:09:38.905[debug] (makeNums.idLength) 1
+2022-03-03 10:09:38.906[debug] (makeNums.strParams) 000003
+2022-03-03 10:09:38.907[debug] (makeNums.encodedParams) MDAwMDAz
+2022-03-03 10:09:38.908[info] (makeOrderNum.orderNum) 220303MDAwMDAz
+2022-03-03 10:09:38.909[debug] (userorderService.reg) null
+2022-03-03 10:09:38.921[error] (userService.reg) SequelizeDatabaseError: bigint 자료형 대한 잘못된 입력: "220303MDAwMDAz"
+2022-03-03 10:10:51.509[info] DB connection success
+2022-03-03 10:10:51.681[error] Sequelize sync error "user_order_details_order_number_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-03 10:11:07.469[info] DB connection success
+2022-03-03 10:11:07.578[info] Sequelize sync success
+2022-03-03 10:11:31.434[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:11:31.514[debug] (userorderService.selectMaxId1) null
+2022-03-03 10:11:31.515[info] (userorder.seletMaxId.result) null
+2022-03-03 10:11:31.517[debug] (makeNums.idArray) n,u,l,l
+2022-03-03 10:11:31.519[debug] (makeNums.idLength) 4
+2022-03-03 10:11:31.520[debug] (makeNums.strParams) llun
+2022-03-03 10:11:31.521[debug] (makeNums.encodedParams) bGx1bg==
+2022-03-03 10:11:31.522[info] (makeOrderNum.orderNum) 220303bGx1bg==
+2022-03-03 10:11:31.523[debug] (userorderService.reg) null
+2022-03-03 10:11:31.541[error] (userService.reg) SequelizeDatabaseError: character varying(13) 자료형에 너무 긴 자료를 담으려고 합니다.
+2022-03-03 10:11:38.439[info] DB connection success
+2022-03-03 10:11:38.503[info] Sequelize sync success
+2022-03-03 10:11:41.061[info] DB connection success
+2022-03-03 10:11:41.135[info] Sequelize sync success
+2022-03-03 10:11:58.126[info] DB connection success
+2022-03-03 10:11:58.235[info] Sequelize sync success
+2022-03-03 10:12:00.238[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:12:00.247[debug] (userorderService.selectMaxId1) null
+2022-03-03 10:12:00.248[info] (userorder.seletMaxId.result) null
+2022-03-03 10:12:00.250[debug] (makeNums.idArray) n,u,l,l
+2022-03-03 10:12:00.251[debug] (makeNums.idLength) 4
+2022-03-03 10:12:00.252[debug] (makeNums.strParams) llun
+2022-03-03 10:12:00.254[debug] (makeNums.encodedParams) bGx1bg==
+2022-03-03 10:12:00.256[info] (makeOrderNum.orderNum) 220303bGx1bg==
+2022-03-03 10:12:00.258[debug] (userorderService.reg) null
+2022-03-03 10:12:00.275[debug] (userService.reg) {"id":1,"orderNumber":"220303bGx1bg==","updatedAt":"2022-03-03T01:12:00.262Z","createdAt":"2022-03-03T01:12:00.262Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-03 10:12:00.277[info] (userorder.reg.result) {"id":1,"orderNumber":"220303bGx1bg==","updatedAt":"2022-03-03T01:12:00.262Z","createdAt":"2022-03-03T01:12:00.262Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-03 10:12:11.958[info] (userorder.reg.params1) {"userId":"yechan1"}
+2022-03-03 10:12:12.044[debug] (userorderService.selectMaxId1) 1
+2022-03-03 10:12:12.046[info] (userorder.seletMaxId.result) 1
+2022-03-03 10:12:12.048[debug] (makeNums.idArray) 1
+2022-03-03 10:12:12.049[debug] (makeNums.idLength) 1
+2022-03-03 10:12:12.051[debug] (makeNums.strParams) 000001
+2022-03-03 10:12:12.052[debug] (makeNums.encodedParams) MDAwMDAx
+2022-03-03 10:12:12.053[info] (makeOrderNum.orderNum) 220303MDAwMDAx
+2022-03-03 10:12:12.054[debug] (userorderService.reg) null
+2022-03-03 10:12:12.059[debug] (userService.reg) {"id":2,"orderNumber":"220303MDAwMDAx","updatedAt":"2022-03-03T01:12:12.055Z","createdAt":"2022-03-03T01:12:12.055Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-03 10:12:12.061[info] (userorder.reg.result) {"id":2,"orderNumber":"220303MDAwMDAx","updatedAt":"2022-03-03T01:12:12.055Z","createdAt":"2022-03-03T01:12:12.055Z","userId":null,"orderDate":null,"address1":null,"address2":null,"address3":null,"receiverName":null,"receiverPhone":null,"deletedAt":null}
+2022-03-03 10:50:39.657[info] DB connection success
+2022-03-03 10:50:39.733[info] Sequelize sync success
+2022-03-03 10:51:08.191[info] DB connection success
+2022-03-03 10:51:08.255[info] Sequelize sync success
+2022-03-03 10:51:17.736[info] DB connection success
+2022-03-03 10:51:17.800[info] Sequelize sync success
+2022-03-03 10:51:21.514[info] DB connection success
+2022-03-03 10:51:21.583[info] Sequelize sync success
+2022-03-03 10:51:24.396[info] DB connection success
+2022-03-03 10:51:24.460[info] Sequelize sync success
+2022-03-03 10:51:29.539[info] DB connection success
+2022-03-03 10:51:29.608[info] Sequelize sync success
+2022-03-03 10:51:34.655[info] DB connection success
+2022-03-03 10:51:34.726[info] Sequelize sync success
+2022-03-03 10:51:47.444[info] DB connection success
+2022-03-03 10:51:47.513[info] Sequelize sync success
+2022-03-03 10:51:49.378[info] (makeOrderNum.RandomNum) 1, 0, 0
+2022-03-03 10:51:49.382[info] (makeOrderNum.RandomNum) 2, 5, 50
+2022-03-03 10:51:49.383[info] (makeOrderNum.RandomNum) 3, 0, 50
+2022-03-03 10:51:49.384[info] (makeOrderNum.RandomNum) 4, 6, 6050
+2022-03-03 10:51:49.385[info] (makeOrderNum.RandomNum) 5, 4, 46050
+2022-03-03 10:51:49.386[info] (makeOrderNum.RandomNum) 6, 6, 646050
+2022-03-03 10:51:49.600[info] DB connection success
+2022-03-03 10:51:49.659[info] Sequelize sync success
+2022-03-03 10:51:54.176[info] DB connection success
+2022-03-03 10:51:54.238[info] Sequelize sync success
+2022-03-03 10:52:03.289[info] DB connection success
+2022-03-03 10:52:03.370[info] Sequelize sync success
+2022-03-03 10:52:08.392[info] DB connection success
+2022-03-03 10:52:08.454[info] Sequelize sync success
+2022-03-03 10:52:26.335[info] DB connection success
+2022-03-03 10:52:26.398[info] Sequelize sync success
+2022-03-03 10:52:29.266[info] DB connection success
+2022-03-03 10:52:29.332[info] Sequelize sync success
+2022-03-03 11:00:13.101[info] DB connection success
+2022-03-03 11:00:13.162[info] Sequelize sync success
+2022-03-03 11:00:53.648[info] DB connection success
+2022-03-03 11:00:53.708[info] Sequelize sync success
+2022-03-03 11:01:04.250[info] DB connection success
+2022-03-03 11:01:04.310[info] Sequelize sync success
+2022-03-03 11:01:28.274[info] DB connection success
+2022-03-03 11:01:28.377[info] Sequelize sync success

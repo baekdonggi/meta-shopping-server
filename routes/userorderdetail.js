@@ -57,11 +57,8 @@ router.route('/')
       } */
 
       // 비즈니스 로직 호출
-      const idNum = await userorderService.seletMaxId(params);
-      logger.info(`(userorder.seletMaxId.result) ${JSON.stringify(idNum)}`);
-
-      const result = await userorderService.reg(idNum);
-      logger.info(`(userorder.reg.result) ${JSON.stringify(result)}`);
+      const result = await userorderService.reg(params);
+      logger.info(`(userorder.reg.result2) ${JSON.stringify(result)}`);
 
       // 최종 응답
       res.status(200).json(result);

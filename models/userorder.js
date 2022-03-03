@@ -4,7 +4,7 @@ module.exports = class UserOrder extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
       orderNumber: {
-        type: Sequelize.BIGINT,
+        type: Sequelize.STRING(14),
         unique: true,
         // allowNull: false,
       },
@@ -49,6 +49,6 @@ module.exports = class UserOrder extends Sequelize.Model {
 
   static associate(db) {
     db.UserOrder.belongsTo(db.User, { foreignKey: 'userId', targetKey: 'userId' });
-    // db.UserOrder.belongsTo(db.User, { foreignKey: { name: 'userId', onDelete: 'SET NULL', as: 'user' } });
+    db.UserOrder.hasMany(db.UserOrderDetail, { foreignKey: 'orderNumber', sourceKey: 'orderNumber' });
   }
 };

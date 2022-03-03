@@ -5,24 +5,6 @@ const userorderDao = require('../dao/userorderDao');
 const service = {
   // 1. 주문번호 생성
   // '결제하기' 버튼 누르기 전단계 누르면 '주문번호' 생성한다.
-  async seletMaxId(params) {
-    let maxId = null;
-
-    try {
-      maxId = await userorderDao.selectMaxId(params);
-      logger.debug(`(userorderService.selectMaxId1) ${JSON.stringify(maxId)}`);
-    } catch (err) {
-      logger.error(`(userorderService.selectMaxId) ${err.toString()}`);
-      return new Promise((resolve, reject) => {
-        reject(err);
-      });
-    }
-
-    // 결과값 리턴
-    return new Promise((resolve) => {
-      resolve(maxId);
-    });
-  },
   async reg(params) {
     let orderNumber = null;
     let inserted = null;
