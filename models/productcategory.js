@@ -27,6 +27,6 @@ module.exports = class ProductCategory extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.ProductCategory.hasMany(db.Product, { foreignKey: { categoryCode: 'categoryCode' }, onDelete: 'SET NULL', as: 'Product' });
+    db.ProductCategory.hasMany(db.Product, { foreignKey: 'categoryCode', sourceKey: 'categoryCode' });
   }
 };

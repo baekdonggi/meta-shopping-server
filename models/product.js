@@ -6,35 +6,35 @@ module.exports = class Product extends Sequelize.Model {
       productNumber: {
         type: Sequelize.INTEGER,
         unique: true,
-        allowNull: false,
+        // // allowNull: false,
       },
       categoryCode: {
         type: Sequelize.STRING(30),
-        allowNull: false,
+        // allowNull: false,
       },
       productName: {
         type: Sequelize.STRING(50),
-        allowNull: false,
+        // allowNull: false,
       },
       productPrice: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       productStock: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       productDesc: {
         type: Sequelize.TEXT,
-        allowNull: false,
+        // allowNull: false,
       },
       productDate: {
         type: Sequelize.DATE,
-        allowNull: false,
+        // allowNull: false,
       },
       productHits: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,
@@ -47,10 +47,10 @@ module.exports = class Product extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.Product.belongsTo(db.ProductCategory, { foreignKey: { categoryCode: 'categoryCode', onDelete: 'SET NULL', as: 'ProductCategory' } });
-    db.Product.hasMany(db.Cart, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'Cart' });
-    db.Product.hasMany(db.ProductReply, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'ProductReply' });
-    // db.Product.hasMany(db.ProductImageFile, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'ProductImageFile' });
-    db.Product.hasMany(db.UserOrderDetail, { foreignKey: { productNumber: 'productNumber' }, onDelete: 'SET NULL', as: 'UserOrderDetail' });
+    db.Product.belongsTo(db.ProductCategory, { foreignKey: 'categoryCode', targetKey: 'categoryCode' });
+    db.Product.hasMany(db.Cart, { foreignKey: 'productNumber', sourceKey: 'productNumber' });
+    db.Product.hasMany(db.ProductReply, { foreignKey: 'productNumber', sourceKey: 'productNumber' });
+    db.Product.hasMany(db.ProductImageFile, { foreignKey: 'productNumber', sourceKey: 'productNumber' });
+    db.Product.hasMany(db.UserOrderDetail, { foreignKey: 'productNumber', sourceKey: 'productNumber' });
   }
 };

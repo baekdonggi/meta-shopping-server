@@ -25,3 +25,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 >>>>>>> 853c3eddc1c229e92d2e7b7b9cf0e0cd8ec5f2d7
+log

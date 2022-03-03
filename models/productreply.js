@@ -47,6 +47,6 @@ module.exports = class ProductReply extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.ProductReply.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+    db.ProductReply.belongsTo(db.Product, { foreignKey: 'productNumber', targetKey: 'productNumber' });
   }
 };

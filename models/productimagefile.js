@@ -3,7 +3,11 @@ const Sequelize = require('sequelize');
 module.exports = class ProductImageFile extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
-      originalname: {
+      productNumber: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      filename: {
         type: Sequelize.STRING(300),
         unique: true,
         allowNull: false,
@@ -17,16 +21,8 @@ module.exports = class ProductImageFile extends Sequelize.Model {
         allowNull: false,
       },
       size: {
-        type: Sequelize.INTEGER(300),
+        type: Sequelize.INTEGER,
         allowNull: false,
-      },
-      createDate: {
-        type: Sequelize.DATE,
-        allowNull: true,
-      },
-      deleteCheck: {
-        type: Sequelize.STRING(100),
-        allowNull: true,
       },
     }, {
       sequelize,
@@ -38,7 +34,7 @@ module.exports = class ProductImageFile extends Sequelize.Model {
     });
   }
 
-  // static associate(db) {
-  //   db.ProductImageFile.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
-  // }
+  static associate(db) {
+    db.ProductImageFile.belongsTo(db.Product, { foreignKey: 'productNumber', targetKey: 'productNumber' });
+  }
 };
