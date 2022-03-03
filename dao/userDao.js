@@ -32,18 +32,21 @@ const dao = {
     //     userId: params.userId, // '='검색
     //   };
     // }
+
     // order by 정렬 조건
     setQuery.order = [['id', 'DESC']];
 
     return new Promise((resolve, reject) => {
-      User.findAndCountAll({
+      /* User.findAndCountAll({
         ...setQuery,
         attributes: { exclude: ['password'] }, // password 필드 제외
-      }).then((selectedList) => {
-        resolve(selectedList);
-      }).catch((err) => {
-        reject(err);
-      });
+      }) */
+      User.findAll({ attributes: ['userId'] })
+        .then((selectedList) => {
+          resolve(selectedList);
+        }).catch((err) => {
+          reject(err);
+        });
     });
   },
   // 상세정보 조회
