@@ -75,12 +75,12 @@ router.route('/')
       res.status(500).json({ err2: err.toString() });
     }
   });
-router.route('/idcheck')
+router.route('/idcheck/:userId')
 // 회원가입 사용자 id 중복 체크
   .post(async (req, res) => {
     try {
       const params = {
-        userId: req.body.userId,
+        userId: req.params.userId,
       };
       logger.info(`(user.idCheck.params1) ${JSON.stringify(params)}`);
 

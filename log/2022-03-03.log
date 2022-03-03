@@ -700,3 +700,55 @@
 2022-03-03 17:29:59.929[debug] (id중복체크) [object SequelizeInstance:User]
 2022-03-03 17:29:59.931[debug] (userService.checkParams) false
 2022-03-03 17:29:59.932[info] (user.idCheck.result2) false
+2022-03-03 17:30:06.470[info] DB connection success
+2022-03-03 17:30:06.532[info] Sequelize sync success
+2022-03-03 17:39:25.233[info] DB connection success
+2022-03-03 17:39:25.316[info] Sequelize sync success
+2022-03-03 17:39:27.366[info] (user.idCheck.params1) {"userId":"testId"}
+2022-03-03 17:39:27.368[debug] (userService.idOverlabCheck11) {"userId":"testId"}
+2022-03-03 17:39:27.381[debug] (userService.idOverlabCheck) {"id":5,"userId":"testId","userPassword":"qO2Be2MjX+iEmb8KqmZfAEZLK3NrNAROYqmUUkScFP//l2UWi+M2IqycysvaMGQ5JmTcIVFonYlnYlK/oSjKDw==.05e1ea4a930361014e0dc6e3c5215cf71859ad2a6b333a17b29155a647f9a93f1a461fcb7101d33f1fb41b049f2a813e7fb5f6ee4cf0f695b3710780af1b35d5","userName":"testName","userPhone":"testPhone","userEmail":"test@email.com","userNickname":"testNickname","userProfile":"testProfile","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-03-03T06:33:27.188Z","updatedAt":"2022-03-03T06:33:27.188Z","deletedAt":null}
+2022-03-03 17:39:27.384[debug] (id중복체크) [object SequelizeInstance:User]
+2022-03-03 17:39:27.385[debug] (userService.checkParams) false
+2022-03-03 17:39:27.386[info] (user.idCheck.result2) false
+2022-03-03 17:39:32.795[info] (user.idCheck.params1) {"userId":"testId"}
+2022-03-03 17:39:32.797[debug] (userService.idOverlabCheck11) {"userId":"testId"}
+2022-03-03 17:39:32.804[debug] (userService.idOverlabCheck) {"id":5,"userId":"testId","userPassword":"qO2Be2MjX+iEmb8KqmZfAEZLK3NrNAROYqmUUkScFP//l2UWi+M2IqycysvaMGQ5JmTcIVFonYlnYlK/oSjKDw==.05e1ea4a930361014e0dc6e3c5215cf71859ad2a6b333a17b29155a647f9a93f1a461fcb7101d33f1fb41b049f2a813e7fb5f6ee4cf0f695b3710780af1b35d5","userName":"testName","userPhone":"testPhone","userEmail":"test@email.com","userNickname":"testNickname","userProfile":"testProfile","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-03-03T06:33:27.188Z","updatedAt":"2022-03-03T06:33:27.188Z","deletedAt":null}
+2022-03-03 17:39:32.806[debug] (id중복체크) [object SequelizeInstance:User]
+2022-03-03 17:39:32.807[debug] (userService.checkParams) false
+2022-03-03 17:39:32.808[info] (user.idCheck.result2) false
+2022-03-03 17:39:37.489[info] (user.idCheck.params1) {"userId":"testId"}
+2022-03-03 17:39:37.490[debug] (userService.idOverlabCheck11) {"userId":"testId"}
+2022-03-03 17:39:37.495[debug] (userService.idOverlabCheck) {"id":5,"userId":"testId","userPassword":"qO2Be2MjX+iEmb8KqmZfAEZLK3NrNAROYqmUUkScFP//l2UWi+M2IqycysvaMGQ5JmTcIVFonYlnYlK/oSjKDw==.05e1ea4a930361014e0dc6e3c5215cf71859ad2a6b333a17b29155a647f9a93f1a461fcb7101d33f1fb41b049f2a813e7fb5f6ee4cf0f695b3710780af1b35d5","userName":"testName","userPhone":"testPhone","userEmail":"test@email.com","userNickname":"testNickname","userProfile":"testProfile","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-03-03T06:33:27.188Z","updatedAt":"2022-03-03T06:33:27.188Z","deletedAt":null}
+2022-03-03 17:39:37.498[debug] (id중복체크) [object SequelizeInstance:User]
+2022-03-03 17:39:37.499[debug] (userService.checkParams) false
+2022-03-03 17:39:37.500[info] (user.idCheck.result2) false
+2022-03-03 17:40:29.363[info] DB connection success
+2022-03-03 17:40:29.427[info] Sequelize sync success
+2022-03-03 17:40:32.045[info] (user.idCheck.params1) {"userId":"testId"}
+2022-03-03 17:40:32.047[debug] (userService.idOverlabCheck11) {"userId":"testId"}
+2022-03-03 17:40:32.058[debug] (userService.idOverlabCheck) {"id":5,"userId":"testId","userPassword":"qO2Be2MjX+iEmb8KqmZfAEZLK3NrNAROYqmUUkScFP//l2UWi+M2IqycysvaMGQ5JmTcIVFonYlnYlK/oSjKDw==.05e1ea4a930361014e0dc6e3c5215cf71859ad2a6b333a17b29155a647f9a93f1a461fcb7101d33f1fb41b049f2a813e7fb5f6ee4cf0f695b3710780af1b35d5","userName":"testName","userPhone":"testPhone","userEmail":"test@email.com","userNickname":"testNickname","userProfile":"testProfile","emailCheck":"y","userGender":1,"userRole":1,"userGrade":"실버","userAddress1":null,"userAddress2":null,"userAddress3":null,"createdAt":"2022-03-03T06:33:27.188Z","updatedAt":"2022-03-03T06:33:27.188Z","deletedAt":null}
+2022-03-03 17:40:32.060[debug] (id중복체크) [object SequelizeInstance:User]
+2022-03-03 17:40:32.061[debug] (userService.checkParams) false
+2022-03-03 17:40:32.061[info] (user.idCheck.result2) false
+2022-03-03 17:40:34.118[info] (user.idCheck.params1) {"userId":"testIdd"}
+2022-03-03 17:40:34.121[debug] (userService.idOverlabCheck11) {"userId":"testIdd"}
+2022-03-03 17:40:34.126[debug] (userService.idOverlabCheck) null
+2022-03-03 17:40:34.127[debug] (id중복체크) null
+2022-03-03 17:40:34.128[debug] (userService.checkParams) true
+2022-03-03 17:40:34.129[info] (user.idCheck.result2) true
+2022-03-03 17:51:21.546[info] DB connection success
+2022-03-03 17:51:21.619[info] Sequelize sync success
+2022-03-03 17:51:30.123[info] DB connection success
+2022-03-03 17:51:30.193[info] Sequelize sync success
+2022-03-03 17:51:31.697[info] DB connection success
+2022-03-03 17:51:31.746[info] Sequelize sync success
+2022-03-03 17:51:36.500[info] DB connection success
+2022-03-03 17:51:36.557[info] Sequelize sync success
+2022-03-03 17:51:58.812[info] DB connection success
+2022-03-03 17:51:58.871[info] Sequelize sync success
+2022-03-03 17:52:01.487[info] DB connection success
+2022-03-03 17:52:01.544[info] Sequelize sync success
+2022-03-03 17:53:56.602[info] DB connection success
+2022-03-03 17:53:56.665[info] Sequelize sync success
+2022-03-03 17:54:08.900[info] DB connection success
+2022-03-03 17:54:08.952[info] Sequelize sync success

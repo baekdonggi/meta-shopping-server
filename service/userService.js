@@ -58,7 +58,7 @@ const service = {
       resolve(result);
     });
   },
-  // user id check
+  // user id 중복 check
   async idCheck(params) {
     let resultDao = null;
     let resultLib = null;
