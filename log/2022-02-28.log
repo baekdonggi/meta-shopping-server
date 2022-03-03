@@ -1,0 +1,254 @@
+2022-02-28 10:21:51.941[info] DB connection success
+2022-02-28 10:21:51.994[info] Sequelize sync success
+2022-02-28 10:38:38.865[info] DB connection success
+2022-02-28 10:38:38.944[info] Sequelize sync success
+2022-02-28 10:50:06.299[info] DB connection success
+2022-02-28 10:50:06.346[info] Sequelize sync success
+2022-02-28 10:50:11.919[info] DB connection success
+2022-02-28 10:50:11.960[info] Sequelize sync success
+2022-02-28 10:50:14.407[info] DB connection success
+2022-02-28 10:50:14.454[info] Sequelize sync success
+2022-02-28 10:50:16.128[info] DB connection success
+2022-02-28 10:50:16.179[info] Sequelize sync success
+2022-02-28 10:50:23.729[info] DB connection success
+2022-02-28 10:50:23.772[info] Sequelize sync success
+2022-02-28 10:50:29.104[info] DB connection success
+2022-02-28 10:50:29.143[info] Sequelize sync success
+2022-02-28 10:50:43.797[info] DB connection success
+2022-02-28 10:50:43.837[info] Sequelize sync success
+2022-02-28 10:50:46.851[info] DB connection success
+2022-02-28 10:50:46.889[info] Sequelize sync success
+2022-02-28 10:50:48.795[info] DB connection success
+2022-02-28 10:50:48.834[info] Sequelize sync success
+2022-02-28 10:50:55.326[info] DB connection success
+2022-02-28 10:50:55.369[info] Sequelize sync success
+2022-02-28 10:50:58.911[info] DB connection success
+2022-02-28 10:50:58.956[info] Sequelize sync success
+2022-02-28 10:51:03.930[info] DB connection success
+2022-02-28 10:51:03.968[info] Sequelize sync success
+2022-02-28 10:51:09.038[info] DB connection success
+2022-02-28 10:51:09.083[info] Sequelize sync success
+2022-02-28 10:51:10.465[info] DB connection success
+2022-02-28 10:51:10.505[info] Sequelize sync success
+2022-02-28 10:58:09.142[info] DB connection success
+2022-02-28 10:58:09.183[info] Sequelize sync success
+2022-02-28 10:58:13.127[info] DB connection success
+2022-02-28 10:58:13.167[info] Sequelize sync success
+2022-02-28 10:58:18.406[info] DB connection success
+2022-02-28 10:58:18.464[info] Sequelize sync success
+2022-02-28 10:58:49.747[info] DB connection success
+2022-02-28 10:58:49.786[info] Sequelize sync success
+2022-02-28 10:59:49.640[info] DB connection success
+2022-02-28 10:59:49.679[info] Sequelize sync success
+2022-02-28 11:08:41.341[info] DB connection success
+2022-02-28 11:08:41.389[info] Sequelize sync success
+2022-02-28 11:10:37.367[info] DB connection success
+2022-02-28 11:10:37.409[info] Sequelize sync success
+2022-02-28 11:11:07.374[info] DB connection success
+2022-02-28 11:11:07.417[info] Sequelize sync success
+2022-02-28 11:23:25.093[info] DB connection success
+2022-02-28 11:23:25.137[info] Sequelize sync success
+2022-02-28 11:26:49.553[info] DB connection success
+2022-02-28 11:26:49.597[info] Sequelize sync success
+2022-02-28 11:27:01.780[info] DB connection success
+2022-02-28 11:27:01.866[info] Sequelize sync success
+2022-02-28 11:27:43.184[info] DB connection success
+2022-02-28 11:27:43.230[info] Sequelize sync success
+2022-02-28 11:30:54.145[info] DB connection success
+2022-02-28 11:30:54.190[info] Sequelize sync success
+2022-02-28 11:31:22.701[info] (productimagefile.info.params) {"id":"show"}
+2022-02-28 11:31:22.784[error] (productimagefileService.info) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "show"
+2022-02-28 11:32:07.757[info] DB connection success
+2022-02-28 11:32:07.797[info] Sequelize sync success
+2022-02-28 11:32:58.548[info] DB connection success
+2022-02-28 11:32:58.600[info] Sequelize sync success
+2022-02-28 11:33:31.194[info] DB connection success
+2022-02-28 11:33:31.233[info] Sequelize sync success
+2022-02-28 11:34:00.197[info] DB connection success
+2022-02-28 11:34:00.238[info] Sequelize sync success
+2022-02-28 11:34:07.816[info] DB connection success
+2022-02-28 11:34:07.854[info] Sequelize sync success
+2022-02-28 12:55:15.191[info] DB connection success
+2022-02-28 12:55:15.237[info] Sequelize sync success
+2022-02-28 12:55:44.683[info] DB connection success
+2022-02-28 12:55:44.730[info] Sequelize sync success
+2022-02-28 12:57:49.484[info] DB connection success
+2022-02-28 12:57:49.534[info] Sequelize sync success
+2022-02-28 12:58:27.642[info] DB connection success
+2022-02-28 12:58:27.689[info] Sequelize sync success
+2022-02-28 12:59:36.283[info] (productimagefile.info.params) {"id":"create"}
+2022-02-28 12:59:36.540[error] (productimagefileService.info) SequelizeDatabaseError: "originalname" 이름의 칼럼은 없습니다
+2022-02-28 13:01:55.048[info] (productimagefile.info.params) {"id":"create"}
+2022-02-28 13:01:55.116[error] (productimagefileService.info) SequelizeDatabaseError: "originalname" 이름의 칼럼은 없습니다
+2022-02-28 13:02:17.942[info] DB connection success
+2022-02-28 13:02:17.989[info] Sequelize sync success
+2022-02-28 13:02:22.262[info] DB connection success
+2022-02-28 13:02:22.304[info] Sequelize sync success
+2022-02-28 13:02:28.990[info] (productimagefile.info.params) {"id":"show"}
+2022-02-28 13:02:28.999[error] (productimagefileService.info) SequelizeDatabaseError: "originalname" 이름의 칼럼은 없습니다
+2022-02-28 13:02:54.636[info] DB connection success
+2022-02-28 13:02:54.684[info] Sequelize sync success
+2022-02-28 13:03:03.214[info] DB connection success
+2022-02-28 13:03:03.258[info] Sequelize sync success
+2022-02-28 13:03:09.467[info] DB connection success
+2022-02-28 13:03:09.511[info] Sequelize sync success
+2022-02-28 13:05:46.727[info] DB connection success
+2022-02-28 13:05:46.790[info] Sequelize sync success
+2022-02-28 13:06:34.724[info] (originalname.info.params) {"id":"create"}
+2022-02-28 13:06:34.845[error] (productimagefileService.info) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "create"
+2022-02-28 13:09:00.319[info] DB connection success
+2022-02-28 13:09:00.360[info] Sequelize sync success
+2022-02-28 13:09:17.405[info] DB connection success
+2022-02-28 13:09:17.451[info] Sequelize sync success
+2022-02-28 13:11:50.471[info] DB connection success
+2022-02-28 13:11:50.532[info] Sequelize sync success
+2022-02-28 13:14:46.941[info] DB connection success
+2022-02-28 13:14:46.994[info] Sequelize sync success
+2022-02-28 13:16:29.284[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646021789278.jpg","size":56813}
+2022-02-28 13:16:29.291[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.createDate cannot be null,
+notNull Violation: ProductImageFile.deleteCheck cannot be null
+2022-02-28 13:18:00.100[info] DB connection success
+2022-02-28 13:18:00.165[info] Sequelize sync success
+2022-02-28 13:18:12.842[info] DB connection success
+2022-02-28 13:18:12.900[info] Sequelize sync success
+2022-02-28 13:18:17.281[info] DB connection success
+2022-02-28 13:18:17.333[info] Sequelize sync success
+2022-02-28 13:18:19.716[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646021899710.jpg","size":56813}
+2022-02-28 13:18:19.724[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.createDate cannot be null,
+notNull Violation: ProductImageFile.deleteCheck cannot be null
+2022-02-28 13:19:53.789[info] DB connection success
+2022-02-28 13:19:53.839[info] Sequelize sync success
+2022-02-28 13:20:58.184[info] DB connection success
+2022-02-28 13:20:58.236[info] Sequelize sync success
+2022-02-28 13:21:06.695[info] DB connection success
+2022-02-28 13:21:06.741[info] Sequelize sync success
+2022-02-28 13:21:10.843[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022070837.jpg","size":56813}
+2022-02-28 13:21:10.860[error] (productimagefileService.reg) SequelizeDatabaseError: "create_date" 칼럼(해당 릴레이션 "product_image_files")의 null 값이 not null 제약조건을 위반했습니다.
+2022-02-28 13:21:38.067[info] DB connection success
+2022-02-28 13:21:38.129[info] Sequelize sync success
+2022-02-28 13:21:49.362[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022109356.jpg","size":56813}
+2022-02-28 13:21:49.479[debug] (productimagefileService.reg) {"id":1,"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022109356.jpg","size":56813,"updatedAt":"2022-02-28T04:21:49.367Z","createdAt":"2022-02-28T04:21:49.367Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 13:21:49.481[info] (productimagefile.reg.result) {"id":1,"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022109356.jpg","size":56813,"updatedAt":"2022-02-28T04:21:49.367Z","createdAt":"2022-02-28T04:21:49.367Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 13:23:36.318[info] (productimagefile.reg.params) {"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646022216297.png","size":1770347}
+2022-02-28 13:23:36.397[debug] (productimagefileService.reg) {"id":2,"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646022216297.png","size":1770347,"updatedAt":"2022-02-28T04:23:36.320Z","createdAt":"2022-02-28T04:23:36.320Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 13:23:36.400[info] (productimagefile.reg.result) {"id":2,"originalname":"1.png","mimetype":"image/png","path":"upload\\1-1646022216297.png","size":1770347,"updatedAt":"2022-02-28T04:23:36.320Z","createdAt":"2022-02-28T04:23:36.320Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 13:24:44.794[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022284791.jpg","size":56813}
+2022-02-28 13:24:44.904[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-02-28 13:24:54.081[info] (productimagefile.reg.params) {"originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646022294079.jpg","size":101269}
+2022-02-28 13:24:54.093[debug] (productimagefileService.reg) {"id":4,"originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646022294079.jpg","size":101269,"updatedAt":"2022-02-28T04:24:54.085Z","createdAt":"2022-02-28T04:24:54.085Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 13:24:54.095[info] (productimagefile.reg.result) {"id":4,"originalname":"5008f2ce3923444e17e21f90a908f945.jpg","mimetype":"image/jpeg","path":"upload\\5008f2ce3923444e17e21f90a908f945-1646022294079.jpg","size":101269,"updatedAt":"2022-02-28T04:24:54.085Z","createdAt":"2022-02-28T04:24:54.085Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 16:29:04.253[info] DB connection success
+2022-02-28 16:29:04.376[info] Sequelize sync success
+2022-02-28 16:30:07.384[info] (productimagefile.reg.params) {"originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\2952602d2190f-1646033407357.png","size":2427797}
+2022-02-28 16:30:07.495[debug] (productimagefileService.reg) {"id":6,"originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\2952602d2190f-1646033407357.png","size":2427797,"updatedAt":"2022-02-28T07:30:07.389Z","createdAt":"2022-02-28T07:30:07.389Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 16:30:07.497[info] (productimagefile.reg.result) {"id":6,"originalname":"2952602d2190f.png","mimetype":"image/png","path":"upload\\2952602d2190f-1646033407357.png","size":2427797,"updatedAt":"2022-02-28T07:30:07.389Z","createdAt":"2022-02-28T07:30:07.389Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 16:33:11.043[info] DB connection success
+2022-02-28 16:33:11.106[info] Sequelize sync success
+2022-02-28 16:43:48.991[info] DB connection success
+2022-02-28 16:43:49.051[info] Sequelize sync success
+2022-02-28 16:44:37.904[info] DB connection success
+2022-02-28 16:44:37.960[info] Sequelize sync success
+2022-02-28 16:45:27.789[info] DB connection success
+2022-02-28 16:45:27.852[info] Sequelize sync success
+2022-02-28 16:45:45.662[info] (productimagefile.reg.params) {"originalname":"dkdl7.jpg","mimetype":"image/jpeg","path":"upload\\dkdl7-1646034345655.jpg","size":85255}
+2022-02-28 16:45:45.764[debug] (productimagefileService.reg) {"id":7,"originalname":"dkdl7.jpg","mimetype":"image/jpeg","path":"upload\\dkdl7-1646034345655.jpg","size":85255,"updatedAt":"2022-02-28T07:45:45.667Z","createdAt":"2022-02-28T07:45:45.667Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 16:45:45.766[info] (productimagefile.reg.result) {"id":7,"originalname":"dkdl7.jpg","mimetype":"image/jpeg","path":"upload\\dkdl7-1646034345655.jpg","size":85255,"updatedAt":"2022-02-28T07:45:45.667Z","createdAt":"2022-02-28T07:45:45.667Z","createDate":null,"deleteCheck":null,"deletedAt":null}
+2022-02-28 19:11:07.831[info] DB connection success
+2022-02-28 19:11:07.895[info] Sequelize sync success
+2022-02-28 19:11:32.255[info] (productimagefile.reg.params) {"originalname":"dkdl7.jpg","mimetype":"image/jpeg","path":"upload\\dkdl7-1646043092250.jpg","size":85255}
+2022-02-28 19:11:32.345[error] (productimagefileService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "product_image_files_originalname_key" 고유 제약 조건을 위반함
+2022-02-28 19:11:57.047[info] (originalname.info.params) {"id":"sho"}
+2022-02-28 19:11:57.127[error] (productimagefileService.info) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "sho"
+2022-02-28 19:12:02.636[info] (originalname.info.params) {"id":"1"}
+2022-02-28 19:12:02.643[debug] (productimagefileService.info) {"id":1,"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022109356.jpg","size":56813,"createDate":null,"deleteCheck":null,"createdAt":"2022-02-28T04:21:49.367Z","updatedAt":"2022-02-28T04:21:49.367Z","deletedAt":null}
+2022-02-28 19:12:02.645[info] (originalname.info.result) {"id":1,"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646022109356.jpg","size":56813,"createDate":null,"deleteCheck":null,"createdAt":"2022-02-28T04:21:49.367Z","updatedAt":"2022-02-28T04:21:49.367Z","deletedAt":null}
+2022-02-28 19:16:50.177[info] DB connection success
+2022-02-28 19:16:50.245[info] Sequelize sync success
+2022-02-28 19:16:53.215[info] DB connection success
+2022-02-28 19:16:53.274[info] Sequelize sync success
+2022-02-28 19:23:56.764[info] DB connection success
+2022-02-28 19:23:56.851[info] Sequelize sync success
+2022-02-28 19:27:59.001[info] DB connection success
+2022-02-28 19:27:59.064[info] Sequelize sync success
+2022-02-28 19:28:23.418[info] DB connection success
+2022-02-28 19:28:23.486[info] Sequelize sync success
+2022-02-28 19:28:32.629[info] DB connection success
+2022-02-28 19:28:32.698[info] Sequelize sync success
+2022-02-28 19:29:00.548[info] DB connection success
+2022-02-28 19:29:00.612[info] Sequelize sync success
+2022-02-28 19:29:12.234[info] DB connection success
+2022-02-28 19:29:12.313[info] Sequelize sync success
+2022-02-28 19:29:21.886[info] DB connection success
+2022-02-28 19:29:21.951[info] Sequelize sync success
+2022-02-28 19:29:35.975[info] DB connection success
+2022-02-28 19:29:36.053[info] Sequelize sync success
+2022-02-28 19:30:17.592[info] DB connection success
+2022-02-28 19:30:17.663[info] Sequelize sync success
+2022-02-28 19:30:57.153[info] DB connection success
+2022-02-28 19:30:57.231[info] Sequelize sync success
+2022-02-28 19:33:25.910[info] DB connection success
+2022-02-28 19:33:26.054[info] Sequelize sync success
+2022-02-28 19:37:32.291[info] (productcategory.reg.params) {"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10"}
+2022-02-28 19:37:32.375[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-02-28T10:37:32.296Z","createdAt":"2022-02-28T10:37:32.296Z","deletedAt":null}
+2022-02-28 19:37:32.379[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-shrit","categoryName":"shrit001","categoryRefCode":"10","updatedAt":"2022-02-28T10:37:32.296Z","createdAt":"2022-02-28T10:37:32.296Z","deletedAt":null}
+2022-02-28 19:37:44.139[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-02-28 19:37:44.247[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-02-28T10:37:44.145Z","createdAt":"2022-02-28T10:37:44.145Z","deletedAt":null,"productId":null}
+2022-02-28 19:37:44.250[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-02-28T10:37:44.145Z","createdAt":"2022-02-28T10:37:44.145Z","deletedAt":null,"productId":null}
+2022-02-28 19:38:12.343[info] (cart.reg.params) {"cartNumber":"001","productNumber":"T-shrit","cartValue":"shrit001","productCount":"5000"}
+2022-02-28 19:38:12.427[error] (cartService.reg) SequelizeDatabaseError: integer 자료형 대한 잘못된 입력: "T-shrit"
+2022-02-28 19:38:20.118[info] (cart.reg.params) {"cartNumber":"001","productNumber":"001","cartValue":"shrit001","productCount":"5000"}
+2022-02-28 19:38:20.134[debug] (cartService.reg) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-02-28T10:38:20.122Z","createdAt":"2022-02-28T10:38:20.122Z","deletedAt":null,"productId":null}
+2022-02-28 19:38:20.136[info] (cart.reg.result) {"id":1,"cartNumber":1,"productNumber":1,"cartValue":"shrit001","productCount":5000,"updatedAt":"2022-02-28T10:38:20.122Z","createdAt":"2022-02-28T10:38:20.122Z","deletedAt":null,"productId":null}
+2022-02-28 19:40:00.772[info] DB connection success
+2022-02-28 19:40:00.831[info] Sequelize sync success
+2022-02-28 19:40:44.888[info] (originalname.info.params) {"id":"1"}
+2022-02-28 19:40:44.994[debug] (productimagefileService.info) null
+2022-02-28 19:40:44.996[info] (originalname.info.result) null
+2022-02-28 19:41:20.426[info] (productimagefile.reg.params) {"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646044880417.jpg","size":236013}
+2022-02-28 19:41:20.621[debug] (productimagefileService.reg) {"id":1,"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646044880417.jpg","size":236013,"updatedAt":"2022-02-28T10:41:20.432Z","createdAt":"2022-02-28T10:41:20.432Z","createDate":null,"deleteCheck":null,"deletedAt":null,"productId":null}
+2022-02-28 19:41:20.625[info] (productimagefile.reg.result) {"id":1,"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646044880417.jpg","size":236013,"updatedAt":"2022-02-28T10:41:20.432Z","createdAt":"2022-02-28T10:41:20.432Z","createDate":null,"deleteCheck":null,"deletedAt":null,"productId":null}
+2022-02-28 19:46:45.845[info] DB connection success
+2022-02-28 19:46:45.926[info] Sequelize sync success
+2022-02-28 19:50:50.921[info] DB connection success
+2022-02-28 19:50:51.080[info] Sequelize sync success
+2022-02-28 19:52:20.018[info] DB connection success
+2022-02-28 19:52:20.086[info] Sequelize sync success
+2022-02-28 19:52:21.825[info] DB connection success
+2022-02-28 19:52:21.891[info] Sequelize sync success
+2022-02-28 19:52:30.618[info] DB connection success
+2022-02-28 19:52:30.703[info] Sequelize sync success
+2022-02-28 19:52:34.910[info] DB connection success
+2022-02-28 19:52:34.972[info] Sequelize sync success
+2022-02-28 19:52:39.217[info] DB connection success
+2022-02-28 19:52:39.287[info] Sequelize sync success
+2022-02-28 19:52:47.844[info] DB connection success
+2022-02-28 19:52:47.906[info] Sequelize sync success
+2022-02-28 19:53:32.032[info] DB connection success
+2022-02-28 19:53:32.094[info] Sequelize sync success
+2022-02-28 19:54:07.633[info] DB connection success
+2022-02-28 19:54:07.784[info] Sequelize sync success
+2022-02-28 19:54:37.220[info] (productimagefile.reg.params) {"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646045677213.jpg","size":236013}
+2022-02-28 19:54:37.229[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productId cannot be null
+2022-02-28 19:55:59.702[info] DB connection success
+2022-02-28 19:55:59.787[info] Sequelize sync success
+2022-02-28 20:06:08.638[info] (productimagefile.reg.params) {"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646046368627.jpg","size":236013}
+2022-02-28 20:06:08.647[error] (productimagefileService.reg) SequelizeValidationError: notNull Violation: ProductImageFile.productId cannot be null
+2022-02-28 20:06:15.485[info] DB connection success
+2022-02-28 20:06:15.546[info] Sequelize sync success
+2022-02-28 20:06:35.840[info] (productimagefile.reg.params) {"originalname":"t-shirt.jpg","mimetype":"image/jpeg","path":"upload\\t-shirt-1646046395830.jpg","size":236013}
+2022-02-28 20:14:34.339[info] (product.reg.params) {"productNumber":"001","categoryCode":"T-shrit","productName":"shrit001","productPrice":"5000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-02-28 20:14:34.438[debug] (productService.reg) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-02-28T11:14:34.345Z","createdAt":"2022-02-28T11:14:34.345Z","deletedAt":null,"productId":null}
+2022-02-28 20:14:34.441[info] (product.reg.result) {"id":1,"productNumber":1,"categoryCode":"T-shrit","productName":"shrit001","productPrice":5000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-02-28T11:14:34.345Z","createdAt":"2022-02-28T11:14:34.345Z","deletedAt":null,"productId":null}
+2022-02-28 20:14:58.651[info] (productimagefile.reg.params) {"originalname":"64c6efc792ed0a227eb44d5b6f798ba3.jpg","mimetype":"image/jpeg","path":"upload\\64c6efc792ed0a227eb44d5b6f798ba3-1646046898648.jpg","size":56813}
+2022-02-28 20:22:11.954[info] DB connection success
+2022-02-28 20:22:12.025[info] Sequelize sync success
+2022-02-28 20:22:44.856[info] DB connection success
+2022-02-28 20:22:44.925[info] Sequelize sync success
+2022-02-28 20:24:41.521[info] DB connection success
+2022-02-28 20:24:41.596[info] Sequelize sync success
+2022-02-28 20:40:56.242[info] DB connection success
+2022-02-28 20:40:56.332[info] Sequelize sync success
+2022-02-28 20:41:02.816[info] DB connection success
+2022-02-28 20:41:02.887[info] Sequelize sync success
+2022-02-28 20:41:41.035[info] DB connection success
+2022-02-28 20:41:41.186[info] Sequelize sync success
