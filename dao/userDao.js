@@ -37,13 +37,22 @@ const dao = {
     setQuery.order = [['id', 'DESC']];
 
     return new Promise((resolve, reject) => {
-      /* User.findAndCountAll({
+      User.findAndCountAll({
         ...setQuery,
         attributes: { exclude: ['password'] }, // password 필드 제외
-      }) */
-      User.findAll({ attributes: ['userId'] })
-        .then((selectedList) => {
-          resolve(selectedList);
+      }).then((selectedList) => {
+        resolve(selectedList);
+      }).catch((err) => {
+        reject(err);
+      });
+    });
+  },
+  // 회원가입 아이디 중복 체크
+  idOverlabCheck(params) {
+    return new Promise((resolve, reject) => {
+      User.findOne({ where: { userId: params.userId } })
+        .then((idCheckResult) => {
+          resolve(idCheckResult);
         }).catch((err) => {
           reject(err);
         });
