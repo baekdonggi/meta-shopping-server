@@ -232,3 +232,45 @@ notNull Violation: Cart.productCount cannot be null
 2022-03-03 11:04:18.420[info] (productimagefile.reg.params) {"productNumber":"2","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","size":847845}
 2022-03-03 11:04:18.432[debug] (productimagefileService.reg) {"id":10,"productNumber":2,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","size":847845,"updatedAt":"2022-03-03T02:04:18.423Z","createdAt":"2022-03-03T02:04:18.423Z","deletedAt":null}
 2022-03-03 11:04:18.435[info] (productimagefile.reg.result) {"id":10,"productNumber":2,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646273058414.jpg","size":847845,"updatedAt":"2022-03-03T02:04:18.423Z","createdAt":"2022-03-03T02:04:18.423Z","deletedAt":null}
+2022-03-03 14:47:30.783[info] DB connection success
+2022-03-03 14:47:30.849[info] Sequelize sync success
+2022-03-03 14:48:24.409[info] DB connection success
+2022-03-03 14:48:24.560[error] Sequelize sync error "user_order_refunds_order_detail_number_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-03 14:51:21.794[info] DB connection success
+2022-03-03 14:51:21.855[error] Sequelize sync error "user_order_refunds_order_detail_number_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-03 14:51:39.406[info] DB connection success
+2022-03-03 14:51:39.472[error] Sequelize sync error "user_order_refunds_order_detail_number_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-03 14:52:49.277[info] DB connection success
+2022-03-03 14:52:49.351[error] Sequelize sync error "user_order_refunds_order_detail_number_fkey" 참조키(foreign key) 제약 조건은 구현되어질 수 없습니다
+2022-03-03 14:53:07.066[info] DB connection success
+2022-03-03 14:53:07.129[info] Sequelize sync success
+2022-03-03 14:53:12.388[info] DB connection success
+2022-03-03 14:53:12.436[info] Sequelize sync success
+2022-03-03 14:54:08.343[info] (product.reg.params) {"productNumber":"1","categoryCode":"T-2","productName":"blackbag","productPrice":"15000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-03 14:54:08.569[error] (productService.reg) SequelizeForeignKeyConstraintError: "products" 테이블에서 자료 추가, 갱신 작업이 "products_category_code_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-03 14:54:18.113[info] (productcategory.reg.params) {"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-03 14:54:18.126[debug] (productcategoryService.reg) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:18.114Z","createdAt":"2022-03-03T05:54:18.114Z","deletedAt":null}
+2022-03-03 14:54:18.128[info] (productcategory.reg.result) {"id":1,"categoryCode":"T-1","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:18.114Z","createdAt":"2022-03-03T05:54:18.114Z","deletedAt":null}
+2022-03-03 14:54:20.926[info] (productcategory.reg.params) {"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-03 14:54:20.938[debug] (productcategoryService.reg) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:20.927Z","createdAt":"2022-03-03T05:54:20.927Z","deletedAt":null}
+2022-03-03 14:54:20.939[info] (productcategory.reg.result) {"id":2,"categoryCode":"T-2","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:20.927Z","createdAt":"2022-03-03T05:54:20.927Z","deletedAt":null}
+2022-03-03 14:54:23.858[info] (productcategory.reg.params) {"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10"}
+2022-03-03 14:54:23.870[debug] (productcategoryService.reg) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:23.860Z","createdAt":"2022-03-03T05:54:23.860Z","deletedAt":null}
+2022-03-03 14:54:23.872[info] (productcategory.reg.result) {"id":3,"categoryCode":"T-3","categoryName":"T-Shrit","categoryRefCode":"10","updatedAt":"2022-03-03T05:54:23.860Z","createdAt":"2022-03-03T05:54:23.860Z","deletedAt":null}
+2022-03-03 14:54:26.280[info] (product.reg.params) {"productNumber":"1","categoryCode":"T-2","productName":"blackbag","productPrice":"15000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-03 14:54:26.293[debug] (productService.reg) {"id":2,"productNumber":1,"categoryCode":"T-2","productName":"blackbag","productPrice":15000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-03T05:54:26.282Z","createdAt":"2022-03-03T05:54:26.282Z","deletedAt":null}
+2022-03-03 14:54:26.295[info] (product.reg.result) {"id":2,"productNumber":1,"categoryCode":"T-2","productName":"blackbag","productPrice":15000,"productStock":30,"productDesc":"dev","productDate":"2020-02-02T00:00:00.000Z","productHits":100,"updatedAt":"2022-03-03T05:54:26.282Z","createdAt":"2022-03-03T05:54:26.282Z","deletedAt":null}
+2022-03-03 14:54:27.483[info] (product.reg.params) {"productNumber":"1","categoryCode":"T-2","productName":"blackbag","productPrice":"15000","productStock":"30","productDesc":"dev","productDate":"2020-02-02","productHits":"100"}
+2022-03-03 14:54:27.493[error] (productService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "products_product_number_key" 고유 제약 조건을 위반함
+2022-03-03 14:54:30.603[info] (productimagefile.reg.params) {"productNumber":"2","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286870572.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286870572.jpg","size":847845}
+2022-03-03 14:54:30.617[error] (productimagefileService.reg) SequelizeForeignKeyConstraintError: "product_image_files" 테이블에서 자료 추가, 갱신 작업이 "product_image_files_product_number_fkey" 참조키(foreign key) 제약 조건을 위배했습니다
+2022-03-03 14:54:35.049[info] (productimagefile.reg.params) {"productNumber":"1","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","size":847845}
+2022-03-03 14:54:35.063[debug] (productimagefileService.reg) {"id":2,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","size":847845,"updatedAt":"2022-03-03T05:54:35.052Z","createdAt":"2022-03-03T05:54:35.052Z","deletedAt":null}
+2022-03-03 14:54:35.066[info] (productimagefile.reg.result) {"id":2,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286875038.jpg","size":847845,"updatedAt":"2022-03-03T05:54:35.052Z","createdAt":"2022-03-03T05:54:35.052Z","deletedAt":null}
+2022-03-03 14:54:37.941[info] (productimagefile.reg.params) {"productNumber":"1","filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","size":847845}
+2022-03-03 14:54:37.954[debug] (productimagefileService.reg) {"id":3,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","size":847845,"updatedAt":"2022-03-03T05:54:37.943Z","createdAt":"2022-03-03T05:54:37.943Z","deletedAt":null}
+2022-03-03 14:54:37.956[info] (productimagefile.reg.result) {"id":3,"productNumber":1,"filename":"Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","mimetype":"image/jpeg","path":"upload\\Blue-Wave-1920x1200-wallpapershd.org-1646286877934.jpg","size":847845,"updatedAt":"2022-03-03T05:54:37.943Z","createdAt":"2022-03-03T05:54:37.943Z","deletedAt":null}
+2022-03-03 14:54:52.978[info] DB connection success
+2022-03-03 14:54:53.048[info] Sequelize sync success
+2022-03-03 14:54:54.079[info] DB connection success
+2022-03-03 14:54:54.130[info] Sequelize sync success

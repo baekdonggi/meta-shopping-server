@@ -9,7 +9,7 @@ module.exports = class UserOrderRefund extends Sequelize.Model {
         // allowNull: false,
       },
       orderDetailNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING(30),
         // allowNull: false,
       },
       refundReason: {
@@ -34,7 +34,7 @@ module.exports = class UserOrderRefund extends Sequelize.Model {
     });
   }
 
-  static associate(db) {
-    db.UserOrderRefund.belongsTo(db.UserOrderDetail, { foreignKey: { name: 'orderDetailNumber', onDelete: 'SET NULL', as: 'userorderdetail' } });
-  }
+  // static associate(db) {
+  //   db.UserOrderRefund.belongsTo(db.UserOrderDetail, { foreignKey: { name: 'orderDetailNumber', onDelete: 'SET NULL', as: 'userorderdetail' } });
+  // }
 };

@@ -15,17 +15,6 @@ const dao = {
         });
     });
   },
-  // userOrder Table에 저장된 id 값중 Max값 불러오기
-  selectMaxId(params) {
-    return new Promise((resolve, reject) => {
-      UserOrder.max('id')
-        .then((selectedMaxId) => {
-          resolve(selectedMaxId);
-        }).catch((err) => {
-          reject(err);
-        });
-    });
-  },
   // 리스트 조회
   selectList(params) {
     // where 검색 조건

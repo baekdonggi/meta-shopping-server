@@ -4,12 +4,12 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
   static init(sequelize) {
     return super.init({
       orderDetailNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING(30),
         unique: true,
         // allowNull: false,
       },
       orderNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING(14),
         // allowNull: false,
       },
       productNumber: {
@@ -43,8 +43,8 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: { name: 'orderNumber', onDelete: 'SET NULL', as: 'userorder' } });
-    db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: { name: 'productNumber', onDelete: 'SET NULL', as: 'userorder' } });
-    db.UserOrderDetail.hasMany(db.UserOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
+    db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: 'orderNumber', targetKey: 'orderNumber' });
+    db.UserOrderDetail.belongsTo(db.Product, { foreignKey: 'productNumber', targetKey: 'productNumber' });
+    // db.UserOrderDetail.hasMany(db.UserOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
   }
 };

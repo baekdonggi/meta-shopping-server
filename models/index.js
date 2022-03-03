@@ -7,7 +7,6 @@ const ProductImageFile = require('./productimagefile');
 const UserOrderDetail = require('./userorderdetail');
 const User = require('./user');
 const UserOrder = require('./userorder');
-
 const UserOrderRefund = require('./userorderrefund');
 
 const db = {};
@@ -20,9 +19,9 @@ db.ProductCategory = ProductCategory;
 db.Cart = Cart;
 db.ProductReply = ProductReply;
 db.ProductImageFile = ProductImageFile;
-db.UserOrderDetail = UserOrderDetail;
 db.User = User;
 db.UserOrder = UserOrder;
+db.UserOrderDetail = UserOrderDetail;
 db.UserOrderRefund = UserOrderRefund;
 
 // model init
@@ -45,6 +44,5 @@ ProductImageFile.associate(db);
 UserOrderDetail.associate(db);
 User.associate(db);
 UserOrder.associate(db);
-UserOrderRefund.associate(db);
 
 module.exports = db;

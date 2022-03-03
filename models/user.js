@@ -59,6 +59,5 @@ module.exports = class User extends Sequelize.Model {
 
   static associate(db) {
     db.User.hasMany(db.UserOrder, { foreignKey: 'userId', sourceKey: 'userId' });
-    // db.User.hasMany(db.UserOrder, { foreignKey: { name: 'userId' }, onDelete: 'SET NULL', as: 'userorder' });
   }
 };

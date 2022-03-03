@@ -93,7 +93,9 @@ const dao = {
   selectUser(params) {
     return new Promise((resolve, reject) => {
       User.findOne({
-        attributes: ['id', 'userId', 'userPassword', 'userName', 'userRole'],
+        attributes: ['id', 'userId', 'userPassword', 'userName', 'userPhone',
+          'userPhone', 'userEmail', 'userNickname', 'userProfile', 'emailCheck',
+          'userGender', 'userRole', 'userGrade', 'userAddress1', 'userAddress2', 'userAddress3'],
         where: { userId: params.userId },
       }).then((selectedOne) => {
         resolve(selectedOne);
