@@ -31,6 +31,6 @@ module.exports = class Cart extends Sequelize.Model {
   }
 
   static associate(db) {
-    db.Cart.belongsTo(db.Product, { foreignKey: { productNumber: 'productNumber', onDelete: 'SET NULL', as: 'Product' } });
+    db.Cart.belongsTo(db.Product, { foreignKey: 'productNumber', targetKey: 'productNumber' });
   }
 };

@@ -1,5 +1,6 @@
 const logger = require('../lib/logger');
 const productDao = require('../dao/productDao');
+const productImageFileDao = require('../dao/productimagefileDao');
 
 const service = {
   // product 입력
@@ -7,7 +8,19 @@ const service = {
     let inserted = null;
 
     try {
+      // 1. 제품 등록
       inserted = await productDao.insert(params);
+      // 2. 이미지 등록
+      for (let i = 0; i < params.filePaths; i += 1) {
+        const imageParams = {
+          productNumber: params.productNumber,
+          filename: params.filename,
+          mimetype: params.mimetype,
+          path: params.path,
+          size: params.size,
+        };
+        productImageFileDao.insert(imageParams);
+      }
       logger.debug(`(productService.reg) ${JSON.stringify(inserted)}`);
     } catch (err) {
       logger.error(`(productService.reg) ${err.toString()}`);

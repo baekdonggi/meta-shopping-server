@@ -16,13 +16,14 @@ router.post('/', async (req, res) => {
       productDesc: req.body.productDesc,
       productDate: req.body.productDate,
       productHits: req.body.productHits,
+      filePaths: req.body.filePaths,
 
     };
     logger.info(`(product.reg.params) ${JSON.stringify(params)}`);
 
     // 입력값 null 체크
-    if (!params.productName) {
-      const err = new Error('Not allowed null (productName)');
+    if (!params.productNumber) {
+      const err = new Error('Not allowed null (productNumber)');
       logger.error(err.toString());
 
       res.status(500).json({ err: err.toString() });
@@ -43,7 +44,7 @@ router.post('/', async (req, res) => {
 router.get('/', async (req, res) => {
   try {
     const params = {
-      productNumber: req.query.productNumber,
+      id: req.params.id,
     };
     logger.info(`(product.list.params) ${JSON.stringify(params)}`);
 
@@ -63,10 +64,10 @@ router.get('/:id', async (req, res) => {
     const params = {
       id: req.params.id,
     };
-    logger.info(`(product.info.params) ${JSON.stringify(params)}`);
+    logger.info(`(productNumber.info.params) ${JSON.stringify(params)}`);
 
     const result = await productService.info(params);
-    logger.info(`(product.info.result) ${JSON.stringify(result)}`);
+    logger.info(`(productNumber.info.result) ${JSON.stringify(result)}`);
 
     // 최종 응답
     res.status(200).json(result);
@@ -79,14 +80,7 @@ router.get('/:id', async (req, res) => {
 router.put('/:id', async (req, res) => {
   try {
     const params = {
-      productNumber: req.body.productNumber,
-      categoryCode: req.body.categoryCode,
-      productName: req.body.productName,
-      productPrice: req.body.productPrice,
-      productStock: req.body.productStock,
-      productDesc: req.body.productDesc,
-      productDate: req.body.productDate,
-      productHits: req.body.productHits,
+      id: req.params.id,
 
     };
     logger.info(`(product.update.params) ${JSON.stringify(params)}`);
@@ -105,7 +99,7 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   try {
     const params = {
-      productNumber: req.params.productNumber,
+      id: req.params.id,
     };
     logger.info(`(product.delete.params) ${JSON.stringify(params)}`);
 
