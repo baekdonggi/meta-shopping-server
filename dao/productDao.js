@@ -16,10 +16,10 @@ const dao = {
   selectList(params) {
     // where 검색 조건
     const setQuery = {};
-    if (params.productName) {
+    if (params.productNumber) {
       setQuery.where = {
         ...setQuery.where,
-        productName: { [Op.like]: `%${params.productName}%` }, // like검색
+        productNumber: { [Op.like]: `%${params.productNumber}%` }, // like검색
       };
     }
 
@@ -40,7 +40,7 @@ const dao = {
   selectInfo(params) {
     return new Promise((resolve, reject) => {
       Product.findByPk(
-        params.id,
+        params.productNumber,
       ).then((selectedInfo) => {
         resolve(selectedInfo);
       }).catch((err) => {
@@ -54,7 +54,7 @@ const dao = {
       Product.update(
         params,
         {
-          where: { id: params.id },
+          where: { productNumber: params.productNumber },
         },
       ).then(([updated]) => {
         resolve({ updatedCount: updated });
@@ -67,7 +67,7 @@ const dao = {
   delete(params) {
     return new Promise((resolve, reject) => {
       Product.destroy({
-        where: { id: params.id },
+        where: { productNumber: params.productNumber },
       }).then((deleted) => {
         resolve({ deletedCount: deleted });
       }).catch((err) => {
