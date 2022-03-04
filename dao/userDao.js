@@ -32,6 +32,7 @@ const dao = {
     //     userId: params.userId, // '='검색
     //   };
     // }
+
     // order by 정렬 조건
     setQuery.order = [['id', 'DESC']];
 
@@ -44,6 +45,17 @@ const dao = {
       }).catch((err) => {
         reject(err);
       });
+    });
+  },
+  // 회원가입 아이디 중복 체크
+  idOverlabCheck(params) {
+    return new Promise((resolve, reject) => {
+      User.findOne({ where: { userId: params.userId } })
+        .then((idCheckResult) => {
+          resolve(idCheckResult);
+        }).catch((err) => {
+          reject(err);
+        });
     });
   },
   // 상세정보 조회
