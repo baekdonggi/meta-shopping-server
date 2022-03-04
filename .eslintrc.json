@@ -16,6 +16,7 @@
     },
     "rules": {
       "linebreak-style": 0,
-      "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+      "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+      "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}] // ++ 및 -- 를 for 루프의 사후에 허용한다.
     }
   }
