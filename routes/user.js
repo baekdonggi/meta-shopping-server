@@ -75,6 +75,44 @@ router.route('/')
       res.status(500).json({ err2: err.toString() });
     }
   });
+router.route('/idcheck/:userId')
+// 회원가입 사용자 id 중복 체크
+  .post(async (req, res) => {
+    try {
+      const params = {
+        userId: req.params.userId,
+      };
+      logger.info(`(user.idCheck.params1) ${JSON.stringify(params)}`);
+
+      // 비즈니스 로직 호출
+      const result = await userService.idCheck(params);
+      logger.info(`(user.idCheck.result2) ${JSON.stringify(result)}`);
+
+      // 최종 응답
+      res.status(200).json(result);
+    } catch (err) {
+      res.status(500).json({ err2: err.toString() });
+    }
+  });
+router.route('/pwdcheck/:userPassword')
+// 사용자 마이페이지 비밀번호 체크
+  .post(async (req, res) => {
+    try {
+      const params = {
+        userId: req.params.userId,
+      };
+      logger.info(`(user.idCheck.params1) ${JSON.stringify(params)}`);
+
+      // 비즈니스 로직 호출
+      const result = await userService.idCheck(params);
+      logger.info(`(user.idCheck.result2) ${JSON.stringify(result)}`);
+
+      // 최종 응답
+      res.status(200).json(result);
+    } catch (err) {
+      res.status(500).json({ err2: err.toString() });
+    }
+  });
 router.route('/:id')
   .get(async (req, res) => {
     try {

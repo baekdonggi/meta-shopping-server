@@ -34,7 +34,7 @@ module.exports = class UserOrderRefund extends Sequelize.Model {
     });
   }
 
-  // static associate(db) {
-  //   db.UserOrderRefund.belongsTo(db.UserOrderDetail, { foreignKey: { name: 'orderDetailNumber', onDelete: 'SET NULL', as: 'userorderdetail' } });
-  // }
+  static associate(db) {
+    db.UserOrderRefund.belongsTo(db.UserOrderDetail, { foreignKey: { name: 'orderDetailNumber', onDelete: 'SET NULL', as: 'userorderdetail' } });
+  }
 };

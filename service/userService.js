@@ -1,5 +1,6 @@
 const logger = require('../lib/logger');
 const hashUtil = require('../lib/hashUtil');
+const checkParams = require('../lib/checkParams');
 const userDao = require('../dao/userDao');
 
 const service = {
@@ -55,6 +56,36 @@ const service = {
 
     return new Promise((resolve) => {
       resolve(result);
+    });
+  },
+  // user id 중복 check
+  async idCheck(params) {
+    let resultDao = null;
+    let resultLib = null;
+
+    try {
+      logger.debug(`(userService.idOverlabCheck11) ${JSON.stringify(params)}`);
+      resultDao = await userDao.idOverlabCheck(params);
+      logger.debug(`(userService.idOverlabCheck) ${JSON.stringify(resultDao)}`);
+    } catch (err) {
+      logger.error(`(userService.idOverlabCheck) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    try {
+      resultLib = await checkParams.ioc(resultDao);
+      logger.debug(`(userService.checkParams) ${JSON.stringify(resultLib)}`);
+    } catch (err) {
+      logger.error(`(userService.checkParams) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    return new Promise((resolve) => {
+      resolve(resultLib);
     });
   },
   // selectInfo

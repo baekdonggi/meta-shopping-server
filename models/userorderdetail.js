@@ -45,6 +45,6 @@ module.exports = class UserOrderDetail extends Sequelize.Model {
   static associate(db) {
     db.UserOrderDetail.belongsTo(db.UserOrder, { foreignKey: 'orderNumber', targetKey: 'orderNumber' });
     db.UserOrderDetail.belongsTo(db.Product, { foreignKey: 'productNumber', targetKey: 'productNumber' });
-    // db.UserOrderDetail.hasMany(db.UserOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
+    db.UserOrderDetail.hasMany(db.UserOrderRefund, { foreignKey: { name: 'orderDetailNumber' }, onDelete: 'SET NULL', as: 'userorderrefund' });
   }
 };

@@ -49,6 +49,7 @@ router.post('/', upload.single('imgFile'), async (req, res) => {
 
     // 최종 응답
     res.status(200).json(params);
+    // console.log(req.file);
     logger.log(req.file);
   } catch (err) {
     res.status(500).json({ err: err.toString() });
