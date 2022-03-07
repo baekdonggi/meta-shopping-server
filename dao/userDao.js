@@ -7,7 +7,7 @@ const dao = {
   insert(params) {
     return new Promise((resolve, reject) => {
       User.create(params).then((inserted) => {
-        // password는 제외하고 리턴
+        // password는 제외하고 반환
         const insertedResult = { ...inserted };
         delete insertedResult.dataValues.userPassword;
         resolve(inserted);

@@ -40,6 +40,7 @@ const service = {
       resolve(inserted);
     });
   },
+
   // selectList
   async list(params) {
     let result = null;
@@ -58,13 +59,13 @@ const service = {
       resolve(result);
     });
   },
+
   // user id 중복 check
   async idCheck(params) {
     let resultDao = null;
     let resultLib = null;
 
     try {
-      logger.debug(`(userService.idOverlabCheck11) ${JSON.stringify(params)}`);
       resultDao = await userDao.idOverlabCheck(params);
       logger.debug(`(userService.idOverlabCheck) ${JSON.stringify(resultDao)}`);
     } catch (err) {
@@ -76,9 +77,9 @@ const service = {
 
     try {
       resultLib = await checkParams.ioc(resultDao);
-      logger.debug(`(userService.checkParams) ${JSON.stringify(resultLib)}`);
+      logger.debug(`(userService.idCheck) ${JSON.stringify(resultLib)}`);
     } catch (err) {
-      logger.error(`(userService.checkParams) ${err.toString()}`);
+      logger.error(`(userService.idCheck) ${err.toString()}`);
       return new Promise((resolve, reject) => {
         reject(err);
       });
@@ -88,6 +89,7 @@ const service = {
       resolve(resultLib);
     });
   },
+
   // selectInfo
   async info(params) {
     let result = null;
@@ -130,9 +132,9 @@ const service = {
 
     try {
       result = await userDao.delete(params);
-      logger.debug(`(userService.delete) ${JSON.stringify(result)}`);
+      logger.debug(`(userService.del) ${JSON.stringify(result)}`);
     } catch (err) {
-      logger.error(`(userService.delete) ${err.toString()}`);
+      logger.error(`(userService.del) ${err.toString()}`);
       return new Promise((resolve, reject) => {
         reject(err);
       });
@@ -169,7 +171,7 @@ const service = {
     // 2. 비밀번호 비교
     try {
       const checkPassword = await hashUtil.checkPasswordHash(params.userPassword, user.userPassword);
-      logger.debug(`(userService.checkPassword) ${checkPassword}`);
+      logger.debug(`(userService.checkPasswordHash) ${checkPassword}`);
 
       // 비밀번호 틀린 경우 튕겨냄
       if (!checkPassword) {
@@ -181,7 +183,7 @@ const service = {
         });
       }
     } catch (err) {
-      logger.error(`(userService.checkPassword) ${err.toString()}`);
+      logger.error(`(userService.checkPasswordHash) ${err.toString()}`);
       return new Promise((resolve, reject) => {
         reject(err);
       });
