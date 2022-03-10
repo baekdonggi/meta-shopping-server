@@ -9,6 +9,7 @@ const productreplyRouter = require('./productreply');
 const authRouter = require('./auth'); // 로그인
 const userRouter = require('./user');
 const userorderRouter = require('./userorder');
+const paymentRouter = require('./payment');
 
 const router = express.Router();
 
@@ -45,5 +46,6 @@ router.use('/productreply', productreplyRouter);
 router.use('/auths', authRouter);
 router.use('/users', userRouter);
 router.use('/userorders', userorderRouter);
+router.use('/payments', paymentRouter);
 
 module.exports = router;
