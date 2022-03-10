@@ -1,0 +1,4 @@
+{
+  "origin": ["http://localhost:8080"],
+  "methods": ["OPTIONS", "GET", "POST", "HEAD", "PUT", "DELETE"]
+}
