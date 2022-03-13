@@ -38,6 +38,10 @@ module.exports = class Product extends Sequelize.Model {
         // primaryKey: true,
         // allowNull: false,
       },
+      color: {
+        type: Sequelize.STRING(100),
+        // allowNull: false,
+      },
     }, {
       sequelize,
       // tableName: 'tableName', // table명을 수동으로 생성 함

@@ -17,6 +17,7 @@ router.post('/', async (req, res) => {
       productDate: req.body.productDate,
       productHits: req.body.productHits,
       filePaths: req.body.filePaths,
+      color: req.body.color,
 
     };
     logger.info(`(product.reg.params) ${JSON.stringify(params)}`);

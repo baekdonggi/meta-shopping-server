@@ -38,7 +38,7 @@ const dao = {
         include: [
           {
             model: ProductImageFile,
-            attributes: ['filename', 'path' , 'size', 'color' ],
+            attributes: ['filename', 'path'],
           },
           // 듀플리케이티드
         ],

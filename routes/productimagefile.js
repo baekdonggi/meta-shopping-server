@@ -30,7 +30,6 @@ router.post('/', upload.single('imgFile'), async (req, res) => {
       mimetype: req.file.mimetype,
       path: req.file.path,
       size: req.file.size,
-      color: req.body.color,
       // createDate: req.file.createDate,
       // deleteCheck: req.file.deleteCheck,
     };
