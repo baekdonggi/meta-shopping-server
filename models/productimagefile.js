@@ -10,23 +10,23 @@ module.exports = class ProductImageFile extends Sequelize.Model {
       filename: {
         type: Sequelize.STRING(300),
         unique: true,
-        allowNull: false,
+        // allowNull: false,
       },
       mimetype: {
         type: Sequelize.STRING(300),
-        allowNull: false,
+        // allowNull: false,
       },
       path: {
         type: Sequelize.STRING(300),
-        allowNull: false,
+        // allowNull: false,
       },
       size: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        // allowNull: false,
       },
       color: {
         type: Sequelize.STRING(100),
-        allowNull: false,
+        // allowNull: false,
       },
     }, {
       sequelize,
