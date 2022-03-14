@@ -112,8 +112,26 @@ const service = {
   async edit(params) {
     let result = null;
 
+    // 1. 변경 비밀번호 암호화
+    let hashPassword = null;
     try {
-      result = await userDao.update(params);
+      hashPassword = await hashUtil.makePasswordHash(params.userPassword);
+      logger.debug(`(userService.makePasswordHash) ${JSON.stringify(hashPassword)}`);
+    } catch (err) {
+      logger.error(`(userService.makePasswordHash) ${err.toString()}`);
+      return new Promise((resolve, reject) => {
+        reject(err);
+      });
+    }
+
+    // 2. 사용자 정보 수정 처리
+    const newParams = {
+      ...params,
+      userPassword: hashPassword,
+    };
+
+    try {
+      result = await userDao.update(newParams);
       logger.debug(`(userService.edit) ${JSON.stringify(result)}`);
     } catch (err) {
       logger.error(`(userService.edit) ${err.toString()}`);
